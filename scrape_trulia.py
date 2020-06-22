@@ -2,10 +2,9 @@
 """
 Created on Thu Jun 18 14:13:26 2020
 
-@author: Karishma Parashar
-@url: https://github.com/Abmun/WebScraping-RentalProperties
+@author: theon
+@acknowledgement: https://github.com/Abmun/WebScraping-RentalProperties
 """
-
 
 from urllib.request import urlopen,Request
 from bs4 import BeautifulSoup as BS
@@ -39,7 +38,7 @@ school = []
 crime_rate = []
 commute = []
 shop_eat = []
-# sugg_income = []
+sugg_income = []
 descp = []
 feature = []
 addr_link = []
@@ -67,6 +66,7 @@ urls = ["https://www.trulia.com/for_rent/02128_zip/1p_beds/",
 for x in urls:
     count = 1
     y = x
+    print(x)
     while(count < 6):  #will go till 5 pages = 150 records
         req = Request(x, headers=get_headers())  #req all headers
         htmlfile = urlopen(req)
@@ -77,29 +77,35 @@ for x in urls:
         
         for tag in soup.find_all('div',attrs={'data-testid' : 'pagination-caption'}):
                 result = tag.get_text(strip = True) #save number of results for the search
-        result= result.split(' ')[2]
-        result= int(result.replace(',',''))
+        try:
+            result= result.split(' ')[2]
+            result= int(result.replace(',',''))
+        except:
+            pass
        
         for tag in soup.find_all('div',attrs={'data-testid' : 'property-price'}): #rent
-                row = tag.get_text(strip = True)
-                if not row:
-                    row = "NA"
-                print(row)
-                rent.append(row)
+                rent_record = "NA"        
+                rent_record = tag.get_text(strip = True)
+                if not rent_record:
+                    rent_record = "NA"
+                # print(rent_record)
+                rent.append(rent_record)
 
         for tag in soup.find_all('div',attrs={'data-testid' : 'property-street'}): #address
-                row = tag.get_text(strip = True)
-                if not row:
-                    row = "NA"
-                print(row)
-                address.append(row)             
+                address_record = "NA"
+                address_record = tag.get_text(strip = True)
+                if not address_record:
+                    address_record = "NA"
+                # print(address_record)
+                address.append(address_record)             
         
         for tag in soup.find_all('div',attrs={'data-testid' : 'property-region'}): #area
-                row = tag.get_text(strip = True)
-                if not row:
-                    row = "NA"
-                print(row)
-                area.append(row)
+                area_record = "NA"
+                area_record = tag.get_text(strip = True)
+                if not area_record:
+                    area_record = "NA"
+                # print(area_record)
+                area.append(area_record)
                 
                 
         links = []                                   
@@ -119,66 +125,75 @@ for x in urls:
             #print("hello")
            
             for tag in soup.find_all('div', attrs= {'class': 'Grid__CellBox-sc-5ig2n4-0 fxOuBE'}):
+                bed_record = "NA"
+                bath_record = "NA"
                 for tag2 in tag.find_all('li', attrs= {'data-testid': 'bed'}):
-                    row= tag2.get_text(strip = True)
-                    if not 'Bed' in row:
-                        row= "NA"
-                bed.append(row)     
+                    bed_record = tag2.get_text(strip = True)
+                    if not 'Bed' in bed_record:
+                        bed_record= "NA"
+                bed.append(bed_record)     
                 
                 for tag2 in tag.find_all('li', attrs = {'data-testid': 'bath'}):
-                    row= tag2.get_text(strip= True)
-                    if not 'Bath' in row:
-                        row= "NA"
-                bath.append(row)
+                    bath_record = tag2.get_text(strip= True)
+                    if not 'Bath' in bath_record:
+                        bath_record= "NA"
+                bath.append(bath_record)
            
             for tag in soup.find_all('div',attrs= {'aria-label': 'Schools'}):  #school
-                row= tag.get_text(strip = True)
-                if not row:
-                    row= "NA"
-                print(row)
-                school.append(row)           
+                school_record = "NA"
+                school_record = tag.get_text(strip = True)
+                if not school_record:
+                    school_record= "NA"
+                # print(school_record)
+                school.append(school_record)           
             
             for tag in soup.find_all('div',attrs= {'aria-label': 'Crime'}):  #crime
-                row= tag.get_text(strip = True)
-                if not row:
-                    row= "NA"
-                print(row)
-                crime_rate.append(row)
+                crime_record = "NA"
+                crime_record = tag.get_text(strip = True)
+                if not crime_record:
+                    crime_record= "NA"
+                # print(crime_record)
+                crime_rate.append(crime_record)
                
             for tag in soup.find_all('div',attrs= {'aria-label': 'Commute'}): #commute
-                row= tag.get_text(strip = True)
-                if not row:
-                    row= "NA"
-                print(row)
-                commute.append(row)
+                commute_record = "NA"
+                commute_record = tag.get_text(strip = True)
+                if not commute_record:
+                    commute_record= "NA"
+                # print(commute_record)
+                commute.append(commute_record)
                 
             for tag in soup.find_all('div', attrs= {'aria-label': 'Shop & Eat'}): #shop and eat
-                row= tag.get_text(strip = True)
-                if not row:
-                    row= "NA"
-                print(row)
-                shop_eat.append(row)
+                shopeat_record = "NA"
+                shopeat_record = tag.get_text(strip = True)
+                if not shopeat_record:
+                    shopeat_record = "NA"
+                # print(shopeat_record)
+                shop_eat.append(shopeat_record)
             
-            # for tag in soup.find_all('div', attrs= {'class': 'HomeDetailsRentalAffordability__IncomeInformationContainer-epkvqi-0 jalLqQ'}):
-            #     for tag2 in tag.find_all('span', attrs= {'class': 'Text__TextBase-sc-1i9uasc-0 dltAqT'}): #suggested income
-            #         row= tag2.get_text(strip = True)    
-            #         if not '$' in row:   
-            #             row= "NA"
-            #         sugg_income.append(row)
+            for tag in soup.find_all('div', attrs= {'class': 'HomeDetailsRentalAffordability__IncomeInformationContainer-epkvqi-0 jalLqQ'}):
+                income_record = "NA"
+                for tag2 in tag.find_all('span', attrs= {'class': 'Text__TextBase-sc-1i9uasc-0 dltAqT'}): #suggested income
+                    income_record = tag2.get_text(strip = True)    
+                    if not '$' in income_record:   
+                        income_record = "NA"
+                sugg_income.append(income_record)
              
             for tag in soup.find_all('div',attrs= {'data-testid': 'seo-description-paragraph'}): #descp
-                row= tag.get_text(strip = True)
-                if not row:
-                    row= "NA"
-                print(row)
-                descp.append(row)
+                descp_record = "NA"
+                descp_record = tag.get_text(strip = True)
+                if not descp_record:
+                    descp_record = "NA"
+                # print(descp_record)
+                descp.append(descp_record)
                 
             for tag in soup.find_all('div',attrs= {'data-testid': 'features-container'}): #feature
-                    row= tag.get_text(strip= True)
-                    if not row:
-                        row= "NA"
-                    print(row)
-                    feature.append(row)
+                feature_record = "NA"        
+                feature_record = tag.get_text(strip= True)
+                if not feature_record:
+                    feature_record = "NA"
+                # print(feature_record)
+                feature.append(feature_record)
 
              
         count= count+1
@@ -193,4 +208,4 @@ data_frame = pd.DataFrame(list(zip(rent, address, area, bed, bath, school, crime
 data_frame
 
 #Save the obtained dataframe to csv
-#data_frame.to_csv('Newton_data.csv')
+data_frame.to_csv('boston_data.csv', index = False)

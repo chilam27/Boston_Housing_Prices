@@ -151,7 +151,7 @@ del housing_df['Shop_eat']
 ##Feature
 property_type = []
 pet_allowed = []
-laundary = []
+laundry = []
 parking = []
 ac = []
 dishwasher = []
@@ -186,7 +186,7 @@ for x in range(len(housing_df.Feature)):
             pet = 0
         else:
             pet = 1
-    if "laundary" in housing_df.Feature[x]:
+    if "Laundry" in housing_df.Feature[x]:
         laun = 1
     if "Parking" in housing_df.Feature[x]:
         if "Parking Type: none" in housing_df.Feature[x]:
@@ -209,7 +209,7 @@ for x in range(len(housing_df.Feature)):
         
     property_type.append(prop)
     pet_allowed.append(pet)
-    laundary.append(laun)
+    laundry.append(laun)
     parking.append(park)
     ac.append(ac_num)
     dishwasher.append(dish)
@@ -219,7 +219,7 @@ for x in range(len(housing_df.Feature)):
     
 housing_df['property_type'] = property_type
 housing_df['pet_allowed'] = pet_allowed
-housing_df['laundary'] = laundary
+housing_df['laundry'] = laundry
 housing_df['parking'] = parking
 housing_df['ac'] = ac
 housing_df['dishwasher'] = dishwasher
@@ -227,7 +227,7 @@ housing_df['washer'] = washer
 housing_df['dryer'] = dryer
 housing_df['fridge'] = fridge
 
-housing_df.Feature = housing_df.laundary + housing_df.ac + housing_df.dishwasher + housing_df.washer + housing_df.dryer + housing_df.fridge
+housing_df.Feature = housing_df.laundry + housing_df.ac + housing_df.dishwasher + housing_df.washer + housing_df.dryer + housing_df.fridge
 housing_df = housing_df.rename(columns={'Feature': 'total_amenties'})
 
 
@@ -237,15 +237,17 @@ housing_df.Bed = housing_df.Bed.astype(float)
 housing_df.Bath = housing_df.Bath.astype(float)
 housing_df.car_commute_percent = housing_df.car_commute_percent.astype(int)
 housing_df.pet_allowed = housing_df.pet_allowed.astype(int)
-housing_df.laundary = housing_df.laundary.astype(int)
+housing_df.laundry = housing_df.laundry.astype(int)
 
 housing_df = housing_df.rename(columns={'Rent': 'rent', 'Address': 'address', 'Area': 'area', 'Bed': 'bed', 'Bath': 'bath', 'School': 'school', 'Crime': 'crime', 'URL': 'url'}) #change all column names to lowercase
 del housing_df['Description'] #'description' is only the summary of other data we have: not useful
 del housing_df['address'] #we don't need this piece of info
 
-#rearrange columns
-housing_df.columns.tolist()
-housing_df = housing_df[['rent', 'area', 'property_type', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'crime', 'car_commute_percent', 'total_amenties', 'laundary', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife', 'url']]
 
-#export dataframe to csv
+#Rearrange columns
+housing_df.columns.tolist()
+housing_df = housing_df[['rent', 'area', 'property_type', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'crime', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife', 'url']]
+
+
+#Export dataframe to csv
 housing_df.to_csv('housing_cleaned.csv', index = False)

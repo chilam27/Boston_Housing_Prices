@@ -1,0 +1,531 @@
+rent,area,property_type,bed,bath,school,elemenatary_school,middle_school,high_school,crime,car_commute_percent,total_amenties,laundry,ac,dishwasher,washer,dryer,fridge,pet_allowed,parking,restaurant,grocery,nightlife,url
+900,Dorchester,multifamily,1.0,0.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20,https://www.trulia.com/rental/4078841494-342-Bowdoin-St-R3845-Boston-MA-02122
+2600,Charlestown,multifamily,2.0,1.0,6,2,2,2,Lowest,56,1,0,0,0,0,0,1,1,0,376,64,125,https://www.trulia.com/p/ma/boston/28-cross-st-2-boston-ma-02129--2185691484
+4200,Allston,apartment,5.0,2.0,17,5,6,6,Moderate,31,3,1,0,0,1,1,0,1,1,317,39,68,https://www.trulia.com/c/ma/allston/5-bed-2-0-bath-4-200-86-linden-st-allston-ma-02134--1001595083
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,1,0,64,17,13,https://www.trulia.com/p/ma/boston/341-gallivan-blvd-4-boston-ma-02124--2172423832
+3770,Jamaica Plain,multifamily,4.0,2.0,10,6,2,2,Lowest,42,5,1,0,1,1,1,1,0,1,123,28,23,https://www.trulia.com/p/ma/boston/55-iffley-rd-2-boston-ma-02130--2315647489
+2850,Central,multifamily,2.0,1.0,4,2,2,0,Lowest,20,3,1,0,0,1,1,0,0,0,841,100,292,https://www.trulia.com/p/ma/boston/9-charter-st-4-boston-ma-02113--2171824642
+2400,East Boston,multifamily,2.0,1.0,6,4,2,0,High,41,1,1,0,0,0,0,0,1,0,409,58,166,https://www.trulia.com/p/ma/boston/33-chelsea-st-2-boston-ma-02128--2196819086
+3225,Roxbury,multifamily,3.0,1.5,15,5,5,5,Lowest,53,5,1,0,1,1,1,1,0,1,240,38,36,https://www.trulia.com/p/ma/boston/47-beech-glen-st-2-boston-ma-02119--2171448315
+2750,East Boston,multifamily,3.0,1.0,12,6,3,3,Low,41,3,1,0,0,1,1,0,1,1,215,33,59,https://www.trulia.com/p/ma/boston/273-havre-st-boston-ma-02128--2001526624
+3000,Dorchester,multifamily,3.0,2.0,14,4,5,5,Low,63,4,1,1,0,1,1,0,1,1,118,29,18,https://www.trulia.com/p/ma/dorchester/37-dix-st-dorchester-ma-02122--2001479302
+2700,Roslindale,multifamily,3.0,2.0,3,2,1,0,Lowest,66,1,1,0,0,0,0,0,1,1,84,18,16,https://www.trulia.com/p/ma/roslindale/14-sheffield-rd-2-roslindale-ma-02131--2194422984
+3275,East Boston,multifamily,3.0,1.0,11,7,4,0,Low,41,4,1,0,1,1,1,0,0,1,285,38,99,https://www.trulia.com/p/ma/boston/101-chelsea-st-3-boston-ma-02128--2177248306
+2200,West Roxbury,multifamily,2.0,1.0,1,1,0,0,Lowest,83,3,1,0,0,1,1,0,1,0,51,10,5,https://www.trulia.com/p/ma/west-roxbury/14-heron-st-411-west-roxbury-ma-02132--2467714797
+2175,Jamaica Plain,multifamily,2.0,1.0,16,8,4,4,Moderate,53,5,1,0,1,1,1,1,0,0,178,40,29,https://www.trulia.com/p/ma/boston/2973-washington-st-a-boston-ma-02119--2001458667
+2500,East Boston,multifamily,2.0,1.0,6,4,2,0,High,41,5,1,0,1,1,1,1,0,1,439,59,178,https://www.trulia.com/p/ma/boston/12-chelsea-st-3-boston-ma-02128--2177692332
+2320,Back Bay/ Beacon Hill,multifamily,1.0,1.0,3,1,0,2,Lowest,21,5,1,0,1,1,1,1,0,1,671,66,258,https://www.trulia.com/p/ma/boston/455-beacon-st-3-boston-ma-02115--2172406568
+2775,East Boston,multifamily,2.0,1.0,12,6,3,3,High,41,0,0,0,0,0,0,0,1,0,248,42,70,https://www.trulia.com/p/ma/boston/5-9-trenton-st-2-boston-ma-02128--2396804157
+2650,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,0,0,0,0,0,0,0,1,0,644,65,220,https://www.trulia.com/p/ma/boston/5-symphony-rd-b-boston-ma-02115--2171577369
+1800,Charlestown,multifamily,1.0,1.0,8,2,3,3,Lowest,56,1,1,0,0,0,0,0,1,0,261,52,80,https://www.trulia.com/p/ma/boston/41-crescent-st-3-boston-ma-02129--2171945272
+2650,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,Moderate,21,3,1,0,1,0,0,1,1,0,1039,125,387,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02114--2001414262
+3300,East Boston,multifamily,4.0,1.0,12,6,3,3,Lowest,41,3,1,0,0,1,1,0,0,0,204,32,59,https://www.trulia.com/p/ma/boston/54-brooks-st-2-boston-ma-02128--2445207944
+5000,Central,multifamily,2.0,2.0,3,3,0,0,High,20,5,1,0,1,1,1,1,1,0,1005,115,391,https://www.trulia.com/p/ma/boston/45-province-st-2302-boston-ma-02108--2001396050
+3050,West Roxbury,multifamily,2.0,1.5,3,1,1,1,Lowest,83,5,1,0,1,1,1,1,1,1,44,9,7,https://www.trulia.com/p/ma/boston/545-vfw-pkwy-1c-boston-ma-02132--2444469278
+2500,West Roxbury,multifamily,1.0,1.0,5,3,2,0,Lowest,83,6,1,1,1,1,1,1,1,1,78,18,16,https://www.trulia.com/p/ma/west-roxbury/446-belgrade-ave-206-west-roxbury-ma-02132--2172031132
+2100,Hyde Park,multifamily,2.0,1.0,6,2,2,2,Lowest,76,0,0,0,0,0,0,0,1,0,11,6,2,https://www.trulia.com/p/ma/boston/28-stanbro-st-2-boston-ma-02136--2367111390
+3400,Dorchester,multifamily,4.0,2.0,4,2,1,1,Lowest,55,1,0,0,1,0,0,0,0,0,157,30,18,https://www.trulia.com/p/ma/boston/85-auckland-st-2-boston-ma-02125--2313004122
+4500,Roslindale,multifamily,3.0,2.0,10,4,3,3,Moderate,66,4,1,1,0,1,1,0,1,0,78,17,17,https://www.trulia.com/p/ma/boston/32-cummins-hwy-r4-boston-ma-02131--2475000528
+2200,Dorchester,multifamily,2.0,1.0,7,4,3,0,Low,54,2,0,0,1,0,0,1,1,0,104,23,18,https://www.trulia.com/p/ma/boston/54-msgr-patrick-j-lydon-way-3-boston-ma-02124--2173900471
+2995,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/5-n-margin-st-7-boston-ma-02113--2175014556
+2400,Hyde Park,multifamily,3.0,1.0,6,4,1,1,Low,59,0,0,0,0,0,0,0,1,0,30,9,2,https://www.trulia.com/p/ma/mattapan/24-rector-rd-mattapan-ma-02126--2001507791
+2000,Allston,multifamily,2.0,1.0,23,7,8,8,Lowest,31,3,1,0,0,1,1,0,1,0,304,39,66,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02134--2172244669
+7100,Central,multifamily,2.0,2.0,5,5,0,0,Lowest,21,6,1,1,1,1,1,1,1,0,944,114,334,https://www.trulia.com/p/ma/boston/175-blossom-st-6-03-boston-ma-02114--2366886532
+950,Roslindale,multifamily,1.0,1.0,0,0,0,0,Lowest,66,2,1,1,0,0,0,0,1,0,77,17,14,https://www.trulia.com/p/ma/roslindale/35-farquhar-st-roslindale-ma-02131--2471824616
+2600,Allston,multifamily,3.0,1.0,25,7,9,9,Low,31,0,0,0,0,0,0,0,0,0,314,41,67,https://www.trulia.com/p/ma/boston/132-glenville-ave-b-boston-ma-02134--2171640934
+2400,Allston,multifamily,2.0,1.0,20,6,7,7,Lowest,31,0,0,0,0,0,0,0,0,0,312,41,65,https://www.trulia.com/p/ma/boston/4-price-rd-2-boston-ma-02134--2171825295
+4600,Allston,multifamily,4.0,2.0,20,6,7,7,Low,31,4,1,0,1,1,1,0,0,0,330,37,67,https://www.trulia.com/p/ma/boston/24-ashford-st-2-boston-ma-02134--2171807862
+2800,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,High,21,5,1,0,1,1,1,1,0,0,1013,118,375,https://www.trulia.com/p/ma/boston/70-joy-st-14-boston-ma-02114--2171829104
+2600,East Boston,multifamily,3.0,1.0,10,4,3,3,Low,41,1,0,0,0,0,0,1,1,0,551,67,215,https://www.trulia.com/p/ma/boston/28-orleans-st-3-boston-ma-02128--2171575120
+2695,West Roxbury,multifamily,3.0,1.0,4,3,1,0,Lowest,83,1,1,0,0,0,0,0,1,1,42,6,4,https://www.trulia.com/p/ma/west-roxbury/4983-washington-st-1-west-roxbury-ma-02132--2123571686
+3300,East Boston,multifamily,4.0,1.0,4,2,0,2,Lowest,41,2,0,0,1,0,0,1,0,1,167,38,34,https://www.trulia.com/p/ma/boston/204-falcon-st-2-boston-ma-02128--2316172057
+4400,Roxbury,multifamily,4.0,3.0,18,6,6,6,Low,53,5,1,0,1,1,1,1,0,1,317,41,56,https://www.trulia.com/p/ma/boston/23-linwood-st-1-boston-ma-02119--2289003156
+2700,Jamaica Plain,multifamily,3.0,1.0,31,11,10,10,Moderate,42,4,1,0,0,1,1,1,1,1,212,35,29,https://www.trulia.com/p/ma/boston/42-day-st-2-boston-ma-02130--2194564019
+3400,Allston,multifamily,4.0,1.0,12,4,4,4,Lowest,31,0,0,0,0,0,0,0,0,1,310,36,72,https://www.trulia.com/p/ma/allston/74-aldie-st-2-allston-ma-02134--2182014534
+2900,South Boston,multifamily,1.0,1.0,7,4,3,0,Moderate,53,0,0,0,0,0,0,0,0,1,260,54,78,https://www.trulia.com/p/ma/boston/19-boston-st-1-boston-ma-02127--2001514735
+3800,South Boston,multifamily,3.0,1.0,10,4,3,3,Lowest,53,6,1,1,1,1,1,1,1,0,106,22,46,https://www.trulia.com/p/ma/boston/861-east-broadway-a-boston-ma-02127--2001520708
+2950,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,High,21,4,1,0,1,1,1,0,1,0,1013,118,375,https://www.trulia.com/p/ma/boston/70-joy-st-10-boston-ma-02114--2171822752
+990,Hyde Park,multifamily,1.0,1.0,14,6,4,4,Lowest,76,4,1,1,0,1,1,0,1,1,36,9,3,https://www.trulia.com/rental/4078998130-Multi-Family-Home-Hyde-Park-MA-02136
+3000,East Boston,multifamily,4.0,1.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,0,1,284,36,104,https://www.trulia.com/p/ma/boston/143-cottage-st-2-boston-ma-02128--2174569825
+1800,Dorchester,multifamily,2.0,1.0,7,3,2,2,Lowest,54,0,0,0,0,0,0,0,1,0,65,17,14,https://www.trulia.com/p/ma/boston/18-becket-st-1-boston-ma-02124--2467470974
+970,West Roxbury,multifamily,3.0,1.0,2,1,1,0,Lowest,83,1,1,0,0,0,0,0,1,1,48,6,5,https://www.trulia.com/rental/4050058376-640-Lagrange-St-1-West-Roxbury-MA-02132
+3650,Mission Hill,multifamily,4.0,1.0,28,10,9,9,Lowest,23,0,0,0,0,0,0,0,0,1,326,45,68,https://www.trulia.com/p/ma/boston/149-calumet-st-1-boston-ma-02120--2121184451
+3000,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,Low,21,1,1,0,0,0,0,0,1,0,1085,129,412,https://www.trulia.com/p/ma/boston/90-revere-st-3-boston-ma-02114--2172932919
+2295,Allston,multifamily,2.0,1.0,22,8,7,7,Lowest,31,0,0,0,0,0,0,0,0,0,312,40,65,https://www.trulia.com/p/ma/boston/240-kelton-st-1-boston-ma-02134--2001584455
+2600,East Boston,multifamily,2.0,1.0,11,7,4,0,Low,41,1,0,0,0,0,0,1,1,1,225,32,69,https://www.trulia.com/p/ma/boston/167-chelsea-st-2-boston-ma-02128--2171577341
+2500,South Boston,multifamily,2.0,1.0,15,5,5,5,Lowest,53,1,1,0,0,0,0,0,1,0,416,76,141,https://www.trulia.com/p/ma/boston/143-w-8th-st-4-c-boston-ma-02127--2480052785
+1995,South Boston,multifamily,1.0,1.0,18,6,6,6,Lowest,53,3,1,0,0,1,1,0,1,0,327,62,106,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02127--2171343553
+3050,Dorchester,multifamily,4.0,2.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20,https://www.trulia.com/p/ma/boston/342-bowdoin-st-2-boston-ma-02122--2171828391
+1950,Allston,multifamily,1.0,1.0,14,4,5,5,Lowest,31,5,1,0,1,1,1,1,0,0,313,38,64,https://www.trulia.com/p/ma/boston/1079-commonwealth-ave-4-boston-ma-02134--2480298375
+900,Dorchester,multifamily,1.0,0.0,7,3,2,2,Moderate,54,5,1,0,1,1,1,1,1,1,104,24,15,https://www.trulia.com/rental/4078642572-1937-Dorchester-Ave-R3781-Boston-MA-02124
+3795,Roslindale,multifamily,2.0,2.0,9,3,3,3,Moderate,66,4,1,1,0,1,1,0,1,1,75,17,15,https://www.trulia.com/p/ma/roslindale/43-cummins-hwy-2e-roslindale-ma-02131--2460240366
+3300,Charlestown,multifamily,3.0,1.0,8,2,3,3,Moderate,56,3,1,0,1,0,0,1,1,0,426,64,146,https://www.trulia.com/p/ma/charlestown/85-ferrin-st-3-charlestown-ma-02129--2171576206
+2050,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,83,2,0,1,1,0,0,0,1,0,25,4,2,https://www.trulia.com/p/ma/boston/21-westgate-rd-6-boston-ma-02132--2183246853
+2100,Dorchester,multifamily,2.0,1.0,14,6,4,4,Moderate,54,3,1,0,0,1,1,0,1,1,135,33,17,https://www.trulia.com/p/ma/boston/8-kenwood-st-11-boston-ma-02124--2444261441
+2100,Roxbury,multifamily,2.0,1.0,16,10,3,3,Lowest,53,1,0,0,0,0,0,1,1,1,198,39,28,https://www.trulia.com/p/ma/boston/17-marcella-st-2-boston-ma-02119--2365501400
+3975,Roxbury,multifamily,5.0,1.5,15,7,4,4,Low,53,5,1,0,1,1,1,1,0,1,286,60,46,https://www.trulia.com/p/ma/boston/2599-washington-st-1-boston-ma-02119--2356508488
+2100,Mattapan,multifamily,3.0,1.0,22,8,7,7,Low,59,1,1,0,0,0,0,0,1,0,80,18,11,https://www.trulia.com/p/ma/boston/49-w-selden-st-1-boston-ma-02126--2172417250
+2850,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,77,5,1,0,1,1,1,1,1,1,34,5,4,https://www.trulia.com/p/ma/boston/190-sherman-rd-boston-ma-02467--2002118534
+5700,Jamaica Plain,multifamily,6.0,2.0,27,9,9,9,Low,23,0,0,0,0,0,0,0,1,0,306,34,63,https://www.trulia.com/p/ma/mission-hill/address-not-disclosed-mission-hill-ma-02120--2171453703
+2400,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,3,1,0,0,1,1,0,1,0,314,41,67,https://www.trulia.com/p/ma/boston/120-glenville-ave-7-boston-ma-02134--2172147895
+2095,West Roxbury,multifamily,1.0,1.0,7,3,2,2,Lowest,83,5,1,0,1,1,1,1,1,1,35,6,3,https://www.trulia.com/p/ma/boston/125-edgemere-rd-107-boston-ma-02132--2001565369
+3600,Allston,multifamily,5.0,1.0,20,6,7,7,Lowest,31,2,0,0,1,0,0,1,0,0,323,42,68,https://www.trulia.com/p/ma/boston/201-harvard-ave-5-boston-ma-02134--2001583394
+2200,West Roxbury,multifamily,2.0,1.0,5,3,2,0,Lowest,83,1,0,0,0,0,0,1,1,0,63,14,9,https://www.trulia.com/p/ma/boston/10-graham-ter-10-boston-ma-02132--2193748118
+2950,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,5,1,0,1,1,1,1,0,0,609,65,191,https://www.trulia.com/p/ma/boston/115-saint-stephen-st-b1-boston-ma-02115--2171569000
+1950,Hyde Park,multifamily,2.0,1.0,5,3,1,1,Lowest,76,1,1,0,0,0,0,0,1,0,40,8,3,https://www.trulia.com/p/ma/hyde-park/76-sunnyside-st-1-hyde-park-ma-02136--2478257819
+5000,East Boston,multifamily,5.0,2.0,10,4,3,3,Low,41,5,1,0,1,1,1,1,0,0,501,64,203,https://www.trulia.com/p/ma/boston/45-orleans-st-3-boston-ma-02128--2171568366
+2700,Mattapan,multifamily,4.0,1.0,12,7,5,0,High,59,1,1,0,0,0,0,0,1,1,64,14,4,https://www.trulia.com/p/ma/mattapan/706-walk-hill-st-3-mattapan-ma-02126--2181912897
+1800,Dorchester,multifamily,2.0,1.0,12,6,3,3,High,63,0,0,0,0,0,0,0,0,0,152,33,17,https://www.trulia.com/p/ma/boston/388-geneva-ave-3-boston-ma-02122--2333944418
+2000,East Boston,multifamily,1.0,1.0,12,6,3,3,Low,41,3,1,0,0,1,1,0,1,0,201,34,57,https://www.trulia.com/p/ma/boston/151-princeton-st-3-boston-ma-02128--2393722119/rent
+1895,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,47,7,5,https://www.trulia.com/p/ma/boston/5114-washington-st-6-boston-ma-02132--2174298621
+2800,Dorchester,multifamily,4.0,1.0,13,5,4,4,Moderate,63,4,1,0,1,1,1,0,0,1,156,30,19,https://www.trulia.com/p/ma/boston/4-levant-st-1-boston-ma-02122--2173059274
+5242,South Boston,apartment,3.0,3.0,3,1,1,1,Lowest,42,0,0,0,0,0,0,0,1,1,754,98,286,https://www.trulia.com/c/ma/boston/nema-boston-399-congress-st-boston-ma-02210--2123135254
+975,Dorchester,multifamily,1.0,0.0,14,6,4,4,Moderate,54,4,1,0,0,1,1,1,1,1,135,33,17,https://www.trulia.com/rental/4077774383-8-Kenwood-St-R3692-Boston-MA-02124
+2900,South End,multifamily,2.0,1.0,14,4,5,5,Low,32,1,0,0,0,0,0,1,1,1,783,111,260,https://www.trulia.com/p/ma/boston/601-tremont-st-1-boston-ma-02118--2171575138
+2000,Roxbury,multifamily,1.0,1.0,7,5,2,0,Lowest,53,0,0,0,0,0,0,0,0,1,339,61,98,https://www.trulia.com/p/ma/boston/14-pompeii-st-3-boston-ma-02119--2439205928
+3100,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/5-n-margin-st-3b1b-boston-ma-02113--2463719123
+2350,Charlestown,multifamily,2.0,1.0,6,2,2,2,Low,56,3,1,0,1,0,0,1,1,0,302,39,100,https://www.trulia.com/p/ma/boston/96-elm-st-2-boston-ma-02129--2172026508
+5540,Charlestown,multifamily,2.0,2.0,3,1,1,1,Low,56,6,1,1,1,1,1,1,1,1,494,69,177,https://www.trulia.com/p/ma/charlestown/23-1st-ave-charlestown-ma-02129--2001534031
+3300,Roxbury,multifamily,5.0,2.0,10,6,2,2,High,53,2,0,0,1,0,0,1,0,0,228,57,32,https://www.trulia.com/p/ma/boston/3-presby-pl-boston-ma-02119--1087476646
+3100,East Boston,multifamily,3.0,2.0,9,5,2,2,Moderate,41,5,1,0,1,1,1,1,1,0,167,43,32,https://www.trulia.com/p/ma/boston/70-72-w-eagle-st-3-boston-ma-02128--2450721495
+3200,South End,multifamily,2.0,1.0,12,4,4,4,Low,32,5,1,0,1,1,1,1,1,0,700,102,241,https://www.trulia.com/p/ma/boston/423-shawmut-ave-31-boston-ma-02118--2171809269
+2400,Roslindale,multifamily,2.0,1.0,2,2,0,0,Lowest,66,5,1,0,1,1,1,1,1,0,79,17,15,https://www.trulia.com/p/ma/boston/35-mendelssohn-st-1-boston-ma-02131--2333948198
+1550,Dorchester,multifamily,1.0,1.0,11,5,3,3,Lowest,55,1,0,0,1,0,0,0,1,1,149,28,17,https://www.trulia.com/p/ma/dorchester/842r-dorchester-ave-basement-dorchester-ma-02125--2461351048
+3100,Allston,multifamily,4.0,1.0,20,6,7,7,Low,31,2,0,0,1,0,0,1,0,0,323,40,68,https://www.trulia.com/p/ma/boston/12-reedsdale-st-1-boston-ma-02134--2171575054
+4300,South Boston,multifamily,3.0,2.5,12,4,4,4,Lowest,53,4,1,1,0,1,1,0,1,0,454,81,166,https://www.trulia.com/p/ma/boston/149-w-6th-st-149-boston-ma-02127--2474533633
+2850,Fenway,multifamily,1.0,1.0,4,0,1,3,Moderate,21,1,0,0,0,0,0,1,0,0,644,65,220,https://www.trulia.com/p/ma/boston/24-westland-ave-23-boston-ma-02115--2172406822
+2800,Roxbury,multifamily,3.0,1.0,14,8,3,3,Low,53,3,1,0,0,1,1,0,1,0,151,39,23,https://www.trulia.com/p/ma/boston/94-harrishof-st-2-boston-ma-02121--2437326377
+2185,Roslindale,multifamily,2.0,1.0,10,4,3,3,Lowest,66,3,1,0,1,0,0,1,1,0,70,17,14,https://www.trulia.com/p/ma/roslindale/201-florence-st-roslindale-ma-02131--1086687313
+2700,Roxbury,apartment,2.0,1.0,12,2,5,5,Highest,53,5,1,1,1,1,1,0,1,0,524,81,168,https://www.trulia.com/p/ma/boston/38-williams-st-3-boston-ma-02119--2332846335
+3200,Roxbury,multifamily,4.0,1.0,15,5,5,5,Lowest,53,3,1,0,0,1,1,0,0,1,340,50,59,https://www.trulia.com/p/ma/boston/29-lambert-st-4-boston-ma-02119--2001458761
+3587,South Boston,apartment,2.0,2.0,3,1,1,1,Lowest,42,6,1,1,1,1,1,1,1,1,828,112,321,https://www.trulia.com/c/ma/boston/315-on-a-315-a-st-boston-ma-02210--2001863380
+3250,Allston,multifamily,4.0,2.0,23,7,8,8,Lowest,31,3,1,0,0,1,1,0,0,0,307,35,69,https://www.trulia.com/p/ma/boston/24-linden-st-1-boston-ma-02134--2171568137
+2400,Dorchester,multifamily,2.0,1.0,10,5,5,0,Lowest,63,1,1,0,0,0,0,0,1,1,104,23,15,https://www.trulia.com/p/ma/dorchester/52-king-st-1-dorchester-ma-02122--2123733189
+2695,West Roxbury,multifamily,4.0,2.0,0,0,0,0,Lowest,83,5,1,0,1,1,1,1,1,1,59,13,7,https://www.trulia.com/p/ma/boston/4803-washington-st-1-boston-ma-02132--2175053782
+1850,Dorchester,multifamily,2.0,1.0,8,5,3,0,Moderate,54,0,0,0,0,0,0,0,1,0,139,32,15,https://www.trulia.com/p/ma/dorchester-center/40-bradlee-st-3-dorchester-center-ma-02124--2480494570
+4500,Allston,multifamily,5.0,2.0,20,6,7,7,Lowest,31,5,1,0,1,1,1,1,1,0,308,41,64,https://www.trulia.com/p/ma/boston/23-greylock-rd-1-boston-ma-02134--2001584358
+3000,West Roxbury,singlefamily,3.0,1.5,3,1,1,1,Lowest,83,3,1,0,0,1,1,0,1,0,67,15,15,https://www.trulia.com/p/ma/west-roxbury/78-parklawn-rd-west-roxbury-ma-02132--2001575230
+3700,Roxbury,multifamily,5.0,1.5,11,9,1,1,Low,53,4,1,0,0,1,1,1,1,0,244,60,37,https://www.trulia.com/p/ma/boston/34-circuit-st-3-boston-ma-02119--2284731216
+2700,Jamaica Plain,multifamily,3.0,1.0,23,9,7,7,Moderate,42,2,0,0,1,0,0,1,0,1,219,36,33,https://www.trulia.com/p/ma/boston/304-centre-st-2-boston-ma-02130--2171482116
+3500,Mission Hill,multifamily,3.0,1.0,33,11,11,11,Lowest,23,0,0,0,0,0,0,0,1,0,343,43,76,https://www.trulia.com/p/ma/mission-hill/address-not-disclosed-mission-hill-ma-02120--2171568778
+3150,East Boston,multifamily,4.0,2.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,1,0,203,33,57,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02128--2171486677
+1795,Dorchester,multifamily,2.0,1.0,17,7,5,5,Highest,54,0,0,0,0,0,0,0,1,0,128,32,17,https://www.trulia.com/p/ma/dorchester-center/26-rosedale-st-2-dorchester-center-ma-02124--2435538951
+3000,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,0,0,0,0,0,0,0,1,0,644,65,220,https://www.trulia.com/p/ma/boston/32-westland-ave-17-boston-ma-02115--2172406299
+2400,South Boston,multifamily,2.0,1.0,18,6,6,6,Lowest,53,0,0,0,0,0,0,0,0,0,244,53,86,https://www.trulia.com/p/ma/boston/222-w-9th-st-1-boston-ma-02127--2173960939
+1700,Allston,multifamily,1.0,1.0,14,4,5,5,Low,31,0,0,0,0,0,0,0,0,0,319,41,68,https://www.trulia.com/p/ma/boston/64-brighton-ave-211-boston-ma-02134--2171577634
+2700,Hyde Park,multifamily,3.0,1.0,5,3,1,1,Lowest,76,4,1,0,0,1,1,1,1,0,35,8,3,https://www.trulia.com/p/ma/boston/64-loring-st-2-boston-ma-02136--2436137255
+3950,Roxbury,multifamily,5.0,2.0,15,7,4,4,Low,53,5,1,0,1,1,1,1,0,0,289,59,47,https://www.trulia.com/p/ma/boston/37-juniper-st-boston-ma-02119--1004093024
+2200,East Boston,multifamily,3.0,1.0,12,6,3,3,Moderate,41,1,1,0,0,0,0,0,1,0,182,39,40,https://www.trulia.com/p/ma/boston/23-eutaw-st-2-boston-ma-02128--2358940250
+2300,Roxbury,multifamily,2.0,1.0,12,4,4,4,Lowest,53,4,1,0,1,1,1,0,1,0,240,38,36,https://www.trulia.com/p/ma/boston/27-beech-glen-st-3-boston-ma-02119--2179625801
+2800,Roxbury,multifamily,4.0,1.5,15,9,3,3,Low,53,0,0,0,0,0,0,0,1,0,291,63,58,https://www.trulia.com/p/ma/boston/46-mount-pleasant-ave-3-boston-ma-02119--2480495459
+2700,Dorchester,multifamily,3.0,1.5,11,5,3,3,Lowest,55,2,1,0,1,0,0,0,1,1,167,34,21,https://www.trulia.com/p/ma/dorchester/125-pleasant-st-1c-dorchester-ma-02125--2464363181
+2850,Roxbury,multifamily,3.0,2.0,16,10,3,3,Moderate,53,5,1,0,1,1,1,1,1,0,151,39,22,https://www.trulia.com/p/ma/boston/171-townsend-st-1-boston-ma-02121--2178524240
+2250,Mission Hill,multifamily,2.0,1.0,26,10,8,8,Lowest,23,5,1,0,1,1,1,1,1,0,305,43,57,https://www.trulia.com/p/ma/roxbury-crossing/226-parker-hill-ave-15-roxbury-crossing-ma-02120--2171825247
+2110,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,47,7,5,https://www.trulia.com/p/ma/boston/47-ridgecrest-ter-13-boston-ma-02132--2453099776
+4800,East Boston,multifamily,5.0,2.0,10,4,3,3,Low,41,0,0,0,0,0,0,0,1,0,501,64,203,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02128--2173130133
+2700,Dorchester,multifamily,3.0,1.0,11,5,3,3,High,54,0,0,0,0,0,0,0,0,0,154,34,18,https://www.trulia.com/p/ma/boston/57-corona-st-1-boston-ma-02124--2181417766
+1830,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,0,0,0,0,0,0,0,0,0,44,7,4,https://www.trulia.com/p/ma/boston/25-ridgecrest-ter-5-boston-ma-02132--2001569669
+2400,South Boston,multifamily,2.0,1.0,11,5,3,3,Lowest,53,1,1,0,0,0,0,0,1,1,185,36,75,https://www.trulia.com/p/ma/boston/4-schrepel-pl-2-boston-ma-02127--2001518762
+2015,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,6,1,1,1,1,1,1,1,1,45,7,4,https://www.trulia.com/p/ma/boston/15-ridgecrest-ter-4-boston-ma-02132--2172410675
+2600,Mattapan,multifamily,4.0,1.0,5,3,2,0,Highest,59,2,1,1,0,0,0,0,1,1,69,15,5,https://www.trulia.com/p/ma/boston/40-deering-rd-3-boston-ma-02126--2367389151
+2395,Allston,multifamily,2.0,1.0,22,8,7,7,Lowest,31,0,0,0,0,0,0,0,0,0,312,40,65,https://www.trulia.com/p/ma/boston/240-kelton-st-8-boston-ma-02134--2001584463
+1695,Jamaica Plain,multifamily,1.0,1.0,25,9,8,8,Lowest,21,0,0,0,0,0,0,0,0,0,298,34,59,https://www.trulia.com/p/ma/boston/894-huntington-ave-3-boston-ma-02115--2172860944
+2198,West Roxbury,multifamily,2.0,1.0,4,3,1,0,Lowest,83,3,1,0,1,0,0,1,1,1,47,7,3,https://www.trulia.com/p/ma/west-roxbury/address-not-disclosed-west-roxbury-ma-02132--1088646094
+2400,Dorchester,multifamily,2.0,1.0,10,5,5,0,Lowest,63,2,0,0,1,0,0,1,1,0,104,23,15,https://www.trulia.com/p/ma/boston/52-king-st-1-boston-ma-02122--2123733189
+2000,Hyde Park,multifamily,2.0,1.0,3,1,1,1,Lowest,76,4,1,1,0,1,1,0,1,0,51,10,4,https://www.trulia.com/p/ma/hyde-park/710-metropolitan-ave-3-hyde-park-ma-02136--2436258301
+1900,Allston,multifamily,2.0,1.0,26,8,9,9,Lowest,56,5,1,0,1,1,1,1,1,0,313,41,64,https://www.trulia.com/p/ma/boston/1412-commonwealth-ave-20-boston-ma-02135--2001598145
+2575,East Boston,multifamily,3.0,1.0,10,4,3,3,Lowest,41,2,0,0,1,0,0,1,0,0,421,62,164,https://www.trulia.com/p/ma/boston/114-everett-st-1-boston-ma-02128--2171807711
+3400,Roslindale,multifamily,3.0,2.0,13,5,4,4,Lowest,66,6,1,1,1,1,1,1,1,0,73,17,13,https://www.trulia.com/p/ma/boston/167-poplar-st-4-boston-ma-02131--2367059161
+3250,Jamaica Plain,multifamily,4.0,1.0,16,8,4,4,High,53,1,0,0,0,0,0,1,1,1,138,31,24,https://www.trulia.com/p/ma/boston/22-beethoven-st-2-boston-ma-02119--2001457588
+3350,East Boston,multifamily,4.0,1.0,11,5,3,3,Lowest,41,3,1,0,0,1,1,0,0,0,313,43,121,https://www.trulia.com/p/ma/boston/133-cottage-st-3-boston-ma-02128--2171568267
+3590,Central,multifamily,1.0,1.0,6,5,1,0,Highest,21,5,1,0,1,1,1,1,1,1,877,105,314,https://www.trulia.com/p/ma/boston/103-causeway-st-612-boston-ma-02114--2463152059
+2700,Roslindale,multifamily,2.0,2.0,4,3,1,0,Lowest,66,1,0,0,1,0,0,0,1,0,76,19,16,https://www.trulia.com/p/ma/boston/150-tyndale-st-1-boston-ma-02131--2001555643
+1800,Hyde Park,multifamily,1.0,1.0,12,4,4,4,Lowest,21,0,0,0,0,0,0,0,1,0,38,8,3,https://www.trulia.com/p/ma/boston/69-harvard-ave-2-boston-ma-02115--2459807625
+2350,Hyde Park,multifamily,2.0,1.0,4,3,1,0,Lowest,66,2,0,0,1,0,0,1,1,0,65,18,10,https://www.trulia.com/p/ma/boston/10-bateman-st-1-boston-ma-02131--2173882356
+1900,Dorchester,multifamily,2.0,1.0,13,5,4,4,Moderate,54,3,1,0,1,0,0,1,1,0,93,19,14,https://www.trulia.com/p/ma/boston/106-milton-ave-1-boston-ma-02124--2349229167
+2400,Charlestown,multifamily,1.0,1.0,5,1,2,2,Lowest,56,2,0,0,1,0,0,1,1,0,235,36,79,https://www.trulia.com/p/ma/boston/102-baldwin-st-3-boston-ma-02129--2001531613
+2800,Roxbury,multifamily,3.0,1.0,20,12,4,4,Low,53,0,0,0,0,0,0,0,1,0,191,54,22,https://www.trulia.com/p/ma/boston/40-catawba-st-2-boston-ma-02119--2480685171
+3150,South Boston,multifamily,3.0,1.0,18,6,6,6,Lowest,53,0,0,0,0,0,0,0,1,0,244,53,86,https://www.trulia.com/p/ma/south-boston/222-w-9th-st-u1-2-south-boston-ma-02127--2461990759
+2200,West Roxbury,multifamily,2.0,1.0,1,1,0,0,Lowest,83,4,1,1,0,1,1,0,1,1,51,10,5,https://www.trulia.com/p/ma/boston/14-heron-st-410-boston-ma-02132--2001566271/rent
+1100,Hyde Park,multifamily,2.0,1.0,3,2,0,1,Low,76,0,0,0,0,0,0,0,0,0,43,10,3,https://www.trulia.com/rental/4080706347-Multi-Family-Home-Boston-MA-02136
+3300,South Boston,multifamily,2.0,1.0,15,5,5,5,Lowest,53,5,1,0,1,1,1,1,1,1,484,83,175,https://www.trulia.com/p/ma/south-boston/316-e-st-1-south-boston-ma-02127--2394480537
+2650,Fenway,multifamily,1.0,1.0,14,4,5,5,Lowest,21,0,0,0,0,0,0,0,1,0,508,61,137,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02115--2283452953
+2600,Central,multifamily,1.0,1.0,4,4,0,0,Lowest,21,0,0,0,0,0,0,0,1,0,864,102,306,https://www.trulia.com/p/ma/boston/6-whittier-pl-16c-boston-ma-02114--2001418797
+2195,Back Bay/ Beacon Hill,multifamily,1.0,1.0,8,8,0,0,Lowest,21,2,1,0,0,0,0,1,1,0,1074,127,410,https://www.trulia.com/p/ma/boston/64-revere-st-3-boston-ma-02114--2171827025
+1800,West Roxbury,multifamily,2.0,1.0,19,5,7,7,Lowest,83,1,1,0,0,0,0,0,1,0,58,8,6,https://www.trulia.com/p/ma/boston/116-spring-st-b10-boston-ma-02132--2001564776
+800,West Roxbury,multifamily,3.0,3.0,3,1,1,1,Lowest,83,4,1,1,0,1,1,0,1,1,61,11,7,https://www.trulia.com/rental/4083126587-50-Heron-St-12X16-West-Roxbury-MA-02132
+3225,Roxbury,multifamily,3.0,1.5,15,5,5,5,Lowest,53,5,1,0,1,1,1,1,1,1,240,38,36,https://www.trulia.com/p/ma/boston/47-beech-glen-st-1-boston-ma-02119--2171448314
+1780,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,47,7,5,https://www.trulia.com/p/ma/boston/18-ridgecrest-ter-4-boston-ma-02132--2001567648
+2150,Jamaica Plain,multifamily,1.0,1.0,23,9,7,7,Low,42,6,1,1,1,1,1,1,0,0,190,33,29,https://www.trulia.com/p/ma/boston/50-evergreen-st-34-boston-ma-02130--2175639435
+4400,Dorchester,multifamily,4.0,2.0,10,4,3,3,Lowest,55,2,1,1,0,0,0,0,1,0,169,41,22,https://www.trulia.com/p/ma/dorchester/57-pleasant-st-1r-dorchester-ma-02125--2462400302
+2725,Allston,multifamily,3.0,2.0,17,5,6,6,Lowest,31,0,0,0,0,0,0,0,0,0,318,41,67,https://www.trulia.com/p/ma/boston/1258-commonwealth-ave-3a-boston-ma-02134--2001578760
+2862,West Roxbury,apartment,2.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,50,9,5,https://www.trulia.com/c/ma/west-roxbury/rockingham-glen-30-rockingham-ave-west-roxbury-ma-02132--2001570647
+2395,Jamaica Plain,multifamily,2.0,1.0,18,8,5,5,Low,53,5,1,0,1,1,1,1,1,1,159,33,27,https://www.trulia.com/p/ma/boston/41-w-walnut-park-1-boston-ma-02119--2357729960
+2200,Roslindale,multifamily,2.0,1.0,14,6,4,4,Lowest,66,2,0,0,1,0,0,1,1,0,58,17,9,https://www.trulia.com/p/ma/boston/40-harding-rd-2-boston-ma-02131--2297297052
+2000,Roxbury,multifamily,2.0,1.0,9,7,1,1,Low,53,4,1,1,0,1,1,0,1,1,227,57,30,https://www.trulia.com/p/ma/roxbury/107-winthrop-st-roxbury-ma-02119--1039968160
+1800,Dorchester,multifamily,1.0,1.0,11,5,3,3,Lowest,54,2,1,1,0,0,0,0,1,1,117,28,20,https://www.trulia.com/p/ma/dorchester/14-argyle-ter-dorchester-ma-02124--2001485578
+2200,Allston,multifamily,2.0,1.0,26,8,9,9,Lowest,31,3,1,0,0,1,1,0,1,0,292,37,63,https://www.trulia.com/p/ma/boston/439-cambridge-st-23-boston-ma-02134--2171822850
+2600,Dorchester,multifamily,2.0,1.0,17,7,5,5,Lowest,55,4,1,1,0,1,1,0,1,0,167,36,21,https://www.trulia.com/p/ma/dorchester/28-thornley-st-1-dorchester-ma-02125--2122558510
+2600,West Roxbury,multifamily,3.0,1.0,7,3,2,2,Lowest,83,4,1,1,0,1,1,0,1,0,62,14,9,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02132--2328770541
+2900,Jamaica Plain,multifamily,3.0,1.0,25,9,8,8,Moderate,42,0,0,0,0,0,0,0,1,0,254,40,36,https://www.trulia.com/p/ma/boston/109-heath-st-3-boston-ma-02130--2001540012
+900,Hyde Park,multifamily,3.0,1.0,4,3,1,0,Lowest,66,1,1,0,0,0,0,0,1,0,70,19,11,https://www.trulia.com/rental/4060649760-Multi-Family-Home-Boston-MA-02131
+2500,Charlestown,multifamily,3.0,2.5,6,2,2,2,Lowest,56,5,1,0,1,1,1,1,1,1,418,68,148,https://www.trulia.com/p/ma/charlestown/17-green-st-2-charlestown-ma-02129--2001533015
+2040,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,0,0,0,0,0,0,0,0,0,47,7,4,https://www.trulia.com/p/ma/boston/5110-washington-st-8-boston-ma-02132--2172712726
+2400,East Boston,multifamily,2.0,1.0,7,3,2,2,Lowest,41,5,1,0,1,1,1,1,1,1,498,72,194,https://www.trulia.com/p/ma/boston/2-brigham-st-1-boston-ma-02128--2171575948
+2100,Charlestown,multifamily,1.0,1.0,5,1,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,258,41,86,https://www.trulia.com/p/ma/charlestown/74-russell-st-1-charlestown-ma-02129--2344202363
+2000,Dorchester,multifamily,3.0,1.0,17,5,6,6,Moderate,63,2,1,0,0,0,0,1,1,0,147,33,18,https://www.trulia.com/p/ma/boston/3-toledo-ter-3-boston-ma-02122--2284160153
+3500,Dorchester,multifamily,3.0,2.0,15,7,4,4,Low,63,4,1,1,0,1,1,0,1,1,167,33,20,https://www.trulia.com/p/ma/dorchester/14-downer-ct-dorchester-ma-02122--2001476433
+3400,East Boston,multifamily,4.0,1.0,11,7,4,0,High,41,2,0,0,1,0,0,1,0,1,302,44,97,https://www.trulia.com/p/ma/boston/143-london-st-1-boston-ma-02128--2406490290
+2100,Roslindale,multifamily,2.0,1.0,10,4,3,3,Lowest,66,3,1,0,1,0,0,1,1,0,70,17,14,https://www.trulia.com/p/ma/boston/193-florence-st-2l-boston-ma-02131--2001556582
+2600,Mattapan,multifamily,3.0,1.0,16,6,5,5,Moderate,54,0,0,0,0,0,0,0,1,0,96,18,11,https://www.trulia.com/p/ma/boston/15-crowell-st-1-boston-ma-02124--2174264331
+2450,West Roxbury,townhouse,1.0,1.5,6,2,2,2,Lowest,77,4,1,0,1,1,1,0,1,1,38,5,6,https://www.trulia.com/p/ma/chestnut-hill/187-sherman-rd-chestnut-hill-ma-02467--2437308588
+1800,South Boston,multifamily,1.0,1.0,15,5,5,5,Low,53,1,1,0,0,0,0,0,1,0,259,55,86,https://www.trulia.com/p/ma/boston/7-glover-ct-a-boston-ma-02127--2357730143
+2200,West Roxbury,multifamily,2.0,2.0,16,4,6,6,Lowest,83,5,1,1,0,1,1,1,1,0,59,8,6,https://www.trulia.com/p/ma/boston/37-spring-st-1-boston-ma-02132--2326988945
+4950,South End,multifamily,3.0,1.5,12,4,4,4,Moderate,28,5,1,0,1,1,1,1,1,0,860,115,282,https://www.trulia.com/p/ma/boston/113-appleton-st-3-boston-ma-02116--2173297788
+2500,West Roxbury,multifamily,2.0,2.0,7,3,2,2,Lowest,83,4,1,1,0,1,1,0,1,1,45,9,2,https://www.trulia.com/p/ma/west-roxbury/1522-vfw-pkwy-303-west-roxbury-ma-02132--2172890401
+3000,South Boston,multifamily,3.0,1.0,8,4,4,0,Lowest,53,0,0,0,0,0,0,0,1,0,266,57,86,https://www.trulia.com/p/ma/boston/5-ellery-st-2-boston-ma-02127--2001519497
+2300,Hyde Park,multifamily,3.0,2.0,14,6,4,4,Lowest,76,5,1,0,1,1,1,1,1,0,35,8,3,https://www.trulia.com/p/ma/boston/17-linwood-st-2-boston-ma-02136--2464139702
+2600,East Boston,multifamily,3.0,1.0,11,5,3,3,Lowest,41,4,1,0,0,1,1,1,0,0,284,36,104,https://www.trulia.com/p/ma/boston/145-cottage-st-2-boston-ma-02128--2178153503
+2500,South Boston,multifamily,1.0,1.0,18,6,6,6,Lowest,53,1,1,0,0,0,0,0,1,0,303,70,98,https://www.trulia.com/p/ma/boston/253-gold-st-boston-ma-02127--1005367201
+3500,Allston,multifamily,4.0,1.5,12,4,4,4,Lowest,31,5,1,0,1,1,1,1,1,1,337,38,82,https://www.trulia.com/p/ma/boston/41-coolidge-rd-1-boston-ma-02134--2171576857
+3895,Hyde Park,multifamily,2.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,0,58,12,1,https://www.trulia.com/p/ma/roslindale/32-01-cummins-hwy-1-roslindale-ma-02131--2454344621
+3200,South Boston,multifamily,4.0,2.0,19,7,6,6,Lowest,53,5,1,0,1,1,1,1,0,0,215,54,74,https://www.trulia.com/p/ma/boston/59-linden-st-2-boston-ma-02127--2400337033
+2100,West Roxbury,multifamily,2.0,1.0,2,0,1,1,Lowest,83,2,0,0,1,0,0,1,1,0,62,12,7,https://www.trulia.com/p/ma/boston/28-maplewood-st-2-boston-ma-02132--2332680233
+2000,Dorchester,multifamily,2.0,1.0,18,6,6,6,High,63,0,0,0,0,0,0,0,1,1,155,34,17,https://www.trulia.com/p/ma/boston/195-westville-st-1-boston-ma-02122--2173244390
+2500,East Boston,multifamily,3.0,1.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,1,0,198,34,56,https://www.trulia.com/p/ma/east-boston/220-saratoga-st-east-boston-ma-02128--1001644174
+3000,Charlestown,multifamily,2.0,1.0,5,1,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,207,34,56,https://www.trulia.com/p/ma/charlestown/72-baldwin-st-673-charlestown-ma-02129--2471601236
+2750,Allston,multifamily,3.0,1.0,19,7,6,6,Lowest,31,0,0,0,0,0,0,0,0,0,309,40,66,https://www.trulia.com/p/ma/boston/1350-commonwealth-ave-4-boston-ma-02134--2171810112
+2970,Roxbury,multifamily,3.0,1.0,21,7,7,7,Lowest,53,5,1,0,1,1,1,1,0,0,317,41,56,https://www.trulia.com/p/ma/boston/6-linwood-st-2-boston-ma-02119--2171576210
+3400,West Roxbury,singlefamily,4.0,2.0,1,1,0,0,Lowest,83,3,1,0,0,1,1,0,1,1,57,6,10,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02132--1008759359
+3525,Jamaica Plain,multifamily,4.0,1.0,10,6,2,2,Moderate,42,5,1,0,1,1,1,1,1,1,119,25,24,https://www.trulia.com/p/ma/boston/3147-washington-st-2-boston-ma-02130--2001546344
+4650,Allston,multifamily,4.0,2.0,26,8,9,9,Low,31,1,0,0,0,0,0,1,1,0,309,41,65,https://www.trulia.com/p/ma/boston/190-kelton-st-2-boston-ma-02134--2313764775
+2400,East Boston,multifamily,3.0,1.0,11,5,3,3,Lowest,41,0,0,0,0,0,0,0,0,0,284,38,105,https://www.trulia.com/p/ma/boston/142-gove-st-8-boston-ma-02128--2171829151
+850,Hyde Park,multifamily,1.0,0.0,6,2,2,2,Lowest,76,3,1,0,0,1,1,0,1,0,48,9,3,https://www.trulia.com/rental/4075323588-41-Alwin-St-R3562-Boston-MA-02136
+2950,West Roxbury,multifamily,3.0,1.0,5,3,2,0,Lowest,83,2,0,0,1,0,0,1,1,0,62,13,9,https://www.trulia.com/p/ma/boston/88-corey-st-b-boston-ma-02132--2345329161
+3700,Roxbury,multifamily,4.0,2.0,18,8,5,5,Lowest,53,5,1,0,1,1,1,1,0,1,306,52,49,https://www.trulia.com/p/ma/boston/52-guild-st-2-boston-ma-02119--2171825739
+3000,East Boston,multifamily,3.0,1.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,1,1,284,36,104,https://www.trulia.com/p/ma/boston/143-cottage-st-1-boston-ma-02128--2171568893
+4500,Allston,multifamily,5.0,2.0,23,7,8,8,Moderate,31,4,1,0,1,1,1,0,0,0,302,35,68,https://www.trulia.com/p/ma/boston/28-highgate-st-boston-ma-02134--1001538383
+2580,Roslindale,apartment,3.0,1.5,1,1,0,0,Lowest,66,5,1,0,1,1,1,1,1,1,83,19,13,https://www.trulia.com/c/ma/roslindale/stony-brook-commons-390-blue-ledge-dr-roslindale-ma-02131--2001559381
+1950,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,1,1,0,0,0,0,0,1,1,28,5,3,https://www.trulia.com/p/ma/chestnut-hill/50-56-broadlawn-park-509-chestnut-hill-ma-02467--2171824651
+1850,Hyde Park,multifamily,2.0,1.0,14,6,4,4,Lowest,76,1,1,0,0,0,0,0,1,1,35,8,3,https://www.trulia.com/p/ma/boston/25-business-st-2l-boston-ma-02136--2172978364
+2900,Dorchester,multifamily,4.0,1.0,19,7,6,6,High,63,2,0,0,1,0,0,1,0,1,153,33,17,https://www.trulia.com/p/ma/boston/29-ridgewood-st-1-boston-ma-02122--2171573639
+2700,Dorchester,multifamily,3.0,1.5,14,6,4,4,Lowest,55,5,1,0,1,1,1,1,0,1,167,34,21,https://www.trulia.com/p/ma/boston/137-pleasant-st-1-boston-ma-02125--2185616216
+2800,Jamaica Plain,multifamily,2.0,1.0,25,9,8,8,Lowest,21,5,1,0,1,1,1,1,1,0,285,34,49,https://www.trulia.com/p/ma/boston/35-s-huntington-ave-302-boston-ma-02115--2461370038
+3100,Allston,multifamily,3.0,1.0,25,7,9,9,Low,31,3,1,0,0,1,1,0,1,0,314,41,67,https://www.trulia.com/p/ma/boston/128-glenville-ave-1-boston-ma-02134--2171824345
+3600,Allston,multifamily,4.0,2.0,26,8,9,9,Low,31,5,1,0,1,1,1,1,1,0,309,41,65,https://www.trulia.com/p/ma/boston/192-kelton-st-1-boston-ma-02134--2171574682
+3700,Roxbury,multifamily,4.0,2.0,18,8,5,5,Lowest,53,5,1,0,1,1,1,1,0,1,306,52,49,https://www.trulia.com/p/ma/boston/52-guild-st-3-boston-ma-02119--2171825740
+2525,West Roxbury,townhouse,1.0,1.0,6,2,2,2,Lowest,77,4,1,0,1,1,1,0,1,1,36,5,4,https://www.trulia.com/p/ma/chestnut-hill/152-sherman-rd-chestnut-hill-ma-02467--1001461005
+1825,Hyde Park,multifamily,1.0,1.0,12,4,4,4,Lowest,21,3,1,0,0,1,1,0,1,0,38,8,3,https://www.trulia.com/p/ma/boston/69-harvard-ave-3-boston-ma-02115--2452741774
+2950,Roxbury,multifamily,3.0,1.5,16,6,5,5,Lowest,53,0,0,0,0,0,0,0,0,0,240,38,36,https://www.trulia.com/p/ma/boston/145-marcella-st-boston-ma-02119--1049902766
+3550,Back Bay/ Beacon Hill,multifamily,2.0,1.5,5,1,2,2,High,21,2,0,0,1,0,0,1,1,1,642,80,232,https://www.trulia.com/p/ma/boston/183-saint-botolph-st-2-boston-ma-02115--2171481443
+2600,West Roxbury,multifamily,2.0,2.0,9,3,3,3,Lowest,77,1,1,0,0,0,0,0,1,0,12,3,1,https://www.trulia.com/p/ma/chestnut-hill/55-broadlawn-park-19a-chestnut-hill-ma-02467--2172418334
+2800,East Boston,multifamily,2.0,1.0,12,6,3,3,High,41,0,0,0,0,0,0,0,1,0,248,42,70,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02128--2396809733
+2500,South Boston,multifamily,2.0,1.0,16,6,5,5,Lowest,53,1,1,0,0,0,0,0,1,0,364,75,116,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02127--2175456466
+1725,Hyde Park,multifamily,1.0,1.0,12,4,4,4,Lowest,21,4,1,0,0,1,1,1,1,0,38,8,3,https://www.trulia.com/p/ma/boston/69-harvard-ave-5-boston-ma-02115--2480137574
+13000,South End,multifamily,4.0,3.5,15,5,5,5,Moderate,28,0,0,0,0,0,0,0,1,0,869,116,287,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02116--2405022413
+3600,Dorchester,multifamily,4.0,1.0,4,3,1,0,Moderate,54,0,0,0,0,0,0,0,0,0,147,34,18,https://www.trulia.com/p/ma/boston/28-greenbrier-st-1-boston-ma-02124--2413701251
+2200,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,3,1,0,0,1,1,0,0,0,327,40,70,https://www.trulia.com/p/ma/boston/1185-commonwealth-ave-11-boston-ma-02134--2171827726
+1800,Roslindale,multifamily,2.0,1.0,4,3,1,0,Lowest,66,3,1,0,0,1,1,0,1,0,79,18,15,https://www.trulia.com/p/ma/roslindale/42-colberg-ave-2-roslindale-ma-02131--2332384697
+1837,Mattapan,apartment,2.0,1.5,12,6,3,3,Lowest,59,3,0,1,1,0,0,1,1,1,58,15,1,https://www.trulia.com/c/ma/mattapan/soma-apartments-15-bismarck-st-mattapan-ma-02126--2001506625
+2400,Dorchester,multifamily,3.0,1.0,18,6,6,6,Low,63,1,0,0,0,0,0,1,0,0,150,32,18,https://www.trulia.com/p/ma/boston/15-draper-st-1-boston-ma-02122--2414968294
+2300,Dorchester,multifamily,3.0,1.0,16,6,5,5,High,55,0,0,0,0,0,0,0,0,0,168,31,18,https://www.trulia.com/p/ma/boston/70-richfield-st-1-boston-ma-02125--2172260715
+1950,Mattapan,multifamily,2.0,1.0,19,7,6,6,Lowest,54,5,1,0,1,1,1,1,1,0,101,19,12,https://www.trulia.com/p/ma/boston/25-callender-st-1-boston-ma-02124--2480054975
+1175,Dorchester,multifamily,1.0,0.0,17,5,6,6,Moderate,63,0,0,0,0,0,0,0,0,0,151,33,18,https://www.trulia.com/rental/4074453685-2-Draper-St-R2471-Boston-MA-02122
+1800,Hyde Park,multifamily,2.0,1.0,12,4,4,4,Lowest,21,2,1,1,0,0,0,0,1,0,38,8,3,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02115--2459807625
+2600,Hyde Park,multifamily,1.0,1.0,6,2,2,2,Lowest,21,0,0,0,0,0,0,0,1,0,37,7,4,https://www.trulia.com/p/ma/boston/3-albemarle-ct-c-boston-ma-02115--2304406431
+850,Dorchester,multifamily,1.0,0.0,16,6,5,5,Moderate,54,1,0,0,0,0,0,1,0,1,157,37,22,https://www.trulia.com/rental/4078642573-9-Vinson-St-R3778-Boston-MA-02124
+1000,Roslindale,multifamily,1.0,1.0,3,2,1,0,Lowest,66,1,1,0,0,0,0,0,1,0,73,19,21,https://www.trulia.com/rental/4036937775-3957-Washington-St-Roslindale-MA-02131
+2500,East Boston,multifamily,3.0,1.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,1,1,199,31,56,https://www.trulia.com/p/ma/boston/65-morris-st-3-boston-ma-02128--2172025788
+3795,Roslindale,multifamily,2.0,2.0,9,3,3,3,Moderate,66,3,1,0,0,1,1,0,1,1,78,17,17,https://www.trulia.com/p/ma/roslindale/31-cummins-hwy-2-roslindale-ma-02131--2455507934
+4500,Roslindale,multifamily,3.0,2.0,9,3,3,3,Moderate,66,4,1,1,0,1,1,0,1,1,78,17,17,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02131--2460815993
+1950,Mattapan,multifamily,2.0,2.0,12,6,3,3,Lowest,59,2,1,1,0,0,0,0,1,1,59,16,1,https://www.trulia.com/p/ma/mattapan/770-cummins-hwy-12v-mattapan-ma-02126--2448891476
+2300,Roslindale,multifamily,3.0,1.0,2,2,0,0,Lowest,66,3,1,0,0,1,1,0,1,0,79,15,15,https://www.trulia.com/p/ma/roslindale/7-mendelssohn-st-1-roslindale-ma-02131--2431837602
+4700,South Boston,multifamily,3.0,3.0,12,4,4,4,Low,53,5,1,0,1,1,1,1,1,0,235,49,71,https://www.trulia.com/p/ma/boston/9-ward-st-202-boston-ma-02127--2349159025
+3000,South Boston,multifamily,3.0,1.0,8,4,4,0,Lowest,53,0,0,0,0,0,0,0,1,0,266,57,86,https://www.trulia.com/p/ma/boston/5-ellery-st-3-boston-ma-02127--2001519499
+2700,South Boston,multifamily,2.0,1.0,10,4,3,3,Lowest,53,1,1,0,0,0,0,0,1,0,87,15,43,https://www.trulia.com/p/ma/boston/820-e-6th-st-4-boston-ma-02127--2396549679
+1750,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,77,0,0,0,0,0,0,0,1,0,25,4,2,https://www.trulia.com/p/ma/chestnut-hill/46-bryon-rd-3-chestnut-hill-ma-02467--2175666813
+2800,Roxbury,multifamily,4.0,1.0,19,7,6,6,Low,53,5,1,1,0,1,1,1,1,1,179,31,23,https://www.trulia.com/p/ma/boston/232-magnolia-st-2-boston-ma-02121--2174610478
+3550,Mattapan,multifamily,4.0,2.0,13,5,4,4,Low,54,0,0,0,0,0,0,0,1,0,90,19,15,https://www.trulia.com/p/ma/boston/230-fuller-st-a-boston-ma-02124--2179286553
+2270,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,4,1,0,1,1,1,0,0,0,327,40,70,https://www.trulia.com/p/ma/boston/1193-commonwealth-ave-23-boston-ma-02134--2171640959
+2100,Roslindale,multifamily,2.0,2.0,13,5,4,4,Lowest,66,1,0,1,0,0,0,0,1,1,63,17,11,https://www.trulia.com/p/ma/roslindale/address-not-disclosed-roslindale-ma-02131--2324958300
+3750,Roxbury,townhouse,5.0,2.0,15,9,3,3,Low,53,1,1,0,0,0,0,0,1,0,144,39,19,https://www.trulia.com/p/ma/dorchester/25-wabon-st-h2-dorchester-ma-02121--2393293197
+1750,East Boston,multifamily,1.0,1.0,8,4,2,2,Low,41,0,0,0,0,0,0,0,0,0,210,36,56,https://www.trulia.com/p/ma/boston/329-e-eagle-st-1-boston-ma-02128--2343765381
+3200,Dorchester,multifamily,4.0,3.0,10,4,3,3,Low,54,0,0,0,0,0,0,0,1,0,108,27,16,https://www.trulia.com/p/ma/boston/1745-dorchester-ave-2-boston-ma-02124--2413115085
+2500,Roxbury,multifamily,3.0,1.0,7,5,1,1,High,53,0,0,0,0,0,0,0,0,0,220,55,29,https://www.trulia.com/p/ma/boston/180-winthrop-st-boston-ma-02119--2001456641
+2299,Hyde Park,multifamily,3.0,1.0,2,1,0,1,Lowest,76,1,1,0,0,0,0,0,1,0,51,11,3,https://www.trulia.com/p/ma/boston/5-linden-ave-3-boston-ma-02136--2285578824
+3100,East Boston,multifamily,4.0,1.0,8,4,2,2,Lowest,41,2,0,0,1,0,0,1,0,1,65,7,11,https://www.trulia.com/p/ma/boston/746-bennington-st-3-boston-ma-02128--2174005411
+3600,Roxbury,multifamily,3.0,2.0,18,6,6,6,Low,53,5,1,0,1,1,1,1,1,1,348,43,63,https://www.trulia.com/p/ma/boston/17-highland-st-2-boston-ma-02119--2353574752
+1950,Roxbury,multifamily,3.0,1.0,8,4,2,2,Moderate,53,0,0,0,0,0,0,0,1,0,122,27,13,https://www.trulia.com/p/ma/boston/48-fowler-st-1-boston-ma-02121--2431508797
+1150,South Boston,apartment,1.0,1.0,15,5,5,5,Lowest,53,2,0,0,1,1,0,0,1,0,236,50,74,https://www.trulia.com/rental/9001707659-Apartment-South-Boston-MA-02127
+3600,Jamaica Plain,multifamily,4.0,2.0,25,9,8,8,Lowest,21,5,1,0,1,1,1,1,0,0,306,34,61,https://www.trulia.com/p/ma/boston/878-huntington-ave-3-boston-ma-02115--2171825438
+2300,East Boston,multifamily,2.0,1.0,6,2,2,2,Lowest,41,5,1,0,1,1,1,1,0,0,150,28,30,https://www.trulia.com/p/ma/boston/8-curtis-st-3-boston-ma-02128--2443988451
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,0,0,64,17,13,https://www.trulia.com/p/ma/boston/341-gallivan-blvd-5-boston-ma-02124--2171828977
+2600,East Boston,multifamily,3.0,1.0,11,5,3,3,Lowest,41,3,1,0,0,1,1,0,1,0,284,36,104,https://www.trulia.com/p/ma/boston/145-cottage-st-3-boston-ma-02128--2295906249
+3200,Roxbury,multifamily,4.0,1.0,15,5,5,5,Lowest,53,3,1,0,0,1,1,0,0,0,340,50,59,https://www.trulia.com/p/ma/boston/29-lambert-st-8-boston-ma-02119--2001458765
+3795,Roslindale,multifamily,2.0,2.0,10,4,3,3,Moderate,66,3,1,0,0,1,1,0,1,0,78,17,17,https://www.trulia.com/p/ma/boston/32-cummins-hwy-boston-ma-02131--1151047526
+2700,Jamaica Plain,multifamily,3.0,1.0,25,9,8,8,Lowest,42,5,1,0,1,1,1,1,0,0,290,36,55,https://www.trulia.com/p/ma/boston/30-s-huntington-ave-3-boston-ma-02130--2171823116
+1750,Mattapan,multifamily,3.0,1.0,4,2,1,1,Low,59,0,0,0,0,0,0,0,1,0,61,13,11,https://www.trulia.com/p/ma/boston/85-river-st-2-boston-ma-02126--2001510929
+3400,South Boston,multifamily,3.0,1.0,18,6,6,6,Lowest,53,5,1,0,1,1,1,1,0,1,372,75,115,https://www.trulia.com/p/ma/boston/99-f-st-3-boston-ma-02127--2185963454
+2300,Roslindale,multifamily,2.0,1.0,7,3,2,2,Highest,66,3,1,0,1,0,0,1,1,0,78,16,16,https://www.trulia.com/p/ma/roslindale/address-not-disclosed-roslindale-ma-02131--2001561212
+2600,Mattapan,multifamily,3.0,1.0,5,3,2,0,Highest,59,1,1,0,0,0,0,0,1,1,70,17,5,https://www.trulia.com/p/ma/boston/40-deering-rd-3a-boston-ma-02126--2474979341
+2700,Roslindale,multifamily,3.0,2.0,3,2,1,0,Lowest,66,2,0,0,1,0,0,1,1,1,69,19,19,https://www.trulia.com/p/ma/boston/3977-washington-st-1-boston-ma-02131--2171568150
+2950,Back Bay/ Beacon Hill,multifamily,2.0,1.0,6,2,2,2,Low,21,5,1,0,1,1,1,1,1,1,684,70,235,https://www.trulia.com/p/ma/boston/38-clearway-st-6-boston-ma-02115--2345839263
+1950,Hyde Park,multifamily,2.0,1.0,5,3,1,1,Lowest,76,5,1,0,1,1,1,1,1,0,41,8,3,https://www.trulia.com/p/ma/boston/75-sunnyside-st-1-boston-ma-02136--2124400298
+4570,South Boston,condo,2.0,2.0,3,1,1,1,Lowest,42,3,1,0,0,1,1,0,1,1,617,73,224,https://www.trulia.com/c/ma/boston/waterside-place-by-windsor-505-congress-st-boston-ma-02210--2001864521
+2400,Roslindale,singlefamily,3.0,2.0,2,2,0,0,Lowest,66,2,0,0,1,0,0,1,1,0,80,16,15,https://www.trulia.com/p/ma/boston/265-cornell-st-boston-ma-02131--2445704323
+3370,Jamaica Plain,multifamily,3.0,1.0,10,4,3,3,Lowest,42,5,1,0,1,1,1,1,0,1,110,24,21,https://www.trulia.com/p/ma/boston/9-cornwall-st-2-boston-ma-02130--2284764118
+3200,Central,multifamily,1.0,1.0,6,2,2,2,Lowest,23,2,1,1,0,0,0,0,1,0,892,111,347,https://www.trulia.com/p/ma/boston/85-e-india-row-32e-boston-ma-02110--2088316831
+3150,East Boston,multifamily,3.0,1.0,11,7,4,0,Low,41,4,1,0,1,1,1,0,0,1,285,38,99,https://www.trulia.com/p/ma/boston/101-chelsea-st-3-boston-ma-02128--2177248306
+2700,East Boston,multifamily,3.0,1.0,7,5,2,0,High,41,4,1,1,0,1,1,0,1,1,409,58,166,https://www.trulia.com/p/ma/boston/43-gove-st-2-boston-ma-02128--2171498984
+3200,Roxbury,multifamily,4.0,1.0,15,5,5,5,Lowest,53,5,1,0,1,1,1,1,0,1,340,50,59,https://www.trulia.com/p/ma/boston/29-lambert-st-2-boston-ma-02119--2001458756
+2750,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,2,1,0,1,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/5-n-margin-st-3f-boston-ma-02113--2463042025
+4390,Dorchester,multifamily,1.0,1.0,13,5,4,4,Low,20,5,1,0,1,1,1,1,1,1,148,30,18,https://www.trulia.com/p/ma/boston/260-washington-st-3604-boston-ma-02108--2455432394
+2400,Roslindale,multifamily,2.0,1.0,12,4,4,4,Lowest,66,2,0,0,1,0,0,1,0,1,66,17,14,https://www.trulia.com/p/ma/boston/50-jewett-st-2-boston-ma-02131--2181114006
+2025,West Roxbury,multifamily,2.0,1.0,4,2,1,1,Lowest,83,2,1,1,0,0,0,0,1,1,43,9,2,https://www.trulia.com/p/ma/west-roxbury/1461-vfw-pkwy-c48-west-roxbury-ma-02132--2445592501
+3000,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,3,1,0,0,1,1,0,1,0,644,65,220,https://www.trulia.com/p/ma/boston/16-westland-ave-5-boston-ma-02115--2171809325
+3200,Dorchester,multifamily,4.0,2.5,17,5,6,6,Lowest,54,6,1,1,1,1,1,1,1,1,132,27,19,https://www.trulia.com/p/ma/dorchester-center/60-roslin-st-dorchester-center-ma-02124--2001494032
+2100,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,4,1,0,0,1,1,1,1,1,327,40,70,https://www.trulia.com/p/ma/boston/1189-commonwealth-ave-20-boston-ma-02134--2171640917
+1700,Mattapan,multifamily,1.0,1.0,7,3,2,2,Lowest,59,5,1,0,1,1,1,1,1,0,87,18,15,https://www.trulia.com/p/ma/boston/48-oakridge-st-3-boston-ma-02126--2172066838
+3300,Mission Hill,multifamily,3.0,1.0,25,9,8,8,Lowest,23,3,1,0,0,1,1,0,0,0,329,44,71,https://www.trulia.com/p/ma/roxbury-crossing/74-hillside-st-2-roxbury-crossing-ma-02120--2171577747
+3750,Jamaica Plain,multifamily,3.0,1.0,25,9,8,8,Low,42,5,1,0,1,1,1,1,0,1,195,35,29,https://www.trulia.com/p/ma/boston/68-day-st-3-boston-ma-02130--2282939335
+2550,Roslindale,multifamily,3.0,2.0,7,3,2,2,Lowest,66,3,0,1,1,0,0,1,1,0,84,19,15,https://www.trulia.com/p/ma/boston/153-cornell-st-2-boston-ma-02131--2173018667
+2000,Dorchester,multifamily,2.0,1.5,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,1,0,64,17,13,https://www.trulia.com/p/ma/boston/341-gallivan-blvd-2-boston-ma-02124--2122919302
+2200,Central,multifamily,1.0,1.0,3,1,1,1,Low,18,2,1,1,0,0,0,0,1,0,1087,140,421,https://www.trulia.com/rental/4064402837-100-Tyler-St-1-Boston-MA-02111
+2600,Roxbury,multifamily,1.0,1.0,7,1,3,3,Highest,53,3,1,0,0,1,1,0,1,0,490,81,139,https://www.trulia.com/p/ma/boston/10-williams-st-24-boston-ma-02119--2001454986
+750,Roxbury,multifamily,1.0,0.0,19,11,4,4,High,53,1,0,0,0,0,0,1,1,0,187,54,20,https://www.trulia.com/rental/4078980614-338-Warren-St-R3898-Boston-MA-02119
+2350,Dorchester,multifamily,2.0,1.0,8,4,2,2,Lowest,55,1,1,0,0,0,0,0,1,1,159,39,21,https://www.trulia.com/p/ma/dorchester/14-pearl-st-7-dorchester-ma-02125--2476882571
+2300,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,0,0,0,0,0,0,0,1,0,66,13,9,https://www.trulia.com/p/ma/boston/161-delhi-st-2-boston-ma-02126--2441812604
+2600,Hyde Park,multifamily,1.0,1.0,6,2,2,2,Lowest,21,1,1,0,0,0,0,0,1,0,36,7,4,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02115--2197048019
+1695,West Roxbury,multifamily,1.0,1.0,0,0,0,0,Lowest,83,1,1,0,0,0,0,0,1,1,59,12,6,https://www.trulia.com/p/ma/west-roxbury/4837-washington-st-1-west-roxbury-ma-02132--2433186175
+1775,East Boston,multifamily,1.0,1.0,2,2,0,0,Lowest,41,0,0,0,0,0,0,0,1,0,55,8,10,https://www.trulia.com/p/ma/boston/10-breed-st-3-boston-ma-02128--2001521895
+1850,Hyde Park,apartment,2.0,1.0,2,1,0,1,Low,76,3,1,1,0,0,0,1,1,1,49,10,3,https://www.trulia.com/c/ma/boston/731-river-st-731-river-st-boston-ma-02136--1045757506
+2600,Roslindale,multifamily,3.0,2.0,7,3,2,2,Lowest,66,4,1,1,0,1,1,0,1,1,73,19,13,https://www.trulia.com/p/ma/roslindale/address-not-disclosed-roslindale-ma-02131--2462641025
+2450,Hyde Park,multifamily,3.0,1.0,4,1,0,3,Lowest,76,1,1,0,0,0,0,0,1,1,58,13,5,https://www.trulia.com/p/ma/hyde-park/911-hyde-park-ave-2-hyde-park-ma-02136--2424610440
+3200,Jamaica Plain,multifamily,4.0,1.0,26,10,8,8,Low,42,2,0,0,1,0,0,1,1,0,187,32,29,https://www.trulia.com/p/ma/boston/381-centre-st-2-boston-ma-02130--2001547638
+4000,Mattapan,multifamily,9.0,3.0,14,6,4,4,Low,54,5,1,0,1,1,1,1,1,0,88,19,11,https://www.trulia.com/p/ma/boston/98-selden-st-1-boston-ma-02124--2468646783
+2000,Jamaica Plain,multifamily,1.0,1.0,23,9,7,7,Low,42,5,1,0,1,1,1,1,0,0,190,33,29,https://www.trulia.com/p/ma/boston/50-evergreen-st-16-boston-ma-02130--2173945003
+750,Dorchester,multifamily,4.0,1.0,19,7,6,6,High,63,2,0,0,1,0,0,1,1,0,153,33,17,https://www.trulia.com/rental/4067668462-29-Ridgewood-St-Dorchester-MA-02122
+2500,Roslindale,multifamily,2.0,1.0,2,2,0,0,Lowest,66,3,1,0,0,1,1,0,1,0,84,18,16,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02131--2332987363
+3650,East Boston,multifamily,4.0,2.0,11,7,4,0,Low,41,5,1,0,1,1,1,1,0,1,225,32,69,https://www.trulia.com/p/ma/boston/155-chelsea-st-3-boston-ma-02128--2178309349
+3075,East Boston,multifamily,4.0,1.0,2,2,0,0,Lowest,41,4,1,0,1,1,1,0,0,1,48,8,10,https://www.trulia.com/p/ma/boston/17-breed-st-2-boston-ma-02128--2443819049
+1750,Roslindale,multifamily,2.0,1.0,3,3,0,0,Lowest,66,1,0,0,0,0,0,1,1,0,83,18,15,https://www.trulia.com/p/ma/boston/41-averton-st-3-boston-ma-02131--2353137623
+3500,West Roxbury,multifamily,2.0,1.0,2,1,1,0,Lowest,83,2,0,0,1,0,0,1,1,0,46,8,4,https://www.trulia.com/p/ma/boston/32-potomac-st-32-boston-ma-02132--2469876614
+2313,Fenway,multifamily,1.0,1.0,3,1,1,1,Moderate,21,0,0,0,0,0,0,0,1,1,672,61,221,https://www.trulia.com/p/ma/boston/52-edgerly-rd-10-boston-ma-02115--2453373129
+1800,Mattapan,multifamily,2.0,1.0,10,4,3,3,Lowest,59,1,1,0,0,0,0,0,1,1,54,11,5,https://www.trulia.com/p/ma/mattapan/430-river-st-mattapan-ma-02126--1049896724
+2350,Dorchester,multifamily,3.0,1.0,15,5,5,5,Highest,63,5,1,0,1,1,1,1,1,0,133,33,18,https://www.trulia.com/p/ma/boston/117-park-st-1-boston-ma-02122--2001475707
+2800,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,1,1,0,0,0,0,0,1,1,82,20,10,https://www.trulia.com/p/ma/mattapan/480-norfolk-st-6-mattapan-ma-02126--2442016631
+3200,Allston,multifamily,4.0,1.0,31,9,11,11,Lowest,31,1,1,0,0,0,0,0,1,0,291,37,61,https://www.trulia.com/p/ma/allston/74-hano-st-74-allston-ma-02134--2175483720
+2600,Mattapan,multifamily,1.0,1.0,4,2,1,1,Lowest,54,4,1,1,0,1,1,0,1,1,42,12,12,https://www.trulia.com/p/ma/boston/1241-adams-st-313-boston-ma-02124--2173626896
+3400,Roxbury,multifamily,5.0,2.0,8,2,3,3,Moderate,53,1,1,0,0,0,0,0,1,0,132,27,16,https://www.trulia.com/p/ma/dorchester/408-seaver-st-202-dorchester-ma-02121--2452451446
+1000,Roslindale,multifamily,3.0,1.5,4,3,1,0,Lowest,66,3,1,0,0,1,1,0,1,0,79,18,15,https://www.trulia.com/rental/4065247681-Multi-Family-Home-Roslindale-MA-02131
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,4,1,1,0,1,1,0,1,0,64,17,13,https://www.trulia.com/p/ma/dorchester-center/address-not-disclosed-dorchester-center-ma-02124--2478700146
+2745,West Roxbury,multifamily,3.0,1.0,5,3,2,0,Lowest,83,5,1,0,1,1,1,1,1,0,61,15,8,https://www.trulia.com/p/ma/boston/23-hastings-st-1-boston-ma-02132--2122235865
+1800,Mattapan,multifamily,2.0,1.0,14,6,4,4,Low,54,1,1,0,0,0,0,0,1,0,87,21,12,https://www.trulia.com/p/ma/dorchester-center/301-fuller-st-dorchester-center-ma-02124--1049887470
+3000,Roxbury,multifamily,3.0,1.0,15,7,4,4,Lowest,53,3,1,0,0,1,1,0,1,0,295,53,47,https://www.trulia.com/p/ma/boston/25-thornton-st-1-boston-ma-02119--2001458080
+2250,Dorchester,multifamily,3.0,1.0,15,5,5,5,Low,54,3,1,0,0,1,1,0,1,0,98,22,17,https://www.trulia.com/p/ma/dorchester/91-fuller-st-3-dorchester-ma-02124--2172601023
+2300,Mattapan,multifamily,4.0,2.0,7,4,3,0,Moderate,59,1,1,0,0,0,0,0,1,1,72,17,5,https://www.trulia.com/p/ma/mattapan/15-woolson-st-2-mattapan-ma-02126--2391167023
+1990,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,3,0,1,1,0,0,1,0,0,48,8,5,https://www.trulia.com/p/ma/boston/5118-washington-st-3-boston-ma-02132--2181198767
+3400,South End,multifamily,3.0,1.0,14,2,6,6,Low,23,2,0,0,1,0,0,1,0,0,613,84,194,https://www.trulia.com/p/ma/roxbury-crossing/96-hammond-st-1-roxbury-crossing-ma-02120--2304139028
+2200,Dorchester,multifamily,2.0,1.0,15,5,5,5,Moderate,63,1,0,0,0,0,0,1,1,1,141,30,15,https://www.trulia.com/p/ma/boston/38-linden-st-boston-ma-02122--1001555299
+2600,Allston,multifamily,3.0,1.0,21,7,7,7,Lowest,31,3,1,0,0,1,1,0,0,0,330,46,70,https://www.trulia.com/p/ma/boston/34-brainerd-rd-3-boston-ma-02134--2171568235
+950,Dorchester,multifamily,1.0,1.0,11,5,3,3,Moderate,54,2,0,0,1,1,0,0,1,0,139,36,19,https://www.trulia.com/rental/4078744549-Multi-Family-Home-Boston-MA-02124
+2000,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,0,0,0,0,0,0,0,0,0,304,39,66,https://www.trulia.com/p/ma/boston/36-linden-st-18-boston-ma-02134--2480700082
+3675,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,2,1,0,1,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/5-n-margin-st-5-boston-ma-02113--2184211661
+775,Dorchester,multifamily,1.0,0.0,13,5,4,4,Lowest,55,0,0,0,0,0,0,0,0,0,179,37,22,https://www.trulia.com/rental/4082850769-19-Peverell-St-R4076-Boston-MA-02125
+2200,Roxbury,multifamily,3.0,1.0,17,5,6,6,Low,53,3,1,0,1,0,0,1,1,0,164,38,19,https://www.trulia.com/p/ma/boston/23-gaston-st-1-boston-ma-02121--2359041513
+2500,Dorchester,multifamily,2.0,2.0,18,6,6,6,Low,63,4,1,1,0,1,1,0,1,0,112,24,17,https://www.trulia.com/p/ma/boston/411-adams-st-2-boston-ma-02122--2462668792
+3000,Mattapan,multifamily,4.0,1.0,13,5,4,4,Lowest,59,0,0,0,0,0,0,0,1,0,61,12,8,https://www.trulia.com/p/ma/boston/17-19-crossman-st-17-boston-ma-02126--2468538826
+1800,Hyde Park,multifamily,1.0,1.0,3,2,0,1,Low,76,4,1,1,1,0,0,1,1,1,43,10,3,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02136--2001629352
+2500,South Boston,multifamily,2.0,1.0,14,6,4,4,Lowest,53,1,1,0,0,0,0,0,1,0,108,22,46,https://www.trulia.com/p/ma/boston/688-e-7th-st-1-boston-ma-02127--2356135595
+2000,Allston,multifamily,2.0,1.0,21,7,7,7,Lowest,31,5,1,0,1,1,1,1,0,1,352,41,81,https://www.trulia.com/p/ma/boston/7-hooker-st-1-boston-ma-02134--2443002844
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,4,1,1,0,1,1,0,1,0,64,17,13,https://www.trulia.com/p/ma/dorchester-center/341-gallivan-blvd-5-dorchester-center-ma-02124--2171828977
+2200,Hyde Park,multifamily,2.0,1.0,5,1,0,4,Lowest,76,1,1,0,0,0,0,0,1,0,50,9,4,https://www.trulia.com/p/ma/hyde-park/493-huntington-ave-16-hyde-park-ma-02136--2001631894
+3900,Allston,multifamily,5.0,2.0,25,7,9,9,Lowest,31,0,0,0,0,0,0,0,0,0,308,40,66,https://www.trulia.com/p/ma/boston/108-allston-st-a-boston-ma-02134--2171569168
+7500,Central,multifamily,2.0,2.5,7,5,1,1,Highest,18,2,1,1,0,0,0,0,1,1,1074,126,407,https://www.trulia.com/p/ma/boston/151-tremont-st-9ff-boston-ma-02111--2467636582
+2500,Dorchester,multifamily,3.0,1.0,18,6,6,6,Moderate,63,0,0,0,0,0,0,0,1,0,153,32,18,https://www.trulia.com/p/ma/boston/19-bentham-rd-1-boston-ma-02122--2356235579
+2495,Dorchester,multifamily,3.0,1.0,13,5,4,4,Lowest,55,1,1,0,0,0,0,0,1,0,173,38,21,https://www.trulia.com/p/ma/dorchester/15-rowell-st-6-dorchester-ma-02125--2480451426
+5000,Mission Hill,multifamily,4.0,2.0,23,7,8,8,Low,23,3,1,0,0,1,1,0,1,1,423,45,96,https://www.trulia.com/p/ma/boston/1-wigglesworth-st-1-boston-ma-02120--2171453214
+4200,South Boston,multifamily,4.0,2.0,15,5,5,5,Low,53,3,1,0,1,0,0,1,1,0,259,55,86,https://www.trulia.com/p/ma/south-boston/7-glover-ct-1-south-boston-ma-02127--2171577414
+650,Hyde Park,multifamily,1.0,0.0,7,3,2,2,Lowest,76,2,0,0,1,0,0,1,1,0,48,9,4,https://www.trulia.com/rental/4044094249-40-Raldne-Rd-Hyde-Park-MA-02136
+2450,Roslindale,multifamily,3.0,1.0,12,4,4,4,Lowest,66,1,1,0,0,0,0,0,1,0,66,17,14,https://www.trulia.com/p/ma/boston/50-jewett-st-boston-ma-02131--1051391118
+3050,East Boston,multifamily,4.0,1.0,15,7,4,4,Lowest,41,5,1,0,1,1,1,1,0,0,226,35,61,https://www.trulia.com/p/ma/boston/261-havre-st-3-boston-ma-02128--2171808489
+3100,Allston,multifamily,3.0,1.0,14,4,5,5,Lowest,31,0,0,0,0,0,0,0,0,0,326,41,68,https://www.trulia.com/p/ma/allston/1139-commonwealth-ave-15-allston-ma-02134--2172568791
+4800,Fenway,multifamily,3.0,1.0,3,1,1,1,Low,21,2,0,0,1,0,0,1,1,1,635,60,196,https://www.trulia.com/p/ma/boston/59-hemenway-st-4-boston-ma-02115--2001428894
+1900,Hyde Park,multifamily,2.0,1.0,14,6,4,4,Lowest,76,0,0,0,0,0,0,0,1,0,37,8,3,https://www.trulia.com/p/ma/boston/1409-river-st-28-boston-ma-02136--2001626164
+2895,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/5-n-margin-st-7-boston-ma-02113--2175014556
+1850,Dorchester,multifamily,2.0,1.0,8,5,3,0,Moderate,54,0,0,0,0,0,0,0,1,0,139,32,15,https://www.trulia.com/p/ma/dorchester-center/39-bradlee-st-3-dorchester-center-ma-02124--2480494554
+4200,Dorchester,multifamily,4.0,2.0,12,4,4,4,Moderate,63,5,1,0,1,1,1,1,1,0,140,37,19,https://www.trulia.com/p/ma/boston/2-faulkner-cir-1-boston-ma-02122--2399954339
+3300,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,0,0,0,0,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/5-n-margin-st-9-boston-ma-02113--2175014559
+850,Hyde Park,singlefamily,3.0,1.0,6,2,2,2,Lowest,76,2,1,1,0,0,0,0,1,1,48,9,3,https://www.trulia.com/rental/4071324134-Single-Family-Home-Hyde-Park-MA-02136
+3400,Mission Hill,multifamily,4.0,1.0,23,7,8,8,Lowest,21,5,1,0,1,1,1,1,1,1,339,35,70,https://www.trulia.com/p/ma/boston/2-shepherd-ave-1-boston-ma-02115--2171482099
+3700,Dorchester,multifamily,4.0,1.0,18,8,5,5,Moderate,55,5,1,0,1,1,1,1,0,0,174,38,21,https://www.trulia.com/p/ma/boston/46-glendale-st-1-boston-ma-02125--2334189474
+2670,Dorchester,multifamily,4.0,1.0,14,4,5,5,Highest,63,0,0,0,0,0,0,0,1,0,118,29,18,https://www.trulia.com/p/ma/dorchester/address-not-disclosed-dorchester-ma-02122--2476960286
+2300,East Boston,multifamily,3.0,1.0,12,8,4,0,Low,41,3,1,0,0,1,1,0,0,0,285,38,99,https://www.trulia.com/p/ma/boston/132-bremen-st-boston-ma-02128--2001522841
+2600,Allston,multifamily,3.0,1.0,15,5,5,5,Low,31,0,0,0,0,0,0,0,0,0,299,38,63,https://www.trulia.com/p/ma/boston/13-higgins-st-boston-ma-02134--1001469257
+2999,South Boston,multifamily,5.0,2.0,19,7,6,6,Lowest,53,3,1,0,1,0,0,1,1,0,215,54,74,https://www.trulia.com/p/ma/boston/15-linden-st-6-a-boston-ma-02127--2480172709
+850,Dorchester,multifamily,1.0,0.0,16,6,5,5,Moderate,54,1,0,0,0,0,0,1,0,1,157,37,22,https://www.trulia.com/rental/4078642571-9-Vinson-St-R3777-Boston-MA-02124
+2625,East Boston,multifamily,3.0,2.0,8,4,2,2,Lowest,41,0,0,0,0,0,0,0,1,0,162,38,32,https://www.trulia.com/p/ma/boston/136-falcon-st-1-e-boston-ma-02128--2470984405
+900,Dorchester,multifamily,1.0,0.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20,https://www.trulia.com/rental/4078841495-342-Bowdoin-St-R3844-Boston-MA-02122
+750,Roslindale,multifamily,1.0,1.0,8,4,2,2,Lowest,66,2,1,1,0,0,0,0,1,0,82,19,14,https://www.trulia.com/rental/3175044281-6-Hayes-Rd-Boston-MA-02131
+2320,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,1,0,0,0,0,0,1,0,1,75,20,9,https://www.trulia.com/p/ma/mattapan/70-astoria-st-5-mattapan-ma-02126--2428099145
+4200,Charlestown,multifamily,2.0,2.0,5,1,2,2,Lowest,56,4,1,1,0,1,1,0,1,1,210,35,61,https://www.trulia.com/p/ma/boston/380-bunker-hill-st-107-boston-ma-02129--2288805590
+3900,South Boston,multifamily,4.0,1.0,13,5,4,4,Moderate,53,3,1,0,0,1,1,0,1,0,242,50,73,https://www.trulia.com/p/ma/south-boston/13-carpenter-st-202-south-boston-ma-02127--2451961095
+2000,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,2,0,0,1,0,0,1,1,0,28,5,3,https://www.trulia.com/p/ma/boston/50-56-broadlawn-park-211-boston-ma-02467--2171828339
+1600,South Boston,multifamily,1.0,1.0,11,5,3,3,Lowest,53,1,1,0,0,0,0,0,1,0,143,27,60,https://www.trulia.com/p/ma/south-boston/286-k-st-b-south-boston-ma-02127--2356628147
+3400,Allston,multifamily,4.0,1.0,17,5,6,6,Lowest,31,3,1,0,0,1,1,0,1,0,329,43,70,https://www.trulia.com/p/ma/boston/12-royce-rd-3-boston-ma-02134--2001579218
+2400,Hyde Park,multifamily,3.0,1.0,10,4,3,3,Lowest,76,1,0,0,0,0,0,1,0,1,36,9,3,https://www.trulia.com/p/ma/boston/7-easton-ave-1-boston-ma-02136--2441589335
+3900,Dorchester,multifamily,5.0,1.0,18,8,5,5,Moderate,55,5,1,0,1,1,1,1,0,0,174,38,21,https://www.trulia.com/p/ma/boston/46-glendale-st-2-boston-ma-02125--2235267524
+3990,Dorchester,multifamily,1.0,1.0,13,5,4,4,Low,20,5,1,0,1,1,1,1,1,0,148,30,18,https://www.trulia.com/p/ma/boston/260-washington-st-2007-boston-ma-02108--2471554424
+1900,Hyde Park,multifamily,2.0,1.0,12,4,4,4,Lowest,21,4,1,0,0,1,1,1,1,0,38,8,3,https://www.trulia.com/p/ma/boston/69-harvard-ave-g1-boston-ma-02115--2458557440
+2300,Mattapan,multifamily,3.0,1.0,6,3,3,0,Low,59,1,0,0,0,0,0,1,1,0,68,15,4,https://www.trulia.com/p/ma/boston/644-harvard-st-2-boston-ma-02126--2172803660
+2195,Allston,multifamily,2.0,1.0,19,7,6,6,Lowest,31,0,0,0,0,0,0,0,0,0,309,40,66,https://www.trulia.com/p/ma/boston/5-walbridge-st-5-boston-ma-02134--2001589806
+3250,Dorchester,multifamily,4.0,1.0,14,6,4,4,Moderate,63,1,1,0,0,0,0,0,1,1,166,33,20,https://www.trulia.com/p/ma/dorchester/339-bowdoin-st-1-dorchester-ma-02122--2480180461
+1775,West Roxbury,multifamily,1.0,1.0,4,2,1,1,Lowest,83,2,1,1,0,0,0,0,1,1,43,9,2,https://www.trulia.com/p/ma/west-roxbury/1459-vfw-pkwy-b47-west-roxbury-ma-02132--2418038222
+2600,Roslindale,multifamily,3.0,2.0,7,3,2,2,Lowest,66,4,1,1,0,1,1,0,1,0,84,19,15,https://www.trulia.com/p/ma/roslindale/153-cornell-st-1-roslindale-ma-02131--2174272680
+2650,South Boston,multifamily,3.0,1.0,8,4,4,0,Low,53,1,0,0,1,0,0,0,1,0,268,56,84,https://www.trulia.com/p/ma/south-boston/16-leeds-st-2-south-boston-ma-02127--2171576044
+2300,Roxbury,multifamily,2.0,1.0,14,4,5,5,Low,53,0,0,0,0,0,0,0,1,0,157,32,17,https://www.trulia.com/p/ma/boston/19-vaughan-ave-2-boston-ma-02121--2172414798
+2300,Roslindale,multifamily,2.0,1.0,6,2,2,2,Lowest,66,3,1,1,1,0,0,0,1,1,81,19,17,https://www.trulia.com/p/ma/roslindale/address-not-disclosed-roslindale-ma-02131--2173291782
+2375,Allston,multifamily,2.0,1.0,25,7,9,9,Lowest,31,4,1,0,0,1,1,1,1,0,306,39,64,https://www.trulia.com/p/ma/boston/47-gordon-st-2-boston-ma-02134--2001588023
+2075,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,High,21,0,0,0,0,0,0,0,1,0,1058,120,400,https://www.trulia.com/p/ma/boston/9-myrtle-st-10-boston-ma-02114--2172854413
+3060,West Roxbury,multifamily,2.0,1.0,3,1,1,1,Lowest,77,0,0,0,0,0,0,0,0,0,47,8,7,https://www.trulia.com/p/ma/chestnut-hill/567-vfw-pkwy-chestnut-hill-ma-02467--2002122527
+2475,West Roxbury,multifamily,2.0,1.0,7,3,2,2,Lowest,83,5,1,0,1,1,1,1,1,1,76,18,16,https://www.trulia.com/p/ma/boston/24-sunset-hill-rd-1-boston-ma-02132--2175467511
+2600,Mattapan,multifamily,3.0,1.0,2,1,1,0,Moderate,54,0,0,0,0,0,0,0,0,0,77,17,5,https://www.trulia.com/p/ma/boston/965-blue-hill-ave-1-boston-ma-02124--2480298377
+2000,Dorchester,multifamily,3.0,1.0,17,5,6,6,Moderate,53,0,0,0,0,0,0,0,1,0,159,31,16,https://www.trulia.com/p/ma/dorchester/236-geneva-ave-2r-dorchester-ma-02121--2460875822
+2800,Jamaica Plain,multifamily,3.0,1.0,26,10,8,8,Lowest,42,0,0,0,0,0,0,0,1,0,187,32,29,https://www.trulia.com/p/ma/boston/366-centre-st-3-boston-ma-02130--2360346242
+3142,Charlestown,apartment,2.0,2.0,5,1,2,2,Lowest,56,6,1,1,1,1,1,1,1,1,270,38,99,https://www.trulia.com/c/ma/boston/the-harvey-50-hood-park-dr-boston-ma-02129--2395439716
+2900,Roslindale,multifamily,3.0,1.0,5,3,1,1,Lowest,66,0,0,0,0,0,0,0,1,0,82,18,15,https://www.trulia.com/p/ma/boston/50-cedrus-ave-1-boston-ma-02131--2001560959
+3100,Jamaica Plain,multifamily,4.0,1.0,10,6,2,2,Low,53,5,1,0,1,1,1,1,1,1,129,30,23,https://www.trulia.com/p/ma/boston/435-walnut-ave-9-boston-ma-02119--2171640582
+3900,East Boston,multifamily,5.0,1.5,6,2,2,2,Lowest,41,5,1,0,1,1,1,1,1,0,89,14,17,https://www.trulia.com/p/ma/boston/678-bennington-st-2-boston-ma-02128--2171576258
+2450,South End,multifamily,1.0,1.0,14,4,5,5,Highest,32,0,0,0,0,0,0,0,1,0,576,87,202,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02118--2171568715
+2400,East Boston,multifamily,2.0,2.0,12,8,4,0,Low,41,0,0,0,0,0,0,0,0,0,285,38,99,https://www.trulia.com/p/ma/boston/132-bremen-st-1-boston-ma-02128--2207175389
+2700,Roslindale,multifamily,3.0,1.0,3,2,1,0,Low,66,0,0,0,0,0,0,0,1,0,76,19,21,https://www.trulia.com/p/ma/roslindale/3941-washington-st-2-roslindale-ma-02131--2479668004
+2250,South End,multifamily,1.0,1.0,11,1,5,5,Moderate,23,0,0,0,0,0,0,0,0,0,601,84,183,https://www.trulia.com/p/ma/roxbury-crossing/41-cunard-st-1c-roxbury-crossing-ma-02120--2172096507
+3500,Allston,multifamily,4.0,2.0,20,6,7,7,Lowest,31,5,1,0,1,1,1,1,1,0,312,41,65,https://www.trulia.com/p/ma/boston/7-price-rd-1-boston-ma-02134--2171486714
+3250,Central,multifamily,2.0,2.0,4,4,0,0,Lowest,21,2,1,1,0,0,0,0,1,1,864,102,306,https://www.trulia.com/p/ma/boston/6-whittier-pl-9e-boston-ma-02114--2001418943
+3800,South End,multifamily,3.0,1.0,14,2,6,6,Low,23,0,0,0,0,0,0,0,1,0,602,85,191,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02120--2174241446
+2800,Allston,multifamily,3.0,1.0,26,8,9,9,Low,31,1,0,0,0,0,0,1,1,1,314,41,67,https://www.trulia.com/p/ma/boston/1377-commonwealth-ave-3-boston-ma-02134--2001579916
+2200,West Roxbury,multifamily,2.0,1.0,13,3,5,5,Lowest,83,1,0,1,0,0,0,0,1,0,59,10,7,https://www.trulia.com/p/ma/boston/15-elgin-st-2-boston-ma-02132--2172034480
+3400,South End,multifamily,3.0,1.0,14,2,6,6,Low,23,1,1,0,0,0,0,0,1,1,613,84,194,https://www.trulia.com/p/ma/boston/96-hammond-st-2-boston-ma-02120--2172735825
+3000,Jamaica Plain,multifamily,3.0,2.0,25,9,8,8,Low,42,5,1,0,1,1,1,1,0,1,190,33,28,https://www.trulia.com/p/ma/boston/7-bynner-st-2-boston-ma-02130--2171568955
+2250,Roslindale,multifamily,2.0,1.0,8,4,2,2,Lowest,66,3,1,1,0,1,0,0,1,1,86,19,15,https://www.trulia.com/p/ma/roslindale/140-birch-st-3-roslindale-ma-02131--2001555331
+4600,South Boston,multifamily,4.0,1.0,10,4,3,3,Lowest,53,0,0,0,0,0,0,0,1,0,118,24,49,https://www.trulia.com/p/ma/boston/4-o-st-2-boston-ma-02127--2285208309
+2800,East Boston,multifamily,3.0,1.0,10,4,3,3,Lowest,41,0,0,0,0,0,0,0,0,0,361,49,148,https://www.trulia.com/p/ma/boston/273-maverick-st-6-boston-ma-02128--2410407844
+2000,Hyde Park,multifamily,2.0,1.0,4,0,0,4,Lowest,76,3,1,0,0,1,1,0,1,0,54,10,4,https://www.trulia.com/p/ma/hyde-park/address-not-disclosed-hyde-park-ma-02136--2473173810
+3000,Mattapan,multifamily,4.0,2.0,2,1,1,0,Moderate,54,0,0,0,0,0,0,0,1,0,79,18,7,https://www.trulia.com/p/ma/boston/951-blue-hill-ave-1-boston-ma-02124--2332067649
+2650,Fenway,multifamily,1.0,1.0,4,0,1,3,Lowest,21,1,1,0,0,0,0,0,1,1,592,59,179,https://www.trulia.com/p/ma/boston/175-hemenway-st-17-boston-ma-02115--2172835801
+2700,East Boston,multifamily,3.0,1.0,6,4,2,0,High,41,5,1,0,1,1,1,1,0,0,465,63,193,https://www.trulia.com/p/ma/boston/63-havre-st-2-boston-ma-02128--2171577119
+2850,Central,multifamily,2.0,1.0,5,3,2,0,Lowest,20,0,0,0,0,0,0,0,1,0,868,101,308,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02113--2171823129
+900,Hyde Park,multifamily,1.0,0.0,10,4,3,3,Lowest,76,1,0,0,0,0,0,1,0,1,36,9,3,https://www.trulia.com/rental/4075179753-7-Easton-Ave-R3543-Boston-MA-02136
+2300,Charlestown,multifamily,1.0,1.0,6,2,2,2,Lowest,56,0,0,0,0,0,0,0,1,0,309,44,106,https://www.trulia.com/p/ma/boston/37-walker-st-2-boston-ma-02129--2359005956
+2350,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,0,0,0,0,0,0,0,0,0,75,20,9,https://www.trulia.com/p/ma/boston/70-astoria-st-4-boston-ma-02126--2449295408
+2100,Mattapan,apartment,1.0,1.0,4,2,1,1,Lowest,59,5,1,0,1,1,1,1,1,1,61,14,13,https://www.trulia.com/c/ma/mattapan/schoolhouse-at-lower-mills-40-river-st-mattapan-ma-02126--2001508753
+2150,Roxbury,multifamily,3.0,1.0,8,5,3,0,Low,55,1,1,0,0,0,0,0,1,0,194,46,24,https://www.trulia.com/p/ma/boston/96-98-woodledge-st-3f-boston-ma-02125--2480188706
+2400,Allston,multifamily,2.0,1.0,25,7,9,9,Low,31,3,1,0,0,1,1,0,0,0,301,38,63,https://www.trulia.com/p/ma/boston/4-webley-st-2-boston-ma-02134--2001588424
+790,Dorchester,apartment,1.0,1.0,11,6,5,0,Low,54,2,0,0,1,0,1,0,1,0,132,31,16,https://www.trulia.com/rental/4013759322-Apartment-Boston-MA-02124
+1775,Roslindale,multifamily,1.0,1.0,2,2,0,0,Lowest,66,1,1,0,0,0,0,0,1,0,79,15,15,https://www.trulia.com/p/ma/roslindale/4577-washington-st-3l-roslindale-ma-02131--2458274313
+1995,Allston,multifamily,2.0,1.0,20,6,7,7,Low,31,4,1,0,0,1,1,1,0,0,301,38,66,https://www.trulia.com/p/ma/boston/67-harvard-ave-4-boston-ma-02134--2171640825
+3600,East Boston,multifamily,4.0,2.0,11,7,4,0,Low,41,5,1,0,1,1,1,1,0,1,225,32,69,https://www.trulia.com/p/ma/boston/155-chelsea-st-3-boston-ma-02128--2178309349
+2850,South Boston,multifamily,2.0,1.0,15,5,5,5,Lowest,53,3,1,0,0,1,1,0,1,1,454,81,166,https://www.trulia.com/p/ma/boston/126-tudor-st-a-boston-ma-02127--2001512139
+2000,West Roxbury,multifamily,1.0,1.0,9,5,2,2,Lowest,83,0,0,0,0,0,0,0,1,0,45,9,5,https://www.trulia.com/p/ma/west-roxbury/0-linden-rd-west-roxbury-ma-02132--2452769968
+1750,Roxbury,multifamily,2.0,1.0,21,7,7,7,Lowest,53,1,1,0,0,0,0,0,1,1,295,39,51,https://www.trulia.com/p/ma/roxbury/8-romar-ter-1-roxbury-ma-02119--2333900686
+4000,South End,multifamily,2.0,1.0,12,4,4,4,High,28,4,1,0,1,1,1,0,1,1,860,115,282,https://www.trulia.com/p/ma/boston/105-appleton-st-1-boston-ma-02116--2171944960
+2400,South Boston,multifamily,2.0,1.0,15,5,5,5,Moderate,53,4,1,0,1,1,1,0,0,0,245,50,76,https://www.trulia.com/p/ma/boston/385-dorchester-st-c7-boston-ma-02127--2172410538
+2700,Dorchester,multifamily,3.0,1.0,17,7,5,5,Low,55,1,1,0,0,0,0,0,1,0,181,36,21,https://www.trulia.com/p/ma/boston/27-drayton-ave-2-boston-ma-02125--2480654704
+3050,West Roxbury,multifamily,2.0,1.5,6,2,2,2,Lowest,83,5,1,0,1,1,1,1,1,1,43,7,7,https://www.trulia.com/p/ma/west-roxbury/617-vfw-pkwy-west-roxbury-ma-02132--2429588774
+1950,Allston,multifamily,2.0,1.0,12,4,4,4,Lowest,31,5,1,0,1,1,1,1,1,0,267,31,57,https://www.trulia.com/p/ma/boston/3-aldie-st-3-boston-ma-02134--2001587050
+2525,West Roxbury,townhouse,2.0,1.5,6,2,2,2,Lowest,77,4,1,0,1,1,1,0,1,1,42,5,7,https://www.trulia.com/p/ma/chestnut-hill/98-sherman-rd-chestnut-hill-ma-02467--1001539281
+2500,East Boston,multifamily,3.0,1.0,12,6,3,3,Moderate,41,4,1,0,1,1,1,0,0,0,205,34,59,https://www.trulia.com/p/ma/boston/119-lexington-st-3r-boston-ma-02128--2001522351
+2895,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,0,0,0,0,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02113--2175014556
+2850,Fenway,multifamily,1.0,1.0,14,4,5,5,Lowest,21,0,0,0,0,0,0,0,1,0,508,61,137,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02115--2283452953
+2500,Roslindale,multifamily,3.0,1.0,3,2,1,0,Lowest,66,3,1,0,1,0,0,1,1,0,72,19,20,https://www.trulia.com/p/ma/boston/14-colgate-rd-2-boston-ma-02131--2001555528
+5000,South Boston,multifamily,4.0,1.5,7,3,2,2,Lowest,53,0,0,0,0,0,0,0,1,0,146,33,55,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02127--2088323484
+4495,Roxbury,multifamily,3.0,2.0,15,5,5,5,Moderate,53,1,0,0,1,0,0,0,1,0,111,34,14,https://www.trulia.com/p/ma/boston/78-georgia-st-3-boston-ma-02121--2434634929
+2200,Roslindale,multifamily,2.0,1.0,14,6,4,4,Lowest,66,1,1,0,0,0,0,0,1,1,58,17,9,https://www.trulia.com/p/ma/roslindale/40-harding-rd-2-roslindale-ma-02131--2297297052
+4000,Roslindale,singlefamily,4.0,4.0,7,3,2,2,Lowest,66,4,1,1,0,1,1,0,1,1,82,19,15,https://www.trulia.com/p/ma/roslindale/17-brookfield-st-roslindale-ma-02131--2001556278
+3200,West Roxbury,multifamily,2.0,2.0,5,3,2,0,Lowest,83,6,1,1,1,1,1,1,1,0,78,18,16,https://www.trulia.com/p/ma/boston/446-belgrade-ave-407-boston-ma-02132--2174613289
+3900,Hyde Park,multifamily,4.0,2.5,13,5,4,4,Lowest,76,0,0,0,0,0,0,0,1,0,34,7,3,https://www.trulia.com/p/ma/hyde-park/address-not-disclosed-hyde-park-ma-02136--2188896230
+3450,Central,multifamily,2.0,2.0,5,3,2,0,Moderate,20,3,1,0,0,1,1,0,0,0,886,111,320,https://www.trulia.com/p/ma/boston/234-hanover-st-3-boston-ma-02113--2173992450
+2950,West Roxbury,singlefamily,3.0,1.5,3,1,1,1,Lowest,83,4,1,0,1,1,1,0,1,1,67,15,15,https://www.trulia.com/p/ma/west-roxbury/82-parklawn-rd-west-roxbury-ma-02132--2001575575
+1850,Hyde Park,multifamily,2.0,1.0,12,4,4,4,Lowest,76,1,1,0,0,0,0,0,1,1,37,7,3,https://www.trulia.com/p/ma/hyde-park/74-harvard-ave-2-hyde-park-ma-02136--2437845091
+2300,West Roxbury,multifamily,2.0,1.0,7,3,2,2,Lowest,83,1,1,0,0,0,0,0,1,1,55,10,7,https://www.trulia.com/p/ma/west-roxbury/address-not-disclosed-west-roxbury-ma-02132--2173011344
+2700,Allston,multifamily,3.0,2.0,23,7,8,8,Moderate,31,5,1,0,1,1,1,1,1,0,304,38,66,https://www.trulia.com/p/ma/boston/15-highgate-st-1-boston-ma-02134--2001581650
+3795,Hyde Park,multifamily,2.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,0,58,12,1,https://www.trulia.com/p/ma/roslindale/32-02-cummins-hwy-2-roslindale-ma-02131--2454345233
+1650,East Boston,multifamily,1.0,1.0,12,6,3,3,Moderate,41,0,0,0,0,0,0,0,1,1,205,34,59,https://www.trulia.com/p/ma/boston/116-brooks-st-3-boston-ma-02128--2322838331
+3600,Allston,multifamily,4.0,2.0,21,7,7,7,Lowest,31,3,1,0,0,1,1,0,0,0,330,46,70,https://www.trulia.com/p/ma/boston/50-brainerd-rd-1-boston-ma-02134--2171577489
+2700,Allston,multifamily,3.0,1.0,17,5,6,6,Moderate,31,0,0,0,0,0,0,0,0,0,306,40,64,https://www.trulia.com/p/ma/boston/15-park-vale-ave-10-boston-ma-02134--2001581678
+2250,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,3,1,0,0,1,1,0,1,1,327,40,70,https://www.trulia.com/p/ma/boston/1189-commonwealth-ave-3-boston-ma-02134--2171809857
+2200,Dorchester,multifamily,3.0,1.0,14,6,4,4,Low,54,0,0,0,0,0,0,0,1,0,141,32,15,https://www.trulia.com/p/ma/boston/16-elwyn-rd-1-boston-ma-02124--2411395769
+2500,West Roxbury,multifamily,2.0,2.0,7,3,2,2,Lowest,83,5,1,0,1,1,1,1,1,0,45,9,2,https://www.trulia.com/p/ma/boston/1522-vfw-pkwy-202-boston-ma-02132--2172988859
+2600,Roxbury,multifamily,3.0,1.0,14,8,3,3,Low,53,5,1,0,1,1,1,1,1,1,152,39,22,https://www.trulia.com/p/ma/boston/43-waumbeck-st-1-boston-ma-02121--2001473588
+2100,Dorchester,multifamily,2.0,1.0,7,4,3,0,Moderate,54,0,0,0,0,0,0,0,1,0,104,22,17,https://www.trulia.com/p/ma/boston/82-shepton-st-2-boston-ma-02124--2392868113/rent
+2600,Allston,multifamily,4.0,1.0,26,8,9,9,Low,31,2,0,0,1,0,0,1,0,0,309,41,65,https://www.trulia.com/p/ma/boston/192-kelton-st-g-boston-ma-02134--2171825408
+2500,West Roxbury,multifamily,2.0,2.0,4,0,1,3,Lowest,83,1,1,0,0,0,0,0,1,0,51,6,5,https://www.trulia.com/p/ma/west-roxbury/416-baker-st-1a-west-roxbury-ma-02132--2468057052
+3600,South End,multifamily,2.0,1.0,15,5,5,5,Lowest,32,0,0,0,0,0,0,0,1,0,849,122,278,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02118--2001453131
+4950,West Roxbury,singlefamily,4.0,4.0,3,1,1,1,Lowest,77,5,1,0,1,1,1,1,1,0,58,13,13,https://www.trulia.com/p/ma/newton/10-hackensack-ct-newton-ma-02467--2174273534
+2500,Jamaica Plain,multifamily,2.0,1.0,7,3,2,2,Lowest,42,0,0,0,0,0,0,0,0,0,97,17,17,https://www.trulia.com/p/ma/boston/16-rossmore-rd-3-boston-ma-02130--2171577997
+3200,Back Bay/ Beacon Hill,multifamily,1.0,1.0,7,7,0,0,High,21,5,1,0,1,1,1,1,0,1,998,113,368,https://www.trulia.com/p/ma/boston/11-temple-st-1-boston-ma-02114--2171436404
+2300,Roslindale,multifamily,3.0,1.0,7,3,2,2,Lowest,66,2,0,0,1,0,0,1,1,0,68,18,8,https://www.trulia.com/p/ma/boston/342-cummins-hwy-2-boston-ma-02131--2332795537
+3895,Roslindale,multifamily,2.0,2.0,9,3,3,3,Low,66,3,1,0,0,1,1,0,1,0,65,18,8,https://www.trulia.com/p/ma/roslindale/322-cummins-hwy-1-roslindale-ma-02131--2453800334
+3000,Dorchester,multifamily,4.0,1.5,7,5,2,0,Moderate,55,2,0,0,1,0,0,1,0,0,187,44,25,https://www.trulia.com/p/ma/boston/16-bird-st-1-boston-ma-02125--2173286142
+2600,Hyde Park,multifamily,1.0,1.0,6,2,2,2,Lowest,21,0,0,0,0,0,0,0,1,0,36,7,4,https://www.trulia.com/p/ma/boston/12-albemarle-ct-b-boston-ma-02115--2353998210
+1100,Roslindale,multifamily,1.0,1.0,2,1,1,0,Lowest,66,3,1,0,1,0,0,1,1,0,72,19,20,https://www.trulia.com/rental/4059054360-35-Colgate-Rd-2-Boston-MA-02131
+1950,East Boston,multifamily,2.0,1.0,11,5,3,3,Lowest,41,2,1,0,0,0,0,1,1,1,256,36,85,https://www.trulia.com/p/ma/east-boston/160-cottage-st-east-boston-ma-02128--1049882073
+3500,East Boston,multifamily,4.0,1.0,12,6,3,3,Low,41,3,1,0,0,1,1,0,0,0,204,32,59,https://www.trulia.com/p/ma/boston/54-brooks-st-3-boston-ma-02128--2442043228
+4000,Jamaica Plain,multifamily,4.0,2.0,28,10,9,9,Lowest,42,5,1,0,1,1,1,1,1,1,190,33,29,https://www.trulia.com/p/ma/boston/23-evergreen-st-3-boston-ma-02130--2171568958
+2695,Roxbury,multifamily,3.0,1.0,21,11,5,5,Lowest,53,1,1,0,0,0,0,0,1,0,178,42,27,https://www.trulia.com/p/ma/boston/14-townsend-st-r2-boston-ma-02119--2479033811
+3700,East Boston,multifamily,6.0,2.5,7,3,2,2,Lowest,41,3,1,0,1,0,0,1,1,0,289,42,111,https://www.trulia.com/p/ma/east-boston/191-everett-st-east-boston-ma-02128--1001640112
+3795,East Boston,multifamily,3.0,2.0,12,6,3,3,High,41,3,1,0,0,1,1,0,1,1,248,42,70,https://www.trulia.com/p/ma/boston/5-9-trenton-st-1-boston-ma-02128--2396738623
+2600,Mattapan,multifamily,3.0,1.0,17,7,5,5,Lowest,59,2,1,1,0,0,0,0,1,0,67,11,9,https://www.trulia.com/p/ma/mattapan/address-not-disclosed-mattapan-ma-02126--2478902002
+2000,Hyde Park,multifamily,2.0,1.0,14,6,4,4,Lowest,76,1,1,0,0,0,0,0,1,1,34,7,3,https://www.trulia.com/p/ma/hyde-park/35-oak-st-3-hyde-park-ma-02136--2467600442
+3100,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,2,1,0,1,0,0,0,1,0,38,9,3,https://www.trulia.com/p/ma/boston/5-n-margin-st-11-boston-ma-02113--2467790219
+3400,Central,multifamily,2.0,2.0,5,3,2,0,Moderate,20,3,1,0,0,1,1,0,0,0,886,111,320,https://www.trulia.com/p/ma/boston/234-hanover-st-2-boston-ma-02113--2171825253
+4600,Central,multifamily,2.0,2.0,3,3,0,0,High,20,6,1,1,1,1,1,1,1,0,1005,115,391,https://www.trulia.com/p/ma/boston/45-province-st-1508-boston-ma-02108--2001395999
+1800,East Boston,multifamily,2.0,1.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,0,0,198,34,56,https://www.trulia.com/p/ma/boston/220-saratoga-st-1-boston-ma-02128--2174287550
+2695,Jamaica Plain,multifamily,3.0,1.0,2,1,1,0,Lowest,42,2,0,0,1,0,0,1,1,0,79,16,20,https://www.trulia.com/p/ma/boston/66-hyde-park-ave-2-boston-ma-02130--2174299288
+2650,Dorchester,multifamily,3.0,1.0,17,7,5,5,Moderate,55,0,0,0,0,0,0,0,0,0,173,33,20,https://www.trulia.com/p/ma/boston/435-quincy-st-2-boston-ma-02125--2334308464
+3650,Fenway,multifamily,2.0,1.0,4,0,1,3,High,21,0,0,0,0,0,0,0,1,1,610,58,188,https://www.trulia.com/p/ma/boston/132-hemenway-st-12a-boston-ma-02115--2171809367
+2550,South Boston,multifamily,2.0,1.0,15,5,5,5,Moderate,53,4,1,0,1,1,1,0,0,0,245,50,76,https://www.trulia.com/p/ma/boston/385-dorchester-st-c4-boston-ma-02127--2180469583
+2250,Roslindale,multifamily,3.0,1.0,0,0,0,0,Lowest,66,3,1,0,0,1,1,0,1,0,77,17,14,https://www.trulia.com/p/ma/roslindale/39-farquhar-st-2-roslindale-ma-02131--2333059126
+3350,Charlestown,multifamily,3.0,2.0,6,2,2,2,Low,56,0,0,0,0,0,0,0,1,0,333,58,110,https://www.trulia.com/p/ma/boston/104-elm-st-2-boston-ma-02129--2409135769
+1000,Roxbury,multifamily,1.0,0.0,14,6,4,4,Moderate,53,4,1,0,1,1,1,0,0,0,270,64,47,https://www.trulia.com/rental/4070594583-20-Winthrop-St-R1942-Boston-MA-02119
+2375,Allston,multifamily,2.0,1.0,9,3,3,3,Lowest,31,6,1,1,1,1,1,1,1,1,278,32,75,https://www.trulia.com/p/ma/boston/16-westford-st-3-boston-ma-02134--2171808220
+2500,South Boston,multifamily,2.0,1.0,12,4,4,4,Lowest,53,1,1,0,0,0,0,0,1,1,474,82,168,https://www.trulia.com/p/ma/boston/281-e-st-boston-ma-02127--2317863763
+835,Jamaica Plain,apartment,1.0,1.0,13,5,4,4,Moderate,42,2,0,0,0,1,1,0,1,0,132,30,25,https://www.trulia.com/rental/4043213714-Apartment-Boston-MA-02130
+3000,East Boston,multifamily,4.0,2.5,7,3,2,2,Lowest,41,5,1,0,1,1,1,1,0,1,289,42,111,https://www.trulia.com/p/ma/boston/191-everett-st-2-boston-ma-02128--2171807458
+2625,Hyde Park,multifamily,3.0,1.0,9,3,3,3,Lowest,76,0,0,0,0,0,0,0,0,0,16,6,2,https://www.trulia.com/p/ma/boston/7-yuill-cir-1-boston-ma-02136--2359045353
+2350,West Roxbury,multifamily,3.0,1.0,4,2,1,1,Lowest,83,0,0,0,0,0,0,0,1,0,79,16,15,https://www.trulia.com/p/ma/boston/272-park-st-1-boston-ma-02132--2196815429
+1800,Mattapan,multifamily,2.0,1.0,12,7,5,0,Moderate,59,1,1,0,0,0,0,0,1,1,63,15,4,https://www.trulia.com/p/ma/mattapan/85-tennis-rd-303-mattapan-ma-02126--2432488750
+2275,Charlestown,multifamily,1.0,1.0,6,2,2,2,Lowest,56,0,0,0,0,0,0,0,1,0,323,54,105,https://www.trulia.com/p/ma/boston/89-bartlett-st-2-boston-ma-02129--2001539262
+2500,Allston,multifamily,3.0,1.0,17,5,6,6,Low,31,0,0,0,0,0,0,0,0,0,309,42,66,https://www.trulia.com/p/ma/boston/1247-commonwealth-ave-1-boston-ma-02134--2001578598
+2400,Dorchester,multifamily,2.0,1.0,5,3,1,1,Lowest,54,5,1,0,1,1,1,1,1,0,90,19,15,https://www.trulia.com/p/ma/boston/262-minot-st-262-boston-ma-02124--2480018235
+2600,Mattapan,townhouse,2.0,2.0,3,2,1,0,Lowest,59,0,0,0,0,0,0,0,1,0,74,14,7,https://www.trulia.com/p/ma/boston/591-morton-st-boston-ma-02126--1045721773
+850,Roxbury,multifamily,1.0,0.0,7,4,3,0,Low,55,3,1,0,0,1,1,0,1,0,198,47,25,https://www.trulia.com/rental/4078852416-10-Emrose-Ter-R3852-Boston-MA-02125
+2100,Allston,multifamily,2.0,1.0,26,8,9,9,Lowest,56,0,0,0,0,0,0,0,0,0,313,41,64,https://www.trulia.com/p/ma/boston/1412-commonwealth-ave-8-boston-ma-02135--2001598152
+1000,Mattapan,multifamily,3.0,1.0,5,3,2,0,High,59,4,1,1,0,1,1,0,1,0,69,14,4,https://www.trulia.com/rental/4044101240-622-Morton-St-1-Boston-MA-02126
+1800,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,4,1,0,1,1,1,0,1,0,14,5,2,https://www.trulia.com/p/ma/newton/50-broadlawn-park-307-newton-ma-02467--2451938501
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,1,0,64,17,13,https://www.trulia.com/p/ma/dorchester-center/341-gallivan-blvd-r5-dorchester-center-ma-02124--2480169742
+2150,West Roxbury,multifamily,3.0,1.0,14,4,5,5,Lowest,83,0,0,0,0,0,0,0,1,1,60,9,6,https://www.trulia.com/p/ma/west-roxbury/115-baker-st-west-roxbury-ma-02132--2001564702
+2600,West Roxbury,multifamily,2.0,2.0,9,3,3,3,Lowest,83,3,0,1,1,0,0,1,1,0,12,3,1,https://www.trulia.com/p/ma/boston/55-broadlawn-park-19a-boston-ma-02132--2001573628
+2300,Dorchester,multifamily,3.0,1.0,11,3,4,4,Low,54,5,1,0,1,1,1,1,1,0,107,22,17,https://www.trulia.com/p/ma/boston/52-bailey-st-1-boston-ma-02124--2344227701
+3200,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,0,0,0,0,0,0,0,1,0,628,59,197,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02115--2001420946
+1850,Hyde Park,multifamily,2.0,1.0,2,1,0,1,Lowest,76,0,0,0,0,0,0,0,1,0,74,19,9,https://www.trulia.com/p/ma/hyde-park/116-bradlee-st-13-hyde-park-ma-02136--2001625156
+1900,Roxbury,multifamily,1.0,1.0,7,5,2,0,Lowest,53,0,0,0,0,0,0,0,0,0,339,61,98,https://www.trulia.com/p/ma/boston/14-pompeii-st-1-boston-ma-02119--2324083980
+2900,Charlestown,multifamily,2.0,1.0,6,2,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,336,62,113,https://www.trulia.com/p/ma/charlestown/2-pearl-st-16-charlestown-ma-02129--2418481526
+2600,Jamaica Plain,multifamily,3.0,1.0,2,1,1,0,Lowest,66,4,1,0,1,1,1,0,0,0,83,21,20,https://www.trulia.com/p/ma/boston/3899-washington-st-2-boston-ma-02131--2171568496
+2800,Mattapan,multifamily,3.0,1.0,5,3,2,0,Moderate,59,1,1,0,0,0,0,0,1,0,64,14,4,https://www.trulia.com/p/ma/boston/520-harvard-st-2-boston-ma-02126--2436225833
+3850,South Boston,multifamily,4.0,2.0,11,5,3,3,Lowest,53,4,1,1,0,1,1,0,1,1,124,26,51,https://www.trulia.com/p/ma/boston/140-l-st-6-boston-ma-02127--2361071312
+3200,Hyde Park,singlefamily,4.0,1.5,5,3,1,1,Lowest,76,3,1,0,0,1,1,0,1,1,35,8,3,https://www.trulia.com/p/ma/boston/address-not-disclosed-boston-ma-02136--2001632234
+2500,Mattapan,multifamily,3.0,1.0,5,3,2,0,Highest,59,0,0,0,0,0,0,0,0,1,72,14,4,https://www.trulia.com/p/ma/boston/650-morton-st-3-boston-ma-02126--2438099090
+3075,Jamaica Plain,multifamily,3.0,1.0,27,9,9,9,Low,23,0,0,0,0,0,0,0,0,0,306,34,63,https://www.trulia.com/p/ma/boston/10-copenger-st-3-boston-ma-02120--2001463045
+3795,Hyde Park,multifamily,2.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,1,58,12,1,https://www.trulia.com/p/ma/roslindale/32-34-cummins-hwy-2-roslindale-ma-02131--2459144341
+2200,West Roxbury,multifamily,2.0,1.0,1,1,0,0,Lowest,83,2,1,1,0,0,0,0,1,1,51,10,5,https://www.trulia.com/p/ma/west-roxbury/14-heron-st-410-west-roxbury-ma-02132--2001566271
+2850,East Boston,multifamily,3.0,1.0,6,2,2,2,Lowest,41,5,1,0,1,1,1,1,0,0,117,20,21,https://www.trulia.com/p/ma/boston/69-homer-st-3-boston-ma-02128--2356240545
+2500,Mattapan,multifamily,3.0,1.0,5,3,2,0,Highest,59,1,1,0,0,0,0,0,1,1,69,15,5,https://www.trulia.com/p/ma/boston/60-deering-rd-boston-ma-02126--1006216222
+3400,South End,multifamily,3.0,1.0,14,2,6,6,Low,23,5,1,0,1,1,1,1,1,1,602,85,191,https://www.trulia.com/p/ma/roxbury-crossing/86-hammond-st-4-roxbury-crossing-ma-02120--2171807614
+850,Hyde Park,multifamily,1.0,0.0,6,2,2,2,Lowest,76,3,1,0,0,1,1,0,1,0,48,9,3,https://www.trulia.com/rental/4075323587-41-Alwin-St-R3561-Boston-MA-02136
+1819,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,35,6,3,https://www.trulia.com/p/ma/west-roxbury/130-edgemere-rd-8-west-roxbury-ma-02132--2433188990
+3750,Jamaica Plain,multifamily,4.0,2.0,2,1,1,0,Lowest,42,5,1,0,1,1,1,1,1,0,83,17,20,https://www.trulia.com/p/ma/boston/9-wenham-st-2-boston-ma-02130--2458272760
+3000,East Boston,multifamily,4.0,2.5,7,3,2,2,Lowest,41,5,1,0,1,1,1,1,0,1,289,42,111,https://www.trulia.com/p/ma/boston/191-everett-st-3-boston-ma-02128--2171826397
+2450,West Roxbury,multifamily,3.0,1.0,6,2,2,2,Lowest,20,2,0,0,1,0,0,1,1,0,15,3,0,https://www.trulia.com/p/ma/boston/340-center-plz-1-boston-ma-02108--2458880651
+2000,East Boston,multifamily,2.0,1.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,1,1,201,34,57,https://www.trulia.com/p/ma/boston/151-princeton-st-2-boston-ma-02128--2393722118
+2400,Roxbury,multifamily,3.0,1.5,5,3,2,0,Highest,54,3,1,0,0,1,1,0,0,1,104,22,11,https://www.trulia.com/p/ma/boston/36-abbot-st-1-boston-ma-02124--2413679408

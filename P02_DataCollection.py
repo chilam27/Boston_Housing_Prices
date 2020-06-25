@@ -13,6 +13,7 @@ import urllib.parse
 import urllib.error
 import ssl
 import re
+import json
 import pandas as pd
 
 
@@ -42,44 +43,48 @@ sugg_income = []
 descp = []
 feature = []
 addr_link = []
+        
 
-urls = ["https://www.trulia.com/for_rent/02128_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02129_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02134_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02109_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02111_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02108_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02115_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02127_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02118_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02215_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02120_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02119_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02122_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02130_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02126_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02131_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02132_zip/1p_beds/",
-        "https://www.trulia.com/for_rent/02136_zip/1p_beds/"]
+urls = ["https://www.trulia.com/for_rent/3444_nh/1p_beds/ ",
+        "https://www.trulia.com/for_rent/3440_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/16187_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3453_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/33656_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3443_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/166019_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/16188_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3438_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3459_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3461_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3445_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3450_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3458_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/197101_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3448_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3449_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3457_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3463_nh/1p_beds/",
+        "https://www.trulia.com/for_rent/3447_nh/1p_beds/"]
 
 
 for x in urls:
     count = 1
     y = x
-    print(x)
-    while(count < 6):  #will go till 5 pages = 150 records
-        req = Request(x, headers=get_headers())  #req all headers
+    while(count < 9):  #will go till 8 pages = 240 records
+        print(x)
+        req = Request(x, headers = get_headers())  #req all headers
         htmlfile = urlopen(req)
         htmltext = htmlfile.read()
         #print (htmltext)
         soup = BS(htmltext,'html.parser')
         #print (soup.prettify())
         
-        for tag in soup.find_all('div',attrs={'data-testid' : 'pagination-caption'}):
+        for tag in soup.find_all('div',attrs = {'data-testid' : 'pagination-caption'}):
                 result = tag.get_text(strip = True) #save number of results for the search
         try:
-            result= result.split(' ')[2]
-            result= int(result.replace(',',''))
+            result1 = int(result.split('-')[0])
+            result2 = result.split(' ')[2]
+            result2 = int(result2.replace(',',''))
         except:
             pass
        
@@ -195,17 +200,19 @@ for x in urls:
                 # print(feature_record)
                 feature.append(feature_record)
 
-             
-        count= count+1
-        page= str(count)+ "_p"  #changes page
-        x= y+ page
         
-        if result <= len(area): #stop loop from repetting itself
+        if result1 + 30 >= result2: #stop loop from repetting itself
             break
+        else:
+            count = count + 1
+            page = str(count) + "_p"  #changes page
+            x = y + page
+    
 
-        
 data_frame = pd.DataFrame(list(zip(rent, address, area, bed, bath, school, crime_rate, commute, shop_eat, descp, feature, addr_link)), columns = ["Rent", "Address", "Area", "Bed", "Bath", "School", "Crime", "Commute", "Shop_eat", "Description", "Feature", "URL"])
 data_frame
 
+data_frame.Area.value_counts()
+
 #Save the obtained dataframe to csv
-data_frame.to_csv('boston_data.csv', index = False)
+data_frame.to_csv('housing_data_scraped.csv', index = False)

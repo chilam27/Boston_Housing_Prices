@@ -7,15 +7,18 @@ Created on Mon Jun 22 16:07:16 2020
 
 #ImportModule
 import pandas as pd
+import seaborn as sns
+from sklearn.model_selection import train_test_split
 
 
 #Read data
-housing_df = pd.read_csv('boston_data.csv')
+housing_df = pd.read_csv('housing_data_scraped.csv')
 
 
-#explore
+#Explore
 housing_df.columns
 housing_df.describe()
+housing_df.isnull().sum() / housing_df.shape[0] #'Bed' and 'Bath' variable are the only two that has null
 
 
 #Remove duplicate
@@ -38,32 +41,25 @@ for x in range(len(housing_df.Rent)):
 
 
 ##Area
-housing_df.Area.unique().tolist()
-
 for x in range(len(housing_df.Area)):
     housing_df.Area[x] = housing_df.Area[x].split(',')[0]
 
 for x in range(len(housing_df.Area)):
-    if 'Allston' in housing_df.Area[x] or "Brighton" in housing_df.Area[x]:
-        housing_df.Area[x] = "Allston/ Brighton"
-    elif 'North End' in housing_df.Area[x] or 'Downtown' in housing_df.Area[x] or 'Chinatown' in housing_df.Area[x] or 'Haymarket' in housing_df.Area[x] or 'Leather District' in housing_df.Area[x]:
+    if 'North End' in housing_df.Area[x] or 'Downtown' in housing_df.Area[x] or 'Chinatown' in housing_df.Area[x] or 'West End' in housing_df.Area[x]:
         housing_df.Area[x] = "Central"
     elif 'Dorchester' in housing_df.Area[x]:
         housing_df.Area[x] = "Dorchester"      
-    elif 'Fenway' in housing_df.Area[x] or 'Kenmore' in housing_df.Area[x]:
-        housing_df.Area[x] = "Fenway Kenmore"
-        
-housing_df = housing_df[housing_df.Area != 'Boston']
-housing_df = housing_df[housing_df.Area != 'Oak Hill']
-housing_df = housing_df[housing_df.Area != 'Peabody']
-housing_df.reset_index(drop = True, inplace = True)
+    elif 'Beacon Hill' in housing_df.Area[x] or "Back Bay" in housing_df.Area[x]:
+        housing_df.Area[x] = "Back Bay/ Beacon Hill"
 
 housing_df.Area.value_counts()
 
 
 ##Bed & bath
 housing_df.Bed.value_counts()
+housing_df.Bath.value_counts()
 
+housing_df.Bed = housing_df.Bed.fillna('0')
 for x in range(len(housing_df.Bed)):
     housing_df.Bed[x] = housing_df.Bed[x].split(' ')[0]
     if '-' in housing_df.Bed[x]:
@@ -124,6 +120,7 @@ housing_df.Crime = housing_df.Crime.apply(lambda x: x.split(' ')[0])
 housing_df.Commute = housing_df.Commute.apply(lambda x: x.replace('Commute',''))
 housing_df.Commute = housing_df.Commute.apply(lambda x: x.split(' ')[0])
 housing_df.Commute = housing_df.Commute.apply(lambda x: x.replace('%',''))
+housing_df.Commute = housing_df.Commute.apply(lambda x: x.replace("Learn",'0'))
 housing_df = housing_df.rename(columns={'Commute': 'car_commute_percent'})
 
 
@@ -139,7 +136,10 @@ nightlife = []
 for x in range(len(housing_df.Shop_eat)):
     restaurant.append(int(housing_df.Shop_eat[x].split(' ')[0]))
     grocery.append(int(housing_df.Shop_eat[x].split(' ')[2]))
-    nightlife.append(int(housing_df.Shop_eat[x].split(' ')[4]))
+    if 'Nightlife' in housing_df.Shop_eat[x]:
+        nightlife.append(int(housing_df.Shop_eat[x].split(' ')[4]))
+    else:
+        nightlife.append(0)
     
 housing_df['restaurant'] = restaurant
 housing_df['grocery'] = grocery
@@ -239,6 +239,7 @@ housing_df.car_commute_percent = housing_df.car_commute_percent.astype(int)
 housing_df.pet_allowed = housing_df.pet_allowed.astype(int)
 housing_df.laundry = housing_df.laundry.astype(int)
 
+
 housing_df = housing_df.rename(columns={'Rent': 'rent', 'Address': 'address', 'Area': 'area', 'Bed': 'bed', 'Bath': 'bath', 'School': 'school', 'Crime': 'crime', 'URL': 'url'}) #change all column names to lowercase
 del housing_df['Description'] #'description' is only the summary of other data we have: not useful
 del housing_df['address'] #we don't need this piece of info
@@ -249,5 +250,34 @@ housing_df.columns.tolist()
 housing_df = housing_df[['rent', 'area', 'property_type', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'crime', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife', 'url']]
 
 
+#Creating proportion table
+boston = {'neighborhoods' : ['East Boston', 'Charlestown', 'Allston', 'Central', 'Back Bay/ Beacon Hill', 'South Boston', 'South End', 'Fenway', 'Mission Hill', 'Roxbury', 'Dorchester', 'Jamaica Plain', 'Mattapan', 'Roslindale', 'West Roxbury', 'Hyde Park'],
+          'percent_area' : [0.103, 0.029, 0.093, 0.024, 0.019, 0.066, 0.023, 0.024, 0.011, 0.082, 0.13, 0.053, 0.061, 0.079, 0.111, 0.094]
+          }
+
+boston_neighborhood = pd.DataFrame(boston, columns= ['neighborhoods','percent_area'])
+
+
+#Deciding sample size = 760
+stratified_sample = pd.DataFrame()
+for x in range(len(boston_neighborhood.neighborhoods)):
+    sub_df = housing_df[housing_df.area == boston_neighborhood.neighborhoods[x]]
+    sub_df = sub_df.sample(n = int(round(760 * boston_neighborhood.percent_area[x], 0)))
+    stratified_sample = pd.concat([stratified_sample, sub_df], ignore_index=True)
+    
+stratified_sample.area.value_counts() / stratified_sample.shape[0]
+
+sns.distplot(stratified_sample.rent)
+
+sns.boxplot(x = stratified_sample.area, y = stratified_sample.rent)
+
+
+#Initiate data splitting STRATIFIED BASED ON 'AREA'
+train, test = train_test_split(stratified_sample, test_size = 0.3, stratify = stratified_sample.area)
+
+train.area.value_counts() / train.shape[0]
+test.area.value_counts() / test.shape[0]
+
 #Export dataframe to csv
-housing_df.to_csv('housing_cleaned.csv', index = False)
+train.to_csv('train_housing_cleaned.csv', index = False)
+test.to_csv('test_housing_cleaned.csv', index = False)

@@ -17,48 +17,27 @@ from scipy import stats
 from scipy.stats import norm, skew
 
 #Read in data
-train_df = pd.read_csv('train_housing_cleaned.csv')
-test_df = pd.read_csv('test_housing_cleaned.csv')
+df = pd.read_csv('housing_data_cleaned.csv')
 
 
 #Explore data
-train_df.shape
-test_df.shape
-
-train_df.info()
-test_df.info() #from '.info()', we see that none of the two df has null value
-a
-train_df.describe()
-test_df.describe()
-
-train_df.head()
-test_df.head()
+df.shape
+df.info() #from '.info()', we see that none of the two df has null value
+df.describe()
+df.head()
 
 
 #Analyze 'rent'
-train_df.rent.describe()
+df.rent.describe()
 
-print('Skewness of rent from train df: ', train_df.rent.skew()) #check for the skewness
-print('Kurtosis of rent from train df: ', train_df.rent.kurt()) #check for the pointy-ness
+print('Skewness of rent from train df: ', df.rent.skew()) #check for the skewness
+print('Kurtosis of rent from train df: ', df.rent.kurt()) #check for the pointy-ness
 
-sns.distplot(train_df.rent, fit = norm, label = 'Samples', fit_kws={"label": "Normal Distribution"}, kde_kws={"label": "Observed estimation"})
+sns.distplot(df.rent, fit = norm, label = 'Samples', fit_kws={"label": "Normal Distribution"}, kde_kws={"label": "Observed estimation"})
 plt.legend()
 plt.show()
 
-stats.probplot(train_df.rent, plot = plt)
-plt.show()
-
-##Log-transformation for target variable ('rent')
-train_df.rent = np.log(train_df.rent)
-
-print('Skewness of log transformed rent from train df: ', train_df.rent.skew()) #check for the skewness
-print('Kurtosis of log transformed rent from train df: ', train_df.rent.kurt()) #check for the pointy-ness
-
-sns.distplot(train_df.rent, fit = norm, label = 'Log Transformed Samples', fit_kws={"label": "Normal Distribution"}, kde_kws={"label": "Observed estimation"})
-plt.legend()
-plt.show()
-
-stats.probplot(train_df.rent, plot = plt)
+stats.probplot(df.rent, plot = plt)
 plt.show()
 
 #Determine variables
@@ -71,6 +50,7 @@ boston_neighborhood = pd.DataFrame(boston, columns= ['neighborhoods','percent_ar
 ##Data to plot
 pie_color = ['#E14D43','#a3ca61','#fbcf61','#d97781', '#523e7c', '#428bca', '#D0cc99', '#0d4261', '#f77e05', '#f2b91f', '#94b998', '#ec3939', '#897960', '#2d4f70', '#386665', '#657cc3']
 
+plt.subplots(figsize=(12, 9))
 plt.pie(boston_neighborhood['percent_area'], labels = boston_neighborhood['neighborhoods'], colors = pie_color, autopct='%1.1f%%', startangle = 70, pctdistance=0.85)
 centre_circle = plt.Circle((0, 0),0.70, fc = 'white')
 fig = plt.gcf()
@@ -79,52 +59,42 @@ plt.axis('equal')
 plt.tight_layout()
 plt.show()
 
-sns.boxplot(x = train_df.area, y = train_df.rent)
+plt.subplots(figsize=(25, 9))
+sns.boxplot(x = df.area, y = df.rent)
 
 
 ##Determine numerical and categorcial variables
 ###Transform some numerical variables to categorical
-train_df.laundry = train_df.laundry.apply(str)
-train_df.ac = train_df.ac.apply(str)
-train_df.dishwasher = train_df.dishwasher.apply(str)
-train_df.washer = train_df.washer.apply(str)
-train_df.dryer = train_df.dryer.apply(str)
-train_df.fridge = train_df.fridge.apply(str)
-train_df.pet_allowed = train_df.pet_allowed.apply(str)
-train_df.parking = train_df.parking.apply(str)
+num_var = df.dtypes[df.dtypes != 'object'].index
+print(num_var)
 
-
-
-num_var = train_df.dtypes[train_df.dtypes != 'object'].index
-print('Numerical variables are: ', num_var)
-
-cat_var = train_df.dtypes[train_df.dtypes == 'object'].index
-print('Categorical variables are: ', cat_var)
+cat_var = df.dtypes[df.dtypes == 'object'].index
+print(cat_var)
 
 
 ##Plot heat map
-corr = train_df.corr()
+corr = df.corr()
 plt.subplots(figsize=(12, 9))
 sns.heatmap(corr, vmax = .8, square = True, annot = True, cmap = "Greens")
 
 
 #Remove outliers
 ##Uni-variate (use the target variable to do the analysis)
-sns.boxplot(train_df.rent)
+sns.boxplot(df.rent)
 
 ##Multi-variate (use two or more variables for analysis)
-sns.jointplot(train_df.bath, train_df.rent)
+sns.jointplot(df.bath, df.rent)
 
-#Z-scores
-z_scores = np.abs(stats.zscore(train_df[num_var]))
+##Z-scores
+z_scores = np.abs(stats.zscore(df[num_var]))
 print(z_scores)
 
-train_df = train_df[(z_scores < 3).all(axis = 1)]
+df = df[(z_scores < 3).all(axis = 1)]
 
 
 ##Log transform for other variables
 for x in num_var:
-    print(x, 'Skewness: ', train_df[x].skew(), '  ', 'Kurotsis: ', train_df[x].kurt())
+    print(x, 'Skewness: ', df[x].skew(), '  ', 'Kurotsis: ', df[x].kurt()) #we can see that 'restuarant'  has the highest skewness and kurtosis; 'nightlife' also but it has zero values
 
 
 #Determine variables relationships
@@ -133,24 +103,26 @@ corr['rent'].sort_values(ascending = False)
 
 sns.set()
 num_var_col = ['rent', 'bath', 'bed', 'restaurant', 'nightlife', 'grocery', 'total_amenties']
-sns.pairplot(train_df[num_var_col], size = 2.5)
+sns.pairplot(df[num_var_col], kind = 'reg', size = 2.5)
 plt.show()
 
-##Categorical
-sns.boxplot(x = train_df.property_type, y = train_df.rent)
-sns.boxplot(x = train_df.crime, y = train_df.rent)
-sns.boxplot(x = train_df.laundry, y = train_df.rent)
-sns.boxplot(x = train_df.ac, y = train_df.rent)
-sns.boxplot(x = train_df.dishwasher, y = train_df.rent)
-sns.boxplot(x = train_df.washer, y = train_df.rent)
-sns.boxplot(x = train_df.dryer, y = train_df.rent)
-sns.boxplot(x = train_df.fridge, y = train_df.rent)
-sns.boxplot(x = train_df.pet_allowed, y = train_df.rent)
-sns.boxplot(x = train_df.parking, y = train_df.rent)
+##Categorical, 'area' graph is above
+plt.figure(figsize = (10,4))
+
+plt.subplot(121)
+sns.boxplot(x = df.property_type, y = df.rent)
+
+plt.subplot(122)
+sns.boxplot(x = df.crime, y = df.rent)
+
+plt.tight_layout()
+
+###Create dummy variables for categorical variables
+df_dumies = pd.get_dummies(df, columns=['area', 'property_type', 'crime'])
+df_dumies['area'] = df['area']
 
 
-
-
-
-
-
+#Initiate data splitting STRATIFIED BASED ON 'AREA'
+X = df_dumies.drop('rent', axis = 1)
+y = df_dumies.rent.values
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, stratify = df_dumies.area)

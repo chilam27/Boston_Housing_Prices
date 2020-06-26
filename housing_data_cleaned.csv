@@ -1,0 +1,759 @@
+rent,area,property_type,bed,bath,school,elemenatary_school,middle_school,high_school,crime,car_commute_percent,total_amenties,laundry,ac,dishwasher,washer,dryer,fridge,pet_allowed,parking,restaurant,grocery,nightlife
+2400,East Boston,multifamily,3.0,1.0,10,4,3,3,Low,41,0,0,0,0,0,0,0,0,0,446,62,179
+2600,East Boston,multifamily,2.0,1.0,12,6,3,3,Low,41,3,1,0,0,1,1,0,0,0,205,39,56
+3100,East Boston,multifamily,3.0,1.0,9,5,2,2,Low,41,4,1,0,0,1,1,1,0,0,167,43,32
+2400,East Boston,multifamily,3.0,1.0,10,4,3,3,Low,41,0,0,0,0,0,0,0,0,0,446,62,179
+2775,East Boston,multifamily,2.0,1.0,12,6,3,3,High,41,0,0,0,0,0,0,0,1,0,248,42,70
+3200,East Boston,multifamily,4.0,1.0,6,2,2,2,Lowest,41,5,1,0,1,1,1,1,0,0,93,15,16
+3275,East Boston,multifamily,3.0,1.0,11,7,4,0,Low,41,5,1,0,1,1,1,1,1,1,285,38,99
+3000,East Boston,multifamily,3.0,1.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,1,1,284,36,104
+2400,East Boston,multifamily,3.0,1.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,1,1,284,36,104
+2900,East Boston,multifamily,3.0,1.0,6,2,2,2,Lowest,41,0,0,0,0,0,0,0,0,0,141,24,26
+2600,East Boston,multifamily,2.0,1.0,6,4,2,0,High,41,1,0,0,0,0,0,1,0,1,439,59,178
+3200,East Boston,multifamily,4.0,1.0,4,2,0,2,Lowest,41,2,0,0,1,0,0,1,0,1,167,38,34
+2995,East Boston,multifamily,4.0,1.0,6,2,2,2,Lowest,41,5,1,0,1,1,1,1,1,1,145,24,27
+2200,East Boston,multifamily,2.0,1.0,7,3,2,2,Lowest,41,4,1,0,0,1,1,1,0,1,225,33,77
+2500,East Boston,multifamily,2.0,1.0,6,4,2,0,High,41,5,1,0,1,1,1,1,0,1,465,63,193
+3000,East Boston,multifamily,4.0,1.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,0,1,284,36,104
+2800,East Boston,multifamily,3.0,1.0,10,4,3,3,Lowest,41,0,0,0,0,0,0,0,0,0,361,49,148
+2195,East Boston,multifamily,2.0,1.0,11,5,3,3,Lowest,41,0,0,0,0,0,0,0,0,0,422,59,169
+2600,East Boston,multifamily,3.0,1.0,10,4,3,3,Low,41,1,0,0,0,0,0,1,1,0,551,67,215
+2700,East Boston,multifamily,4.0,1.0,10,4,3,3,Low,41,2,0,0,1,0,0,1,0,0,467,62,189
+2100,East Boston,multifamily,2.0,1.0,12,6,3,3,High,41,4,1,0,1,1,1,0,0,1,258,43,73
+3000,East Boston,multifamily,4.0,2.5,7,3,2,2,Lowest,41,5,1,0,1,1,1,1,0,1,289,42,111
+2400,East Boston,multifamily,2.0,2.0,12,8,4,0,Low,41,0,0,0,0,0,0,0,0,0,285,38,99
+2200,East Boston,multifamily,1.0,1.0,5,3,0,2,Low,41,5,1,0,1,1,1,1,0,0,213,38,57
+2300,East Boston,multifamily,2.0,1.0,12,6,3,3,High,41,5,1,0,1,1,1,1,0,0,238,35,67
+2700,East Boston,multifamily,3.0,1.0,12,6,3,3,Low,41,3,1,0,0,1,1,0,1,0,200,35,53
+1800,East Boston,multifamily,2.0,1.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,0,0,198,34,56
+2400,East Boston,multifamily,2.0,1.0,11,5,3,3,Lowest,41,3,1,0,0,1,1,0,0,0,422,59,169
+2500,East Boston,multifamily,3.0,1.0,12,6,3,3,Moderate,41,5,1,0,1,1,1,1,1,0,198,34,56
+1850,East Boston,multifamily,1.0,1.0,7,3,2,2,Lowest,41,1,0,0,0,0,0,1,0,0,70,10,15
+3300,East Boston,multifamily,4.0,2.0,8,4,2,2,Lowest,41,3,1,0,0,1,1,0,1,1,63,8,11
+3400,East Boston,multifamily,4.0,1.0,10,4,3,3,Lowest,41,3,1,0,0,1,1,0,0,1,313,43,121
+1475,East Boston,multifamily,1.0,1.0,11,7,4,0,Moderate,41,0,0,0,0,0,0,0,0,0,254,38,78
+2995,East Boston,multifamily,3.0,1.0,6,4,1,1,Low,41,5,1,0,1,1,1,1,1,1,199,31,56
+2400,East Boston,multifamily,3.0,1.0,8,4,2,2,Low,41,0,0,0,0,0,0,0,0,0,164,45,32
+3100,East Boston,multifamily,4.0,1.0,8,4,2,2,Low,41,0,0,0,0,0,0,0,0,0,164,45,32
+3300,East Boston,multifamily,3.0,2.0,9,5,2,2,Low,41,2,0,0,1,0,0,1,1,1,167,43,32
+2525,East Boston,multifamily,3.0,1.0,10,4,3,3,Lowest,41,5,1,0,1,1,1,1,1,1,306,39,119
+2600,East Boston,multifamily,3.0,1.0,5,3,0,2,Lowest,41,5,1,0,1,1,1,1,0,0,198,33,54
+3350,East Boston,multifamily,4.0,1.0,11,5,3,3,Lowest,41,3,1,0,0,1,1,0,0,0,313,43,121
+3075,East Boston,multifamily,4.0,1.0,2,2,0,0,Lowest,41,4,1,0,1,1,1,0,0,1,48,8,10
+2700,East Boston,multifamily,2.0,1.0,12,6,3,3,High,41,5,1,0,1,1,1,1,1,0,248,42,70
+3200,East Boston,multifamily,4.0,1.0,8,4,2,2,Lowest,41,3,1,0,0,1,1,0,0,1,65,7,11
+3050,East Boston,multifamily,4.0,1.0,15,7,4,4,Lowest,41,5,1,0,1,1,1,1,0,0,226,35,61
+2200,East Boston,multifamily,3.0,1.0,12,6,3,3,Moderate,41,1,1,0,0,0,0,0,1,0,182,39,40
+2000,East Boston,multifamily,1.0,1.0,12,6,3,3,Low,41,3,1,0,0,1,1,0,1,0,201,34,57
+4500,East Boston,multifamily,5.0,3.0,12,6,3,3,Low,41,4,1,0,1,1,1,0,1,1,201,34,54
+2300,East Boston,multifamily,2.0,1.0,11,5,3,3,Lowest,41,2,1,0,1,0,0,0,1,0,422,59,169
+2700,East Boston,multifamily,3.0,1.0,12,6,3,3,Lowest,41,0,0,0,0,0,0,0,0,0,204,32,59
+2800,East Boston,multifamily,2.0,1.0,6,4,2,0,High,41,0,0,0,0,0,0,0,1,0,511,66,210
+2600,East Boston,multifamily,3.0,1.0,4,2,0,2,Low,41,5,1,0,1,1,1,1,0,1,214,38,57
+2200,East Boston,multifamily,2.0,1.0,5,3,0,2,Low,41,3,1,0,0,1,1,0,1,1,203,36,53
+3275,East Boston,multifamily,3.0,1.0,11,7,4,0,Low,41,4,1,0,1,1,1,0,0,1,285,38,99
+2200,East Boston,multifamily,2.0,1.0,10,4,3,3,Lowest,41,3,1,0,0,1,1,0,0,0,361,49,148
+4500,East Boston,multifamily,5.0,3.0,6,4,1,1,Lowest,41,5,1,0,1,1,1,1,1,1,54,9,9
+3150,East Boston,multifamily,4.0,2.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,1,0,203,33,57
+1850,East Boston,multifamily,2.0,1.0,7,3,2,2,Lowest,41,4,1,0,0,1,1,1,1,1,282,40,110
+3400,East Boston,multifamily,4.0,1.0,11,7,4,0,High,41,2,0,0,1,0,0,1,0,1,302,44,97
+1750,East Boston,multifamily,1.0,1.0,8,4,2,2,Low,41,0,0,0,0,0,0,0,0,0,210,36,56
+2400,East Boston,multifamily,2.0,1.0,6,4,2,0,High,41,1,1,0,0,0,0,0,1,0,409,58,166
+3600,East Boston,multifamily,5.0,1.0,12,6,3,3,Low,41,3,1,0,0,1,1,0,0,0,205,39,56
+3000,East Boston,multifamily,4.0,1.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,1,1,284,36,104
+2200,East Boston,multifamily,2.0,1.0,12,6,3,3,High,41,3,1,0,0,1,1,0,0,0,258,43,73
+3700,East Boston,multifamily,6.0,2.5,7,3,2,2,Lowest,41,3,1,0,1,0,0,1,1,0,289,42,111
+2627,East Boston,apartment,3.0,1.0,7,3,2,2,Lowest,41,5,1,1,1,1,1,0,1,1,88,14,15
+3200,East Boston,multifamily,4.0,1.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,1,1,284,36,104
+3500,East Boston,multifamily,3.0,2.0,7,5,2,0,Low,41,4,1,0,1,1,1,0,1,0,472,62,194
+2695,East Boston,multifamily,4.0,1.0,10,4,3,3,Lowest,41,1,0,0,0,0,0,1,0,1,345,46,140
+2500,East Boston,multifamily,3.0,1.0,12,6,3,3,Low,41,0,0,0,0,0,0,0,1,0,198,34,56
+2500,East Boston,multifamily,2.0,1.0,10,6,4,0,Moderate,41,5,1,0,1,1,1,1,1,1,406,64,163
+1895,East Boston,multifamily,2.0,1.0,7,3,2,2,Lowest,41,4,1,0,0,1,1,1,1,1,282,40,110
+2850,East Boston,multifamily,4.0,1.0,8,4,2,2,Lowest,41,5,1,0,1,1,1,1,1,0,65,7,11
+2000,East Boston,multifamily,1.0,1.0,9,5,2,2,Moderate,41,0,0,0,0,0,0,0,0,0,199,37,53
+2295,East Boston,multifamily,1.0,1.0,12,6,3,3,Low,41,6,1,1,1,1,1,1,0,1,223,36,61
+2200,East Boston,multifamily,2.0,1.0,6,4,1,1,Low,41,2,0,0,1,0,0,1,1,1,196,32,55
+2800,East Boston,multifamily,4.0,1.0,6,2,2,2,Lowest,41,4,1,0,1,1,1,0,0,1,121,20,24
+2200,East Boston,multifamily,2.0,2.0,11,5,3,3,Lowest,41,5,1,0,1,1,1,1,0,1,261,35,88
+1775,East Boston,multifamily,1.0,1.0,2,2,0,0,Lowest,41,0,0,0,0,0,0,0,1,0,55,8,10
+2400,Charlestown,multifamily,1.0,1.0,6,2,2,2,Lowest,56,2,0,0,1,0,0,1,1,0,497,77,177
+1850,Charlestown,multifamily,1.0,1.0,8,2,3,3,Lowest,56,1,1,0,0,0,0,0,1,0,543,75,194
+2150,Charlestown,multifamily,1.0,1.0,4,2,2,0,Lowest,56,3,0,1,1,0,0,1,1,0,614,80,212
+3500,Charlestown,multifamily,1.0,1.0,3,1,1,1,Lowest,56,6,1,1,1,1,1,1,1,0,515,72,204
+3400,Charlestown,multifamily,2.0,1.0,5,1,2,2,Lowest,56,6,1,1,1,1,1,1,1,0,239,37,82
+3400,Charlestown,multifamily,3.0,2.0,6,2,2,2,Lowest,56,2,1,1,0,0,0,0,1,0,323,54,105
+2500,Charlestown,multifamily,1.0,1.0,6,2,2,2,Lowest,56,0,0,0,0,0,0,0,0,0,281,37,97
+3750,Charlestown,multifamily,1.0,1.0,3,1,1,1,Lowest,56,4,1,1,0,1,1,0,1,1,383,67,141
+2500,Charlestown,multifamily,2.0,1.0,8,2,3,3,Lowest,56,3,1,0,0,1,1,0,1,1,462,65,164
+5950,Charlestown,singlefamily,7.0,2.5,6,2,2,2,Lowest,56,0,0,0,0,0,0,0,1,0,506,76,183
+2800,Charlestown,multifamily,2.0,1.0,6,2,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,427,68,150
+2600,Charlestown,multifamily,2.0,1.0,6,2,2,2,Lowest,56,1,0,0,0,0,0,1,1,0,376,64,125
+2750,Charlestown,multifamily,2.0,1.0,6,2,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,361,64,123
+1800,Charlestown,multifamily,1.0,1.0,6,2,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,418,68,148
+4500,Charlestown,multifamily,3.0,2.0,8,2,3,3,Lowest,56,6,1,1,1,1,1,1,1,0,462,68,166
+3350,Charlestown,multifamily,3.0,2.0,6,2,2,2,Low,56,0,0,0,0,0,0,0,1,0,333,58,110
+2600,Charlestown,multifamily,2.0,1.0,5,1,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,258,41,86
+1900,Charlestown,multifamily,1.0,1.0,6,2,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,361,64,123
+2400,Charlestown,multifamily,1.0,1.0,6,2,2,2,Lowest,56,4,1,0,1,1,1,0,1,0,479,71,175
+3150,Charlestown,multifamily,3.0,1.0,6,2,2,2,Lowest,56,1,1,0,0,0,0,0,1,0,409,62,135
+3000,Charlestown,multifamily,3.0,2.0,5,1,2,2,Lowest,56,3,1,0,1,0,0,1,1,0,237,37,82
+2450,Charlestown,multifamily,1.0,1.0,6,2,2,2,Low,56,5,1,0,1,1,1,1,1,0,262,37,87
+2100,Allston,multifamily,2.0,1.0,15,5,5,5,Lowest,31,3,1,0,0,1,1,0,0,1,342,38,84
+3600,Allston,multifamily,4.0,2.0,26,8,9,9,Low,31,0,0,0,0,0,0,0,1,0,309,41,65
+2800,Allston,multifamily,3.0,1.0,26,8,9,9,Low,31,1,0,0,0,0,0,1,1,1,314,41,67
+2250,Allston,multifamily,2.0,1.0,20,6,7,7,Lowest,31,0,0,0,0,0,0,0,1,0,312,41,65
+1900,Allston,multifamily,2.0,1.0,20,6,7,7,Lowest,31,4,1,0,0,1,1,1,1,1,297,38,64
+2000,Allston,multifamily,2.0,1.0,23,7,8,8,Lowest,31,3,1,0,0,1,1,0,1,0,304,39,66
+2800,Allston,multifamily,3.0,1.0,25,7,9,9,Low,31,5,1,0,1,1,1,1,1,1,314,41,67
+2100,Allston,multifamily,2.0,1.0,20,6,7,7,Moderate,31,4,1,0,0,1,1,1,0,0,295,39,64
+2800,Allston,multifamily,3.0,1.0,20,6,7,7,Low,31,4,1,0,1,1,1,0,1,0,327,40,70
+2250,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,3,1,0,0,1,1,0,1,1,327,40,70
+3300,Allston,multifamily,4.0,1.0,26,8,9,9,Lowest,56,0,0,0,0,0,0,0,0,0,309,41,64
+4650,Allston,multifamily,4.0,2.0,26,8,9,9,Low,31,1,0,0,0,0,0,1,1,0,309,41,65
+3200,Allston,multifamily,4.0,1.0,26,8,9,9,Lowest,31,0,0,0,0,0,0,0,0,0,309,41,64
+2499,Allston,multifamily,3.0,1.0,23,7,8,8,Low,31,3,1,0,1,0,0,1,1,1,313,34,71
+2275,Allston,multifamily,2.0,1.0,25,7,9,9,Low,31,0,0,0,0,0,0,0,0,0,314,41,67
+3100,Allston,multifamily,4.0,1.0,20,6,7,7,Moderate,31,3,1,0,0,1,1,0,0,1,303,39,65
+3600,Allston,multifamily,4.0,1.0,21,7,7,7,Low,31,1,0,0,1,0,0,0,0,0,311,41,67
+2550,Allston,multifamily,3.0,1.0,12,4,4,4,Lowest,31,1,0,0,1,0,0,0,0,1,276,34,61
+2260,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,4,1,0,1,1,1,0,0,0,327,40,70
+2200,Allston,multifamily,2.0,1.0,17,5,6,6,Lowest,31,1,0,0,0,0,0,1,1,0,318,41,67
+2195,Allston,multifamily,2.0,1.0,21,7,7,7,Lowest,31,0,0,0,0,0,0,0,0,0,316,41,68
+2750,Allston,multifamily,3.0,1.0,17,5,6,6,Lowest,31,3,1,0,0,1,1,0,1,1,318,41,67
+2400,Allston,multifamily,2.0,1.0,25,7,9,9,Low,31,3,1,0,0,1,1,0,0,0,301,38,63
+3400,Allston,multifamily,4.0,1.0,20,6,7,7,Lowest,31,1,0,0,0,0,0,1,0,0,323,42,68
+3100,Allston,multifamily,4.0,2.0,18,6,6,6,Lowest,31,1,1,0,0,0,0,0,1,1,306,41,64
+2225,Allston,multifamily,2.0,1.0,20,6,7,7,Low,31,0,0,0,0,0,0,0,0,0,311,41,66
+2150,Allston,multifamily,2.0,1.0,25,7,9,9,Lowest,31,5,1,0,1,1,1,1,1,0,306,39,64
+3600,Allston,multifamily,5.0,1.0,20,6,7,7,Lowest,31,2,0,0,1,0,0,1,0,0,323,42,68
+3400,Allston,multifamily,4.0,1.0,12,4,4,4,Lowest,31,0,0,0,0,0,0,0,0,1,310,36,72
+1995,Allston,multifamily,2.0,1.0,20,6,7,7,Low,31,4,1,0,0,1,1,1,0,0,301,38,66
+3500,Allston,multifamily,4.0,2.0,20,6,7,7,Lowest,31,0,0,0,0,0,0,0,0,0,312,41,65
+2400,Allston,multifamily,3.0,2.0,17,5,6,6,Low,31,5,1,0,1,1,1,1,1,0,315,39,68
+2000,Allston,multifamily,2.0,1.0,26,8,9,9,Lowest,56,2,1,0,1,0,0,0,1,1,309,41,65
+2195,Allston,multifamily,2.0,1.0,19,7,6,6,Lowest,31,0,0,0,0,0,0,0,0,0,309,40,66
+4200,Allston,apartment,5.0,2.0,17,5,6,6,Moderate,31,3,1,0,0,1,1,0,1,1,317,39,68
+2650,Allston,multifamily,3.0,1.0,25,7,9,9,Lowest,31,0,0,0,0,0,0,0,0,0,300,36,62
+4500,Allston,multifamily,5.0,2.0,23,7,8,8,Low,31,5,1,0,1,1,1,1,0,0,307,35,69
+2300,Allston,multifamily,2.0,1.0,26,8,9,9,Lowest,31,0,0,0,0,0,0,0,0,0,307,40,64
+2250,Allston,multifamily,2.0,1.0,25,7,9,9,Lowest,31,5,1,0,1,1,1,1,1,0,306,39,64
+1900,Allston,multifamily,2.0,1.0,20,6,7,7,Lowest,31,3,1,0,0,1,1,0,0,0,300,38,63
+3600,Allston,multifamily,4.0,2.0,21,7,7,7,Lowest,31,3,1,0,0,1,1,0,1,0,330,46,70
+4500,Allston,multifamily,5.0,2.0,21,7,7,7,Lowest,31,5,1,0,1,1,1,1,0,0,334,41,81
+3600,Allston,multifamily,4.0,2.0,26,8,9,9,Low,31,5,1,0,1,1,1,1,1,0,309,41,65
+2250,Allston,multifamily,3.0,1.0,21,7,7,7,Lowest,31,4,1,0,1,1,1,0,0,0,330,46,70
+2375,Allston,multifamily,3.0,1.0,17,5,6,6,Lowest,31,4,1,0,0,1,1,1,1,0,318,41,67
+2700,Allston,multifamily,3.0,1.0,12,4,4,4,Lowest,31,4,1,0,1,1,1,0,1,0,316,34,79
+1900,Allston,multifamily,2.0,1.0,14,4,5,5,Lowest,31,2,1,0,0,0,0,1,1,0,326,41,68
+2375,Allston,multifamily,2.0,1.0,9,3,3,3,Lowest,31,6,1,1,1,1,1,1,1,1,278,32,75
+1700,Allston,multifamily,1.0,1.0,14,4,5,5,Low,31,0,0,0,0,0,0,0,0,0,319,41,68
+1700,Allston,multifamily,1.0,1.0,20,6,7,7,Low,31,0,0,0,0,0,0,0,0,0,311,41,66
+3200,Allston,multifamily,4.0,1.0,31,9,11,11,Lowest,31,1,1,0,0,0,0,0,1,0,291,37,61
+3200,Allston,multifamily,4.0,2.0,9,3,3,3,Lowest,31,5,1,0,1,1,1,1,1,1,287,32,74
+3400,Allston,multifamily,5.0,1.0,20,6,7,7,Lowest,31,2,0,0,1,0,0,1,0,0,323,42,68
+2350,Allston,multifamily,3.0,1.0,12,4,4,4,Lowest,31,5,1,0,1,1,1,1,1,1,368,40,88
+2750,Allston,multifamily,3.0,1.0,19,7,6,6,Lowest,31,0,0,0,0,0,0,0,0,0,309,40,66
+2200,Allston,multifamily,2.0,1.0,17,5,6,6,Lowest,31,3,1,0,0,1,1,0,1,0,317,42,65
+2300,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,3,1,0,0,1,1,0,0,0,327,40,70
+2200,Allston,multifamily,2.0,1.0,26,8,9,9,Lowest,31,3,1,0,0,1,1,0,1,0,292,37,63
+3000,Allston,multifamily,4.0,1.0,20,6,7,7,Moderate,31,3,1,0,0,1,1,0,0,0,303,39,65
+2750,Allston,multifamily,3.0,2.0,25,7,9,9,Lowest,31,4,1,0,0,1,1,1,0,0,305,39,64
+2250,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,4,1,0,1,1,1,0,0,0,327,40,70
+2499,Allston,multifamily,3.0,1.0,23,7,8,8,Moderate,53,5,1,0,1,1,1,1,1,0,313,34,71
+2750,Allston,multifamily,3.0,1.0,22,6,8,8,Lowest,31,0,0,0,0,0,0,0,0,0,296,36,62
+2995,Allston,multifamily,4.0,2.0,20,6,7,7,High,31,4,1,0,0,1,1,1,1,0,303,38,66
+2300,Allston,multifamily,3.0,1.0,20,6,7,7,Low,31,4,1,0,0,1,1,1,1,1,330,37,67
+3500,Allston,multifamily,4.0,2.0,20,6,7,7,Lowest,31,5,1,0,1,1,1,1,1,0,312,41,65
+3300,Allston,multifamily,4.0,1.0,26,8,9,9,Lowest,31,5,1,0,1,1,1,1,0,0,309,41,64
+2200,Allston,multifamily,2.0,1.0,20,6,7,7,Lowest,31,3,1,0,0,1,1,0,1,0,312,41,65
+3100,Allston,multifamily,4.0,1.0,20,6,7,7,Low,31,2,0,0,1,0,0,1,0,0,323,40,68
+2400,Allston,multifamily,2.0,1.0,23,7,8,8,Low,31,3,1,0,0,1,1,0,1,0,314,41,67
+2600,Allston,multifamily,3.0,1.0,25,7,9,9,Low,31,0,0,0,0,0,0,0,0,0,314,41,67
+3000,Central,multifamily,2.0,1.0,3,1,1,1,Low,18,2,0,0,1,0,0,1,1,0,1092,139,426
+4000,Central,multifamily,1.0,1.0,6,4,1,1,High,18,1,0,1,0,0,0,0,1,0,1079,136,413
+2750,Central,multifamily,2.0,1.0,4,2,2,0,Lowest,20,4,1,0,1,1,1,0,1,0,863,101,308
+5800,Central,multifamily,4.0,2.0,6,6,0,0,Low,21,4,1,1,0,1,1,0,1,1,1006,122,368
+2200,Central,multifamily,2.0,1.0,3,1,1,1,Moderate,18,2,0,1,0,0,0,1,1,0,1060,135,414
+2850,Central,multifamily,2.0,1.0,5,3,2,0,Lowest,20,0,0,0,0,0,0,0,1,0,868,101,308
+3000,Central,multifamily,3.0,1.0,5,3,2,0,Lowest,20,0,0,0,0,0,0,0,0,0,883,105,320
+1700,Central,multifamily,1.0,1.0,3,1,1,1,Moderate,18,1,1,0,0,0,0,0,1,0,1049,136,410
+4500,Central,multifamily,3.0,2.0,6,4,2,0,Moderate,20,0,0,0,0,0,0,0,1,0,886,111,320
+2700,Central,multifamily,1.0,1.0,6,2,2,2,Lowest,23,1,1,0,0,0,0,0,1,0,862,110,327
+2100,Central,multifamily,1.0,1.0,4,2,1,1,High,18,1,1,0,0,0,0,0,1,0,1028,133,400
+2600,Central,multifamily,1.0,1.0,4,4,0,0,Lowest,21,0,0,0,0,0,0,0,1,0,886,105,315
+2450,Central,multifamily,1.0,1.0,4,4,0,0,Lowest,21,1,0,1,0,0,0,0,1,0,864,102,306
+4200,Central,multifamily,1.0,1.5,6,4,1,1,High,18,1,1,0,0,0,0,0,1,0,1079,136,413
+3675,Central,multifamily,4.0,3.0,3,2,1,0,High,20,3,1,0,0,1,1,0,1,0,995,114,387
+3200,Central,multifamily,2.0,1.0,4,2,1,1,Moderate,18,4,1,1,1,0,0,1,1,0,1078,136,422
+2200,Central,multifamily,1.0,1.0,4,2,2,0,Lowest,20,1,0,0,1,0,0,0,0,0,840,103,288
+4500,Central,multifamily,3.0,1.5,6,4,2,0,Moderate,20,0,0,0,0,0,0,0,1,0,887,108,320
+4000,Back Bay/ Beacon Hill,multifamily,2.0,1.5,7,7,0,0,Lowest,21,3,1,0,0,1,1,0,1,0,1036,126,388
+2800,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,High,21,3,1,0,0,1,1,0,1,0,1049,121,395
+4000,Back Bay/ Beacon Hill,multifamily,3.0,1.0,6,2,2,2,Low,21,0,0,0,0,0,0,0,0,0,684,70,235
+3000,Back Bay/ Beacon Hill,multifamily,2.0,1.0,8,2,3,3,Lowest,21,1,1,0,0,0,0,0,1,0,670,90,238
+3950,Back Bay/ Beacon Hill,multifamily,3.0,1.0,6,2,2,2,Low,21,5,1,0,1,1,1,1,1,1,684,70,235
+4500,Back Bay/ Beacon Hill,multifamily,3.0,1.0,6,2,2,2,Moderate,21,4,1,0,1,1,1,0,1,1,684,70,235
+2500,Back Bay/ Beacon Hill,multifamily,1.0,1.0,3,1,0,2,Lowest,21,0,0,0,0,0,0,0,0,0,672,67,261
+3200,Back Bay/ Beacon Hill,multifamily,2.0,1.0,3,1,1,1,Low,21,5,1,0,1,1,1,1,1,1,698,67,239
+3000,Back Bay/ Beacon Hill,multifamily,1.0,1.0,5,2,0,3,Moderate,28,2,0,0,1,0,0,1,0,0,784,81,273
+3100,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,Lowest,21,3,1,0,0,1,1,0,1,0,1036,126,388
+3050,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,High,21,1,0,0,0,0,0,1,0,0,1049,121,395
+3200,Back Bay/ Beacon Hill,multifamily,2.0,1.0,3,1,0,2,Lowest,21,0,0,0,0,0,0,0,1,1,671,66,258
+2700,Back Bay/ Beacon Hill,multifamily,2.0,1.0,7,7,0,0,High,21,1,1,0,0,0,0,0,1,1,1049,121,395
+2075,Back Bay/ Beacon Hill,multifamily,1.0,1.0,7,7,0,0,Moderate,21,1,1,0,0,0,0,0,1,0,1039,125,387
+4500,South Boston,multifamily,4.0,1.0,12,4,4,4,Lowest,53,5,1,0,1,1,1,1,1,0,409,76,129
+4500,South Boston,multifamily,4.0,2.0,7,3,2,2,Lowest,53,0,0,0,0,0,0,0,1,0,152,35,56
+3000,South Boston,multifamily,3.0,1.0,8,4,4,0,Lowest,53,0,0,0,0,0,0,0,1,0,266,57,86
+3800,South Boston,multifamily,4.0,1.0,18,6,6,6,Low,53,1,1,0,0,0,0,0,1,0,372,75,115
+2300,South Boston,multifamily,1.0,1.0,18,6,6,6,Lowest,53,3,1,0,0,1,1,0,1,1,239,51,78
+3150,South Boston,multifamily,3.0,1.0,18,6,6,6,Lowest,53,0,0,0,0,0,0,0,1,0,244,53,86
+3550,South Boston,apartment,3.0,1.5,7,3,2,2,Lowest,53,3,1,0,1,0,0,1,1,1,142,32,53
+3600,South Boston,multifamily,2.0,2.0,11,5,3,3,Lowest,53,5,1,0,1,1,1,1,1,1,154,26,62
+2180,South Boston,multifamily,1.0,1.0,15,5,5,5,Lowest,53,5,1,0,1,1,1,1,1,0,440,82,155
+1925,South Boston,multifamily,1.0,1.0,15,5,5,5,Moderate,53,4,1,0,1,1,1,0,1,0,245,50,76
+3587,South Boston,apartment,2.0,2.0,3,1,1,1,Lowest,42,6,1,1,1,1,1,1,1,1,828,112,321
+4600,South Boston,multifamily,4.0,1.0,11,5,3,3,Lowest,53,3,1,0,0,1,1,0,1,0,126,20,50
+3685,South Boston,multifamily,2.0,2.0,10,4,3,3,Lowest,53,3,1,0,0,1,1,0,1,1,243,46,98
+2600,South Boston,multifamily,1.0,1.0,14,6,4,4,Lowest,53,4,1,1,1,0,0,1,0,1,115,22,48
+2725,South Boston,multifamily,3.0,1.0,19,7,6,6,Lowest,53,1,1,0,0,0,0,0,1,1,215,54,74
+3200,South Boston,multifamily,4.0,2.0,19,7,6,6,Lowest,53,3,1,0,0,1,1,0,0,0,215,54,74
+3850,South Boston,multifamily,4.0,2.0,11,5,3,3,Lowest,53,4,1,1,0,1,1,0,1,1,124,26,51
+4054,South Boston,apartment,2.0,2.0,5,3,2,0,Moderate,53,5,1,1,1,1,1,0,1,1,826,107,310
+3900,South Boston,multifamily,4.0,1.0,13,5,4,4,Moderate,53,3,1,0,0,1,1,0,1,0,242,50,73
+3400,South Boston,multifamily,3.0,1.0,13,5,4,4,Lowest,53,1,1,0,0,0,0,0,1,0,190,46,66
+2100,South Boston,multifamily,2.0,1.0,4,2,2,0,Lowest,53,0,0,0,0,0,0,0,1,0,744,96,284
+3000,South Boston,multifamily,3.0,1.0,8,4,4,0,Lowest,53,0,0,0,0,0,0,0,1,0,266,57,86
+4100,South Boston,multifamily,4.0,1.0,10,4,3,3,Lowest,53,0,0,0,0,0,0,0,1,0,110,24,48
+4700,South Boston,multifamily,4.0,2.0,13,5,4,4,Moderate,53,2,0,0,1,0,0,1,0,0,236,48,75
+2600,South Boston,multifamily,2.0,1.0,15,5,5,5,Low,53,1,1,0,0,0,0,0,1,0,259,55,86
+2425,South Boston,multifamily,2.0,1.0,13,5,4,4,Moderate,53,2,1,0,1,0,0,0,1,1,230,48,71
+1925,South Boston,multifamily,1.0,1.0,11,5,3,3,Lowest,53,5,1,0,1,1,1,1,1,1,172,30,65
+2350,South Boston,multifamily,1.0,1.0,13,5,4,4,Lowest,53,2,0,0,1,0,0,1,1,0,218,47,83
+4949,South Boston,apartment,2.0,2.0,3,1,1,1,Lowest,42,1,1,0,0,0,0,0,1,1,707,89,266
+2425,South Boston,multifamily,2.0,1.0,13,5,4,4,Moderate,53,4,1,0,1,1,1,0,0,1,230,48,71
+3550,South Boston,multifamily,4.0,2.0,12,4,4,4,Lowest,53,5,1,0,1,1,1,1,0,0,490,84,175
+3200,South Boston,multifamily,3.0,1.0,14,6,4,4,Lowest,53,3,1,0,0,1,1,0,1,0,108,22,46
+2850,South Boston,multifamily,2.0,1.0,15,5,5,5,Lowest,53,4,1,1,0,1,1,0,1,1,454,81,166
+2650,South Boston,multifamily,3.0,1.0,8,4,4,0,Low,53,1,0,0,1,0,0,0,0,0,268,56,84
+3000,South Boston,multifamily,2.0,2.0,15,5,5,5,Low,53,3,0,1,1,0,0,1,1,1,421,80,140
+2550,South Boston,multifamily,2.0,1.0,15,5,5,5,Moderate,53,5,1,0,1,1,1,1,1,1,245,50,76
+4100,South Boston,multifamily,4.0,1.0,10,4,3,3,Lowest,53,4,1,0,1,1,1,0,1,0,110,24,48
+3790,South Boston,multifamily,1.0,1.0,3,1,1,1,Lowest,42,5,1,0,1,1,1,1,1,1,600,72,223
+6500,South Boston,singlefamily,5.0,3.0,18,6,6,6,Low,53,3,0,1,0,1,1,0,0,0,303,70,98
+2500,South Boston,multifamily,1.0,1.0,18,6,6,6,Lowest,53,1,1,0,0,0,0,0,1,0,303,70,98
+3000,South Boston,multifamily,2.0,1.0,21,7,7,7,Moderate,53,2,0,0,1,0,0,1,0,0,229,58,83
+2700,South Boston,multifamily,2.0,1.0,19,7,6,6,Lowest,53,1,1,0,0,0,0,0,1,0,208,49,72
+4300,South Boston,multifamily,3.0,2.5,12,4,4,4,Lowest,53,4,1,1,0,1,1,0,1,0,454,81,166
+3500,South Boston,multifamily,4.0,2.0,19,7,6,6,Lowest,53,1,1,0,0,0,0,0,1,0,215,54,74
+2800,South Boston,singlefamily,2.0,1.0,15,5,5,5,Low,53,3,1,0,0,1,1,0,1,0,429,81,147
+4325,South Boston,multifamily,2.0,2.0,9,4,5,0,Lowest,53,0,0,0,0,0,0,0,1,0,553,86,209
+1995,South Boston,multifamily,1.0,1.0,18,6,6,6,Lowest,53,3,1,0,0,1,1,0,1,0,327,62,106
+4500,South Boston,multifamily,4.0,1.0,10,4,3,3,Moderate,53,0,0,0,0,0,0,0,1,0,242,50,70
+3617,South Boston,apartment,2.0,2.0,8,4,4,0,Lowest,53,6,1,1,1,1,1,1,1,1,636,90,234
+2350,South Boston,multifamily,2.0,1.0,11,5,3,3,Lowest,53,0,0,0,0,0,0,0,1,0,185,36,75
+3800,South End,multifamily,2.0,1.0,14,4,5,5,Highest,32,0,0,0,0,0,0,0,1,0,576,87,202
+4600,South End,multifamily,3.0,2.5,11,3,4,4,High,32,5,1,0,1,1,1,1,0,0,533,82,168
+3550,South End,multifamily,3.0,1.0,11,1,5,5,Low,23,3,1,0,0,1,1,0,0,0,586,85,181
+2500,South End,multifamily,3.0,1.0,14,4,5,5,Highest,32,3,1,0,0,1,1,0,1,0,522,84,169
+3100,South End,multifamily,1.0,1.0,12,4,4,4,High,28,1,0,0,1,0,0,0,0,0,858,110,285
+2600,South End,multifamily,2.0,1.0,14,2,6,6,Low,23,1,1,0,0,0,0,0,1,1,608,85,189
+4250,South End,multifamily,2.0,2.5,15,5,5,5,Moderate,28,0,0,0,0,0,0,0,1,0,869,116,287
+3700,South End,multifamily,2.0,1.5,6,2,2,2,High,32,0,0,0,0,0,0,0,1,0,658,106,219
+3600,South End,multifamily,3.0,1.0,11,1,5,5,Low,23,1,0,0,1,0,0,0,0,0,601,84,183
+4175,South End,apartment,4.0,2.0,14,4,5,5,Highest,32,0,0,0,0,0,0,0,0,0,606,91,210
+2250,South End,multifamily,3.0,1.0,9,3,3,3,Moderate,32,0,0,0,0,0,0,0,1,0,953,120,343
+3200,South End,multifamily,2.0,1.5,12,4,4,4,Low,32,0,0,0,0,0,0,0,1,0,700,102,241
+2400,South End,multifamily,1.0,1.0,9,3,3,3,Highest,32,0,0,0,0,0,0,0,0,0,726,101,253
+3400,South End,multifamily,3.0,1.0,14,2,6,6,Low,23,0,0,0,0,0,0,0,1,0,613,84,194
+3250,South End,multifamily,1.0,1.0,12,4,4,4,Low,28,0,0,0,0,0,0,0,1,0,903,115,307
+3400,South End,multifamily,2.0,1.0,12,4,4,4,Low,28,0,0,0,0,0,0,0,1,0,903,115,307
+3200,South End,multifamily,2.0,1.0,10,2,4,4,Low,32,3,1,0,0,1,1,0,0,0,619,87,229
+3100,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,0,0,0,0,0,0,0,1,0,644,65,220
+2650,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,5,1,0,1,1,1,1,0,0,609,65,191
+2700,Fenway,multifamily,1.0,1.0,4,0,1,3,Moderate,21,3,1,0,0,1,1,0,1,0,628,59,197
+2750,Fenway,multifamily,1.0,1.0,14,4,5,5,Lowest,21,0,0,0,0,0,0,0,0,0,511,60,138
+2300,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,1,1,0,0,0,0,0,1,0,609,65,191
+3200,Fenway,multifamily,2.0,1.0,5,0,2,3,Lowest,21,4,1,0,0,1,1,1,0,0,586,59,176
+3000,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,0,0,0,0,0,0,0,1,0,644,65,220
+2600,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,4,1,0,0,1,1,1,0,0,609,65,191
+2750,Fenway,multifamily,1.0,1.0,14,4,5,5,Lowest,21,0,0,0,0,0,0,0,0,0,511,60,138
+2475,Fenway,multifamily,1.0,1.0,3,1,1,1,Moderate,21,0,0,0,0,0,0,0,1,0,651,58,213
+3600,Fenway,multifamily,3.0,1.0,4,0,1,3,Moderate,21,5,1,0,1,1,1,1,1,1,625,60,196
+2400,Fenway,multifamily,1.0,1.0,3,1,1,1,Moderate,21,4,1,0,1,1,1,0,0,1,651,58,213
+3500,Fenway,multifamily,2.0,1.5,3,1,1,1,Low,21,1,1,0,0,0,0,0,1,0,679,61,221
+3000,Fenway,multifamily,2.0,1.0,4,0,1,3,Moderate,21,1,0,0,0,0,0,1,0,0,609,65,191
+3000,Fenway,multifamily,2.0,1.0,3,1,1,1,Moderate,21,2,0,0,1,0,0,1,1,0,651,58,213
+3650,Fenway,multifamily,2.0,1.0,3,1,1,1,Moderate,21,0,0,0,0,0,0,0,1,0,651,58,213
+4800,Fenway,multifamily,3.0,1.0,3,1,1,1,Low,21,2,0,0,1,0,0,1,1,1,635,60,196
+2850,Fenway,multifamily,1.0,1.0,4,0,1,3,Moderate,21,1,0,0,0,0,0,1,0,0,644,65,220
+3095,Mission Hill,multifamily,3.0,1.0,30,10,10,10,Lowest,23,4,1,0,1,1,1,0,0,0,366,43,78
+2400,Mission Hill,multifamily,2.0,1.0,21,7,7,7,Lowest,21,3,1,0,0,1,1,0,0,0,325,34,62
+1000,Mission Hill,multifamily,1.0,0.0,20,6,7,7,Low,23,0,0,0,0,0,0,0,0,0,398,46,89
+3550,Mission Hill,multifamily,3.0,1.0,21,7,7,7,Low,23,0,0,0,0,0,0,0,1,0,398,46,89
+3900,Mission Hill,multifamily,3.0,2.0,22,8,7,7,Low,23,0,0,0,0,0,0,0,1,0,394,45,92
+900,Mission Hill,multifamily,5.0,2.0,28,10,9,9,Lowest,23,2,1,0,1,0,0,0,1,1,326,45,68
+3225,Mission Hill,multifamily,3.0,2.0,23,7,8,8,Low,21,5,1,0,1,1,1,1,1,0,339,35,70
+5600,Mission Hill,multifamily,5.0,2.0,23,7,8,8,Low,23,5,1,0,1,1,1,1,0,1,339,35,70
+3000,Roxbury,multifamily,4.0,1.5,17,9,4,4,Low,53,1,1,0,0,0,0,0,1,0,299,64,58
+2800,Roxbury,multifamily,3.0,1.0,14,8,3,3,High,53,1,0,0,0,0,0,1,0,0,260,61,45
+1900,Roxbury,multifamily,1.0,1.0,15,5,5,5,Lowest,53,3,1,0,0,1,1,0,0,0,340,50,59
+4400,Roxbury,multifamily,5.0,1.5,16,10,3,3,Lowest,53,5,1,0,1,1,1,1,1,0,223,43,36
+750,Roxbury,multifamily,4.0,1.0,16,6,5,5,Low,53,0,0,0,0,0,0,0,1,0,164,33,22
+2300,Roxbury,multifamily,3.0,1.0,8,5,3,0,Low,55,3,1,0,0,1,1,0,1,0,198,47,25
+2250,Roxbury,multifamily,2.0,1.5,17,9,4,4,Moderate,53,1,0,0,0,0,0,1,1,1,155,38,20
+3700,Roxbury,multifamily,5.0,2.5,15,7,4,4,Low,53,5,1,0,1,1,1,1,1,0,289,59,47
+2696,Roxbury,multifamily,3.0,1.0,21,11,5,5,Lowest,53,2,1,1,0,0,0,0,1,0,178,42,27
+3700,Roxbury,multifamily,4.0,2.0,18,8,5,5,Lowest,53,5,1,0,1,1,1,1,0,1,306,52,49
+2895,Roxbury,multifamily,4.0,1.5,14,6,4,4,High,53,0,0,0,0,0,0,0,1,0,148,35,18
+3500,Roxbury,multifamily,3.0,2.0,12,4,4,4,Low,53,4,1,0,1,1,1,0,1,1,364,60,67
+2950,Roxbury,multifamily,3.0,1.0,21,11,5,5,Lowest,53,3,1,0,0,1,1,0,0,1,178,42,27
+2500,Roxbury,multifamily,3.0,1.0,7,5,1,1,High,53,0,0,0,0,0,0,0,0,0,220,55,29
+2500,Roxbury,multifamily,3.0,1.0,14,4,5,5,Moderate,53,5,1,0,1,1,1,1,0,1,182,34,23
+2600,Roxbury,multifamily,2.0,1.0,16,6,5,5,Lowest,53,2,0,0,1,0,0,1,0,1,231,39,35
+4000,Roxbury,multifamily,3.0,2.0,12,4,4,4,Moderate,53,5,1,0,1,1,1,1,1,1,111,34,14
+4400,Roxbury,multifamily,5.0,1.5,16,10,3,3,Lowest,53,5,1,0,1,1,1,1,0,0,223,43,36
+2495,Roxbury,multifamily,2.0,1.0,21,7,7,7,Lowest,53,5,1,0,1,1,1,1,1,1,317,41,56
+3400,Roxbury,multifamily,3.0,1.0,12,2,5,5,Highest,53,1,1,0,0,0,0,0,1,0,524,81,168
+3850,Roxbury,multifamily,5.0,2.0,15,7,4,4,Low,53,2,0,0,1,0,0,1,1,0,286,60,46
+2675,Roxbury,multifamily,4.0,1.0,15,9,3,3,Low,53,0,0,0,0,0,0,0,1,0,177,42,24
+2100,Roxbury,multifamily,2.0,1.0,16,10,3,3,Lowest,53,1,0,0,0,0,0,1,1,1,198,39,28
+2150,Roxbury,multifamily,3.0,1.0,14,4,5,5,Moderate,53,2,1,0,0,0,0,1,1,0,182,34,23
+950,Roxbury,multifamily,1.0,0.0,15,7,4,4,Moderate,54,4,1,0,0,1,1,1,0,1,129,28,13
+1695,Roxbury,multifamily,1.0,1.0,7,5,2,0,Lowest,53,3,0,1,1,0,0,1,1,1,339,61,98
+2450,Roxbury,multifamily,3.0,2.0,16,6,5,5,Moderate,53,3,1,0,0,1,1,0,1,1,114,33,14
+2300,Roxbury,multifamily,2.0,1.0,14,4,5,5,Moderate,53,5,1,0,1,1,1,1,0,0,182,34,23
+3000,Roxbury,multifamily,3.0,1.0,12,2,5,5,Highest,53,0,0,0,0,0,0,0,1,0,524,81,168
+1900,Roxbury,multifamily,2.0,1.0,15,5,5,5,Lowest,53,1,1,0,0,0,0,0,1,0,231,39,35
+2995,Roxbury,multifamily,3.0,1.5,12,6,3,3,Low,53,2,0,0,1,0,0,1,1,1,295,60,51
+4000,Roxbury,multifamily,3.0,3.5,12,4,4,4,Moderate,53,5,1,0,1,1,1,1,1,1,111,34,14
+750,Roxbury,multifamily,1.0,0.0,14,4,5,5,Low,53,3,1,0,0,1,1,0,1,1,386,50,88
+3700,Roxbury,multifamily,5.0,1.5,11,9,1,1,Low,53,4,1,0,0,1,1,1,1,0,244,60,37
+3000,Roxbury,multifamily,3.0,1.0,12,2,5,5,Highest,53,4,1,0,0,1,1,1,0,1,524,81,168
+3000,Roxbury,multifamily,3.0,1.0,12,2,5,5,Highest,53,2,1,1,0,0,0,0,1,1,524,81,168
+2450,Roxbury,multifamily,2.0,1.0,16,6,5,5,Lowest,53,3,1,0,0,1,1,0,1,0,231,39,35
+2450,Roxbury,multifamily,3.0,1.0,5,4,1,0,Moderate,53,1,0,0,0,0,0,1,1,0,126,27,13
+5500,Roxbury,multifamily,4.0,3.5,15,7,4,4,Low,53,5,1,0,1,1,1,1,1,0,289,59,47
+3200,Roxbury,multifamily,3.0,1.5,12,6,3,3,Low,53,5,1,0,1,1,1,1,0,1,296,60,50
+2150,Roxbury,multifamily,3.0,1.0,8,5,3,0,Low,55,2,1,0,0,0,0,1,1,0,194,46,24
+2400,Roxbury,multifamily,3.0,1.5,5,3,2,0,Highest,54,3,1,0,0,1,1,0,0,1,104,22,11
+2000,Roxbury,multifamily,2.0,1.0,16,4,6,6,Moderate,53,0,0,0,0,0,0,0,0,0,118,32,15
+2200,Roxbury,multifamily,3.0,1.0,17,5,6,6,Low,53,3,1,0,1,0,0,1,1,0,164,38,19
+4725,Roxbury,multifamily,5.0,2.0,16,10,3,3,Lowest,53,5,1,0,1,1,1,1,0,1,198,39,28
+2395,Roxbury,multifamily,3.0,1.0,13,5,4,4,High,53,3,1,0,0,1,1,0,1,0,148,35,20
+4500,Roxbury,multifamily,4.0,2.5,18,6,6,6,Low,53,5,1,0,1,1,1,1,0,1,317,41,56
+2700,Roxbury,apartment,2.0,1.0,12,2,5,5,Highest,53,5,1,1,1,1,1,0,1,0,524,81,168
+4425,Roxbury,multifamily,4.0,3.0,18,6,6,6,Low,53,5,1,0,1,1,1,1,0,1,317,41,56
+750,Roxbury,multifamily,1.0,0.0,14,4,5,5,Low,53,3,1,0,0,1,1,0,0,0,386,50,88
+2850,Roxbury,multifamily,3.0,2.0,16,10,3,3,Moderate,53,0,0,0,0,0,0,0,1,0,151,39,22
+5585,Roxbury,multifamily,3.0,3.0,11,3,4,4,Low,53,3,1,0,0,1,1,0,1,1,149,30,16
+3550,Roxbury,multifamily,4.0,2.0,12,4,4,4,Highest,53,2,0,0,1,0,0,1,0,0,388,58,82
+950,Roxbury,multifamily,1.0,0.0,15,7,4,4,Moderate,54,4,1,0,0,1,1,1,0,1,129,28,13
+2100,Roxbury,singlefamily,2.0,1.0,14,6,4,4,Moderate,53,1,1,0,0,0,0,0,1,1,325,63,84
+2995,Roxbury,multifamily,3.0,1.5,12,6,3,3,Low,53,2,0,0,1,0,0,1,1,1,295,60,51
+2800,Roxbury,multifamily,4.0,1.5,15,9,3,3,Low,53,0,0,0,0,0,0,0,1,0,291,63,58
+2150,Roxbury,multifamily,2.0,1.0,15,7,4,4,Moderate,53,0,0,0,0,0,0,0,1,0,178,40,29
+2300,Roxbury,multifamily,2.0,1.0,14,4,5,5,Low,53,0,0,0,0,0,0,0,1,0,157,32,17
+2700,Roxbury,multifamily,3.0,1.0,12,6,3,3,Moderate,54,5,1,1,0,1,1,1,0,1,129,28,13
+2800,Roxbury,multifamily,4.0,1.0,19,7,6,6,Low,53,5,1,1,0,1,1,1,1,1,179,31,23
+750,Roxbury,multifamily,1.0,0.0,19,11,4,4,High,53,1,0,0,0,0,0,1,1,0,187,54,20
+2800,Dorchester,multifamily,3.0,1.0,14,6,4,4,Moderate,54,5,1,0,1,1,1,1,1,0,133,29,14
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,0,0,64,17,13
+3200,Dorchester,multifamily,4.0,3.0,10,4,3,3,Low,54,0,0,0,0,0,0,0,1,0,108,27,16
+3400,Dorchester,multifamily,4.0,2.0,4,2,1,1,Lowest,55,1,0,0,1,0,0,0,0,0,157,30,18
+3300,Dorchester,multifamily,4.0,2.0,13,5,4,4,Lowest,55,1,1,0,0,0,0,0,1,1,169,33,21
+3200,Dorchester,multifamily,4.0,2.5,17,5,6,6,Lowest,54,6,1,1,1,1,1,1,1,1,132,27,19
+2100,Dorchester,multifamily,2.0,1.0,14,6,4,4,Moderate,54,3,1,0,0,1,1,0,1,1,135,33,17
+750,Dorchester,multifamily,4.0,1.0,19,7,6,6,High,63,2,0,0,1,0,0,1,1,0,153,33,17
+800,Dorchester,multifamily,1.0,2.0,13,5,4,4,High,63,4,1,1,0,1,1,0,1,0,156,35,19
+775,Dorchester,multifamily,1.0,0.0,13,5,4,4,Lowest,55,0,0,0,0,0,0,0,0,0,179,37,22
+2300,Dorchester,multifamily,3.0,1.0,13,5,4,4,Moderate,54,1,1,0,0,0,0,0,1,0,155,35,18
+4390,Dorchester,multifamily,1.0,1.0,13,5,4,4,Low,20,5,1,0,1,1,1,1,1,1,148,30,18
+2000,Dorchester,multifamily,2.0,1.0,19,7,6,6,Lowest,54,5,1,0,1,1,1,1,1,0,113,23,18
+2800,Dorchester,multifamily,3.0,1.0,7,4,3,0,Low,54,2,0,0,1,0,0,1,1,0,104,23,18
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,1,0,64,17,13
+1800,Dorchester,multifamily,2.0,1.0,12,6,3,3,High,63,0,0,0,0,0,0,0,0,0,152,33,17
+2950,Dorchester,multifamily,4.0,2.0,12,6,3,3,Low,63,2,1,1,0,0,0,0,1,0,168,34,20
+790,Dorchester,apartment,1.0,1.0,11,6,5,0,Low,54,2,0,0,1,0,1,0,1,0,132,31,16
+2700,Dorchester,multifamily,3.0,1.5,14,6,4,4,Lowest,55,5,1,0,1,1,1,1,0,1,167,34,21
+2250,Dorchester,multifamily,3.0,1.0,18,6,6,6,Moderate,63,0,0,0,0,0,0,0,0,0,161,32,18
+2500,Dorchester,multifamily,3.0,1.0,18,6,6,6,Moderate,63,0,0,0,0,0,0,0,1,0,153,32,18
+3200,Dorchester,multifamily,4.0,2.0,14,6,4,4,Low,63,3,1,0,0,1,1,0,1,0,171,35,20
+2500,Dorchester,multifamily,3.0,1.0,18,6,6,6,Low,63,2,0,1,0,0,0,1,1,0,150,32,18
+2400,Dorchester,multifamily,2.0,1.0,10,5,5,0,Lowest,63,1,1,0,0,0,0,0,1,1,104,23,15
+2200,Dorchester,multifamily,2.0,1.0,7,4,3,0,Low,54,2,0,0,1,0,0,1,1,0,104,23,18
+2500,Dorchester,multifamily,2.0,2.0,18,6,6,6,Low,63,4,1,1,0,1,1,0,1,0,112,24,17
+1850,Dorchester,multifamily,2.0,1.0,8,5,3,0,Moderate,54,0,0,0,0,0,0,0,1,0,139,32,15
+4500,Dorchester,multifamily,5.0,2.0,17,7,5,5,Lowest,55,3,1,0,0,1,1,0,1,0,167,36,21
+1800,Dorchester,multifamily,2.0,1.0,7,3,2,2,Lowest,54,0,0,0,0,0,0,0,1,0,65,17,14
+4400,Dorchester,multifamily,4.0,2.0,10,4,3,3,Lowest,55,2,1,1,0,0,0,0,1,0,169,41,22
+3200,Dorchester,multifamily,4.0,2.0,14,6,4,4,Low,63,3,1,0,0,1,1,0,1,0,171,35,20
+900,Dorchester,multifamily,1.0,0.0,7,3,2,2,Moderate,54,5,1,0,1,1,1,1,1,1,104,24,15
+2800,Dorchester,multifamily,3.0,1.0,11,5,3,3,Moderate,55,0,0,0,0,0,0,0,0,0,162,28,17
+2800,Dorchester,multifamily,4.0,1.5,11,5,3,3,Lowest,55,4,1,0,1,1,1,0,0,0,167,36,21
+3250,Dorchester,multifamily,4.0,1.0,14,6,4,4,Moderate,63,1,1,0,0,0,0,0,1,1,166,33,20
+2990,Dorchester,multifamily,4.0,1.0,20,8,6,6,Moderate,55,1,1,0,0,0,0,0,1,0,176,33,20
+1800,Dorchester,multifamily,1.0,1.0,11,5,3,3,Lowest,54,2,1,1,0,0,0,0,1,1,117,28,20
+3050,Dorchester,multifamily,4.0,2.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20
+2650,Dorchester,multifamily,3.0,1.0,17,7,5,5,Moderate,55,0,0,0,0,0,0,0,0,0,173,33,20
+1850,Dorchester,multifamily,2.0,1.0,8,5,3,0,Moderate,54,0,0,0,0,0,0,0,1,0,139,32,15
+2400,Dorchester,multifamily,3.0,1.0,11,6,5,0,Low,54,1,1,0,0,0,0,0,1,1,104,23,15
+2500,Dorchester,multifamily,3.0,1.0,16,6,5,5,Moderate,54,1,0,0,0,0,0,1,0,1,157,37,22
+3000,Dorchester,multifamily,3.0,1.0,15,7,4,4,Moderate,54,1,1,0,0,0,0,0,1,1,133,29,14
+900,Dorchester,multifamily,1.0,0.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20
+2500,Dorchester,multifamily,3.0,1.0,7,3,2,2,Moderate,54,5,1,0,1,1,1,1,1,0,104,24,15
+2650,Dorchester,multifamily,3.0,1.0,17,7,5,5,Moderate,55,0,0,0,0,0,0,0,0,0,173,33,20
+3000,Dorchester,multifamily,4.0,1.5,7,5,2,0,Moderate,55,2,0,0,1,0,0,1,0,0,187,44,25
+2400,Dorchester,multifamily,2.0,1.0,10,5,5,0,Lowest,63,2,0,0,1,0,0,1,1,0,104,23,15
+2000,Dorchester,multifamily,1.0,1.0,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,1,0,64,17,13
+3200,Dorchester,multifamily,5.0,2.0,13,5,4,4,Moderate,55,3,1,0,0,1,1,0,1,0,172,38,21
+4500,Dorchester,multifamily,5.0,2.0,11,5,3,3,Lowest,55,0,0,0,0,0,0,0,1,0,158,33,21
+2100,Dorchester,multifamily,2.0,1.0,14,6,4,4,Moderate,54,3,1,0,0,1,1,0,1,1,135,33,17
+2200,Dorchester,multifamily,2.0,1.0,15,5,5,5,Moderate,63,1,0,0,0,0,0,1,1,1,141,30,15
+2670,Dorchester,multifamily,4.0,1.0,14,4,5,5,Low,63,5,1,0,1,1,1,1,0,1,118,29,18
+2300,Dorchester,multifamily,3.0,1.0,16,6,5,5,High,55,0,0,0,0,0,0,0,1,0,171,32,18
+2350,Dorchester,multifamily,2.0,1.0,8,4,2,2,Lowest,55,1,1,0,0,0,0,0,1,1,159,39,21
+3600,Dorchester,multifamily,4.0,2.0,4,2,1,1,Lowest,55,1,0,0,1,0,0,0,0,0,157,30,18
+3990,Dorchester,multifamily,1.0,1.0,13,5,4,4,Low,20,5,1,0,1,1,1,1,1,0,148,30,18
+3700,Dorchester,multifamily,4.0,1.0,18,8,5,5,Moderate,55,5,1,0,1,1,1,1,0,0,174,38,21
+950,Dorchester,multifamily,1.0,1.0,11,5,3,3,Moderate,54,2,0,0,1,1,0,0,1,0,139,36,19
+2900,Dorchester,multifamily,4.0,1.0,14,4,5,5,Low,63,5,1,0,1,1,1,1,0,1,118,29,18
+2495,Dorchester,multifamily,3.0,1.0,13,5,4,4,Lowest,55,1,1,0,0,0,0,0,1,0,173,38,21
+900,Dorchester,multifamily,1.0,0.0,7,3,2,2,Moderate,54,5,1,0,1,1,1,1,1,1,104,24,15
+2700,Dorchester,multifamily,3.0,1.0,11,5,3,3,High,54,0,0,0,0,0,0,0,0,0,154,34,18
+2500,Dorchester,multifamily,3.0,1.0,11,5,3,3,Low,54,5,1,0,1,1,1,1,1,0,124,29,20
+2100,Dorchester,multifamily,2.0,1.0,11,6,5,0,Low,63,1,1,0,0,0,0,0,1,1,105,23,15
+900,Dorchester,apartment,1.0,1.0,11,5,3,3,Moderate,54,1,0,0,1,0,0,0,1,0,139,36,19
+2800,Dorchester,multifamily,4.0,1.5,11,5,3,3,Lowest,55,3,1,0,0,1,1,0,1,0,167,36,21
+1550,Dorchester,multifamily,1.0,1.0,11,5,3,3,Lowest,55,1,0,0,1,0,0,0,1,1,149,28,17
+2600,Dorchester,multifamily,2.0,1.5,7,3,2,2,Lowest,54,4,1,1,0,1,1,0,1,0,64,17,13
+2500,Dorchester,multifamily,3.0,1.0,17,5,6,6,Low,63,5,1,0,1,1,1,1,1,0,116,26,18
+700,Dorchester,multifamily,1.0,0.0,9,5,4,0,Low,54,0,0,0,0,0,0,0,0,1,133,34,16
+3400,Dorchester,multifamily,3.0,2.0,20,6,7,7,Low,63,4,1,0,1,1,1,0,1,0,116,26,18
+1600,Dorchester,multifamily,2.0,1.0,8,5,3,0,Moderate,54,1,1,0,0,0,0,0,1,0,139,32,15
+2400,Dorchester,multifamily,3.0,1.0,18,6,6,6,Low,63,1,0,0,0,0,0,1,0,0,150,32,18
+750,Dorchester,multifamily,1.0,0.0,14,6,4,4,Low,54,0,0,0,0,0,0,0,1,0,141,32,15
+900,Dorchester,multifamily,1.0,0.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20
+900,Dorchester,multifamily,1.0,0.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20
+2800,Dorchester,multifamily,4.0,1.5,11,5,3,3,Lowest,55,2,1,1,0,0,0,0,1,0,167,36,21
+2200,Dorchester,multifamily,3.0,1.0,13,5,4,4,Lowest,55,1,1,0,0,0,0,0,1,0,172,37,21
+3060,Dorchester,multifamily,4.0,1.5,7,5,2,0,Moderate,55,0,0,0,0,0,0,0,1,0,187,44,25
+1625,Dorchester,multifamily,1.0,1.0,14,6,4,4,Low,54,2,1,0,0,0,0,1,1,0,119,28,19
+4200,Dorchester,multifamily,4.0,2.0,12,4,4,4,Moderate,63,5,1,0,1,1,1,1,1,0,140,37,19
+1100,Dorchester,multifamily,1.0,0.0,14,6,4,4,Low,54,5,1,0,1,1,1,1,1,0,134,36,18
+2700,Dorchester,multifamily,3.0,1.0,17,7,5,5,Low,55,5,1,0,1,1,1,1,0,0,178,36,20
+1900,Dorchester,multifamily,2.0,1.0,15,7,4,4,High,63,0,0,0,0,0,0,0,0,0,152,33,17
+2500,Dorchester,multifamily,3.0,1.5,17,5,6,6,Moderate,63,0,0,0,0,0,0,0,0,0,151,33,18
+1850,Dorchester,multifamily,2.0,1.0,8,5,3,0,Moderate,54,0,0,0,0,0,0,0,1,0,139,32,15
+3990,Dorchester,multifamily,1.0,1.0,13,5,4,4,Low,20,5,1,0,1,1,1,1,1,1,148,30,18
+4600,Dorchester,multifamily,5.0,2.0,17,7,5,5,Lowest,55,6,1,1,1,1,1,1,0,0,167,36,21
+1800,Dorchester,multifamily,1.0,1.0,11,5,3,3,Lowest,54,2,1,0,0,0,0,1,1,1,117,28,20
+2500,Dorchester,multifamily,2.0,1.5,13,5,4,4,Low,55,3,1,0,0,1,1,0,1,1,180,43,22
+1800,Dorchester,multifamily,2.0,1.0,8,5,3,0,Moderate,54,5,1,0,1,1,1,1,0,0,139,32,15
+2000,Dorchester,multifamily,2.0,1.5,7,3,2,2,Lowest,54,3,1,0,0,1,1,0,1,0,64,17,13
+2200,Dorchester,multifamily,3.0,1.0,14,6,4,4,Low,54,0,0,0,0,0,0,0,1,0,141,32,15
+900,Dorchester,multifamily,1.0,0.0,7,3,2,2,Moderate,54,5,1,0,1,1,1,1,1,1,104,24,15
+3900,Dorchester,multifamily,5.0,1.0,18,8,5,5,Moderate,55,5,1,0,1,1,1,1,0,0,174,38,21
+900,Dorchester,multifamily,1.0,0.0,12,6,3,3,Low,63,4,1,0,0,1,1,1,1,1,168,34,20
+2395,Dorchester,multifamily,3.0,1.0,13,5,4,4,Lowest,55,1,1,0,0,0,0,0,1,0,174,42,22
+2595,Jamaica Plain,multifamily,3.0,1.0,18,8,5,5,Low,53,5,1,0,1,1,1,1,1,1,159,33,27
+3100,Jamaica Plain,multifamily,4.0,1.0,10,6,2,2,Low,53,5,1,0,1,1,1,1,1,1,129,30,23
+2400,Jamaica Plain,multifamily,2.0,1.0,23,9,7,7,Low,42,6,1,1,1,1,1,1,0,0,190,33,29
+2950,Jamaica Plain,multifamily,3.0,1.0,23,9,7,7,Moderate,42,5,1,0,1,1,1,1,1,1,202,35,30
+3400,Jamaica Plain,multifamily,4.0,1.0,31,11,10,10,Low,42,5,1,0,1,1,1,1,1,1,221,38,29
+2600,Jamaica Plain,multifamily,3.0,1.0,22,10,6,6,High,42,5,1,0,1,1,1,1,1,1,226,37,35
+3250,Jamaica Plain,multifamily,4.0,2.0,9,3,3,3,Highest,42,5,1,0,1,1,1,1,0,0,115,25,20
+2295,Jamaica Plain,multifamily,2.0,1.0,25,9,8,8,Lowest,21,3,1,0,0,1,1,0,0,0,298,34,59
+1900,Jamaica Plain,multifamily,1.0,1.0,23,9,7,7,Low,42,3,0,1,1,0,0,1,0,0,190,33,29
+3150,Jamaica Plain,multifamily,2.0,1.0,25,9,8,8,Lowest,42,5,1,0,1,1,1,1,0,0,290,36,55
+1875,Jamaica Plain,multifamily,1.0,1.0,25,9,8,8,Lowest,21,1,1,0,0,0,0,0,1,1,298,34,59
+2300,Jamaica Plain,multifamily,1.0,1.0,25,9,8,8,Lowest,21,5,1,0,1,1,1,1,0,0,285,34,49
+2900,Jamaica Plain,multifamily,3.0,1.0,25,9,8,8,Lowest,42,5,1,0,1,1,1,1,0,0,290,36,55
+2600,Jamaica Plain,multifamily,2.0,1.0,25,9,8,8,Lowest,42,2,0,0,1,0,0,1,0,0,285,34,49
+3000,Jamaica Plain,multifamily,3.0,1.0,26,10,8,8,Low,42,5,1,1,1,1,1,0,1,1,191,33,30
+2150,Jamaica Plain,multifamily,1.0,1.0,23,9,7,7,Low,42,6,1,1,1,1,1,1,0,0,190,33,29
+2500,Jamaica Plain,multifamily,3.0,1.0,17,7,5,5,Lowest,42,0,0,0,0,0,0,0,0,0,171,34,29
+2100,Jamaica Plain,multifamily,1.0,1.0,23,9,7,7,Low,42,6,1,1,1,1,1,1,0,0,190,33,29
+2745,Jamaica Plain,multifamily,3.0,1.0,19,9,5,5,Low,53,3,1,0,0,1,1,0,0,1,169,35,27
+2050,Jamaica Plain,multifamily,2.0,1.0,16,8,4,4,Low,53,0,0,0,0,0,0,0,0,0,173,38,29
+3100,Jamaica Plain,multifamily,4.0,1.0,31,11,10,10,Low,42,0,0,0,0,0,0,0,0,1,245,40,35
+2800,Jamaica Plain,multifamily,2.0,1.0,6,2,2,2,Lowest,42,1,0,0,1,0,0,0,1,1,75,17,16
+3375,Jamaica Plain,multifamily,3.0,1.0,12,4,4,4,Highest,42,5,1,0,1,1,1,1,0,1,106,23,19
+4000,Jamaica Plain,multifamily,4.0,2.0,25,9,8,8,Low,42,5,1,0,1,1,1,1,0,1,195,35,29
+2000,Jamaica Plain,multifamily,1.0,1.0,23,9,7,7,Low,42,5,1,0,1,1,1,1,0,0,190,33,29
+965,Jamaica Plain,apartment,1.0,1.0,8,4,2,2,Moderate,42,2,0,0,1,0,1,0,1,0,120,26,23
+800,Jamaica Plain,apartment,1.0,1.0,10,6,2,2,Moderate,42,1,0,0,1,0,0,0,1,0,119,25,24
+2900,Jamaica Plain,multifamily,3.0,1.0,25,9,8,8,Moderate,42,0,0,0,0,0,0,0,1,0,254,40,36
+2400,Jamaica Plain,multifamily,2.0,1.0,23,9,7,7,Low,42,6,1,1,1,1,1,1,0,0,190,33,29
+3000,Jamaica Plain,multifamily,4.0,1.0,10,6,2,2,Low,42,4,1,0,1,1,1,0,0,0,123,28,23
+2400,Jamaica Plain,multifamily,4.0,1.0,12,6,3,3,High,53,2,1,0,1,0,0,0,1,1,140,33,22
+3400,Jamaica Plain,multifamily,5.0,1.0,6,2,2,2,Lowest,42,1,1,0,0,0,0,0,1,1,71,18,17
+3850,Jamaica Plain,multifamily,4.0,2.0,2,1,1,0,Lowest,42,0,0,0,0,0,0,0,1,0,83,17,20
+3150,Jamaica Plain,multifamily,3.0,1.0,25,9,8,8,Lowest,42,0,0,0,0,0,0,0,0,0,285,34,49
+3750,Jamaica Plain,multifamily,3.0,1.0,25,9,8,8,Low,42,5,1,0,1,1,1,1,0,1,195,35,29
+1850,Jamaica Plain,multifamily,1.0,1.0,16,8,4,4,Moderate,53,6,1,1,1,1,1,1,1,1,178,40,29
+3295,Jamaica Plain,multifamily,3.0,1.0,12,4,4,4,Highest,42,5,1,0,1,1,1,1,0,1,106,23,19
+3200,Jamaica Plain,multifamily,4.0,1.0,16,8,4,4,High,53,1,0,0,0,0,0,1,1,1,138,31,24
+2295,Jamaica Plain,multifamily,2.0,1.0,25,9,8,8,Lowest,21,4,1,0,0,1,1,1,1,1,298,34,59
+2700,Jamaica Plain,multifamily,3.0,1.0,20,8,6,6,Moderate,42,3,1,0,0,1,1,0,0,1,207,36,30
+1750,Mattapan,multifamily,3.0,1.0,4,2,1,1,Low,59,0,0,0,0,0,0,0,1,0,61,13,11
+4000,Mattapan,multifamily,9.0,3.0,14,6,4,4,Low,54,5,1,0,1,1,1,1,1,0,88,19,11
+2800,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,1,1,0,0,0,0,0,1,1,82,20,10
+2300,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,0,0,0,0,0,0,0,1,0,66,13,9
+2200,Mattapan,multifamily,2.0,1.0,11,6,5,0,Moderate,59,1,1,0,0,0,0,0,1,0,71,18,5
+1000,Mattapan,multifamily,3.0,1.0,5,3,2,0,High,59,4,1,1,0,1,1,0,1,0,69,14,4
+2500,Mattapan,multifamily,3.0,1.0,5,3,2,0,Highest,59,1,1,0,0,0,0,0,1,1,69,15,5
+2600,Mattapan,multifamily,3.0,1.0,17,7,5,5,Lowest,59,2,1,1,0,0,0,0,1,0,67,11,9
+3000,Mattapan,multifamily,4.0,1.0,13,5,4,4,Lowest,59,0,0,0,0,0,0,0,1,0,61,12,8
+2500,Mattapan,multifamily,3.0,1.0,5,3,2,0,Highest,59,0,0,0,0,0,0,0,0,1,72,14,4
+2600,Mattapan,multifamily,1.0,1.0,4,2,1,1,Lowest,54,4,1,1,0,1,1,0,1,1,42,12,12
+3200,Mattapan,multifamily,4.0,1.0,5,3,2,0,High,59,0,0,0,0,0,0,0,1,1,68,14,4
+2600,Mattapan,multifamily,4.0,1.0,5,3,2,0,Highest,59,2,1,1,0,0,0,0,1,1,69,15,5
+2500,Mattapan,multifamily,3.0,1.0,21,9,6,6,Moderate,59,2,1,0,0,0,0,1,1,0,83,18,11
+2850,Mattapan,multifamily,4.0,1.0,15,5,5,5,Moderate,54,2,0,0,1,0,0,1,0,0,84,17,7
+2850,Mattapan,multifamily,4.0,1.0,5,3,2,0,High,54,4,1,1,0,1,1,0,1,1,75,16,4
+3550,Mattapan,multifamily,4.0,2.0,13,5,4,4,Low,54,0,0,0,0,0,0,0,1,0,90,19,15
+2300,Mattapan,multifamily,4.0,2.0,7,4,3,0,Moderate,59,1,1,0,0,0,0,0,1,1,72,17,5
+1700,Mattapan,multifamily,1.0,1.0,7,3,2,2,Lowest,59,5,1,0,1,1,1,1,1,0,87,18,15
+2250,Mattapan,multifamily,3.0,1.0,12,7,5,0,Low,59,1,1,0,0,0,0,0,1,1,63,15,4
+2900,Mattapan,multifamily,3.0,1.0,14,6,4,4,Low,54,2,1,0,1,0,0,0,1,0,92,21,15
+3100,Mattapan,multifamily,4.0,1.0,13,5,4,4,Lowest,59,0,0,0,0,0,0,0,1,0,64,13,8
+3000,Mattapan,multifamily,4.0,1.0,15,5,5,5,Moderate,54,2,0,0,1,0,0,1,0,0,84,17,7
+2500,Mattapan,multifamily,1.0,1.0,3,1,0,2,Lowest,21,3,0,1,1,0,0,1,1,0,76,18,13
+1950,Mattapan,multifamily,2.0,1.0,19,7,6,6,Lowest,54,5,1,0,1,1,1,1,1,0,101,19,12
+2250,Mattapan,multifamily,3.0,1.0,5,3,2,0,Highest,59,3,1,0,0,1,1,0,0,0,72,14,4
+2300,Mattapan,multifamily,3.0,1.0,14,6,4,4,Low,54,0,0,0,0,0,0,0,1,0,90,20,13
+1900,Mattapan,apartment,2.0,1.0,12,6,3,3,Lowest,59,3,1,1,0,0,0,1,1,1,59,16,1
+2500,Mattapan,multifamily,3.0,1.0,21,9,6,6,Moderate,59,2,1,0,0,0,0,1,1,0,83,18,11
+2300,Mattapan,multifamily,3.0,1.0,6,3,3,0,Low,59,1,0,0,0,0,0,1,1,0,68,15,4
+2300,Mattapan,multifamily,3.0,1.0,13,5,4,4,Lowest,59,2,0,0,1,0,0,1,1,0,57,11,6
+800,Mattapan,multifamily,1.0,0.0,5,3,2,0,Highest,59,3,1,0,0,1,1,0,0,0,72,14,4
+2800,Mattapan,multifamily,4.0,1.0,20,8,6,6,Moderate,59,0,0,0,0,0,0,0,1,0,62,15,4
+2800,Mattapan,multifamily,3.0,1.0,16,6,5,5,Moderate,54,0,0,0,0,0,0,0,1,0,96,18,11
+1837,Mattapan,apartment,2.0,1.5,12,6,3,3,Lowest,59,3,0,1,1,0,0,1,1,1,58,15,1
+2750,Mattapan,multifamily,3.0,1.0,11,6,5,0,Low,59,3,0,1,1,0,0,1,1,0,63,15,4
+2320,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,1,0,0,0,0,0,1,0,1,75,20,9
+2600,Mattapan,multifamily,3.0,1.0,16,6,5,5,Moderate,54,0,0,0,0,0,0,0,1,0,96,18,11
+1850,Mattapan,apartment,2.0,1.0,20,8,6,6,Low,59,3,1,1,0,0,0,1,1,1,82,20,10
+2350,Mattapan,multifamily,2.0,1.0,20,8,6,6,Low,59,0,0,0,0,0,0,0,0,0,75,20,9
+1995,Mattapan,multifamily,2.0,2.0,5,3,2,0,Moderate,59,4,1,1,0,1,1,0,1,1,68,14,4
+1850,Mattapan,multifamily,2.0,1.0,10,6,4,0,Moderate,59,2,1,0,0,0,0,1,1,1,61,15,4
+2600,Mattapan,multifamily,3.0,1.0,14,6,4,4,Moderate,54,0,0,0,0,0,0,0,1,0,88,20,11
+2400,Mattapan,multifamily,2.0,1.0,20,8,6,6,Lowest,54,0,0,0,0,0,0,0,1,0,97,18,12
+2200,Mattapan,multifamily,2.0,1.0,12,4,4,4,Lowest,54,1,0,0,0,0,0,1,1,0,88,19,15
+1200,Mattapan,singlefamily,3.0,2.0,4,1,0,3,Lowest,59,6,1,1,1,1,1,1,1,0,78,18,15
+3000,Roslindale,multifamily,3.0,1.0,2,1,1,0,Lowest,66,3,1,0,0,1,1,0,1,0,83,21,20
+2300,Roslindale,multifamily,3.0,1.0,2,2,0,0,Lowest,66,3,1,0,0,1,1,0,1,0,79,15,15
+2600,Roslindale,multifamily,3.0,2.0,7,3,2,2,Lowest,66,4,1,1,0,1,1,0,1,1,73,19,13
+1800,Roslindale,multifamily,2.0,1.0,12,4,4,4,Lowest,66,0,0,0,0,0,0,0,1,0,75,18,14
+3400,Roslindale,multifamily,3.0,2.0,13,5,4,4,Lowest,66,6,1,1,1,1,1,1,1,0,73,17,13
+2400,Roslindale,multifamily,2.0,1.0,1,1,0,0,Lowest,66,2,0,0,1,0,0,1,1,0,83,15,15
+3795,Roslindale,multifamily,2.0,2.0,10,4,3,3,Moderate,66,3,1,0,0,1,1,0,1,0,78,17,17
+2350,Roslindale,multifamily,3.0,1.0,13,5,4,4,Moderate,66,0,0,0,0,0,0,0,1,0,67,17,12
+2580,Roslindale,apartment,3.0,1.5,1,1,0,0,Lowest,66,5,1,0,1,1,1,1,1,1,83,19,13
+2600,Roslindale,multifamily,2.0,1.0,3,2,1,0,Highest,66,4,1,1,0,1,1,0,1,0,80,17,15
+1000,Roslindale,multifamily,3.0,1.5,4,3,1,0,Lowest,66,3,1,0,0,1,1,0,1,0,79,18,15
+2400,Roslindale,multifamily,2.0,2.0,2,2,0,0,Lowest,66,6,1,1,1,1,1,1,1,1,79,16,15
+2145,Roslindale,multifamily,2.0,1.0,3,2,1,0,Lowest,66,3,1,0,0,1,1,0,0,0,73,19,21
+1900,Roslindale,multifamily,1.0,1.0,8,4,2,2,Lowest,66,1,0,1,0,0,0,0,1,0,82,19,14
+2550,Roslindale,multifamily,3.0,2.0,7,3,2,2,Lowest,66,3,0,1,1,0,0,1,1,0,84,19,15
+2200,Roslindale,multifamily,2.0,1.0,7,3,2,2,Lowest,66,1,0,0,0,0,0,1,1,0,84,19,15
+1200,Roslindale,multifamily,2.0,2.0,5,4,1,0,Low,66,3,1,1,1,0,0,0,1,0,70,19,15
+3795,Roslindale,multifamily,2.0,2.0,9,3,3,3,Moderate,66,4,1,1,0,1,1,0,1,1,75,17,15
+4000,Roslindale,singlefamily,4.0,4.0,7,3,2,2,Lowest,66,4,1,1,0,1,1,0,1,1,82,19,15
+4500,Roslindale,multifamily,3.0,2.0,10,4,3,3,Moderate,66,4,1,1,0,1,1,0,1,1,78,17,17
+2100,Roslindale,multifamily,3.0,1.0,12,4,4,4,Low,66,0,0,0,0,0,0,0,1,0,76,18,13
+1650,Roslindale,multifamily,1.0,1.0,13,5,4,4,Lowest,66,1,1,0,0,0,0,0,1,0,65,17,12
+2250,Roslindale,multifamily,3.0,1.0,0,0,0,0,Lowest,66,3,1,0,0,1,1,0,1,0,77,17,14
+950,Roslindale,multifamily,1.0,1.0,0,0,0,0,Lowest,66,2,1,1,0,0,0,0,1,0,77,17,14
+2185,Roslindale,multifamily,2.0,1.0,10,4,3,3,Lowest,66,0,0,0,0,0,0,0,1,0,70,17,14
+3795,Roslindale,multifamily,2.0,2.0,10,4,3,3,Moderate,66,4,1,1,0,1,1,0,1,1,78,17,17
+1750,Roslindale,multifamily,2.0,1.0,3,3,0,0,Lowest,66,1,0,0,0,0,0,1,1,0,83,18,15
+3895,Roslindale,multifamily,2.0,2.0,10,4,3,3,Moderate,66,3,1,0,0,1,1,0,1,1,78,17,17
+2100,Roslindale,multifamily,2.0,1.0,10,4,3,3,Lowest,66,3,1,0,1,0,0,1,1,0,70,17,14
+2100,Roslindale,multifamily,2.0,2.0,13,5,4,4,Lowest,66,1,0,1,0,0,0,0,1,1,63,17,11
+2700,Roslindale,multifamily,3.0,2.0,3,2,1,0,Lowest,66,2,0,0,1,0,0,1,1,1,69,19,19
+1775,Roslindale,multifamily,1.0,1.0,2,2,0,0,Lowest,66,1,1,0,0,0,0,0,1,0,79,15,15
+3225,Roslindale,multifamily,3.0,1.0,8,2,3,3,Moderate,66,4,1,1,0,1,1,0,1,1,65,20,8
+1800,Roslindale,multifamily,1.0,1.0,9,3,3,3,Lowest,66,0,0,0,0,0,0,0,1,0,74,18,16
+4500,Roslindale,multifamily,3.0,2.0,10,4,3,3,Moderate,66,3,1,0,0,1,1,0,1,1,78,17,17
+2300,Roslindale,multifamily,3.0,1.0,2,2,0,0,Lowest,66,1,0,0,1,0,0,0,1,0,79,15,15
+2100,Roslindale,multifamily,2.0,1.0,10,4,3,3,Lowest,66,3,1,0,1,0,0,1,1,0,70,17,14
+2300,Roslindale,multifamily,2.0,1.0,7,3,2,2,Highest,66,3,1,0,1,0,0,1,1,0,78,16,16
+2000,Roslindale,multifamily,2.0,1.0,4,3,1,0,Lowest,66,2,0,0,1,0,0,1,1,0,75,17,15
+2185,Roslindale,multifamily,2.0,1.0,10,4,3,3,Lowest,66,3,1,0,1,0,0,1,1,0,70,17,14
+2350,Roslindale,multifamily,2.0,1.0,7,3,2,2,Lowest,66,4,1,0,1,1,1,0,1,0,82,19,14
+2900,Roslindale,multifamily,3.0,1.0,5,3,1,1,Lowest,66,1,1,0,0,0,0,0,1,1,82,18,15
+2550,Roslindale,multifamily,3.0,1.0,13,5,4,4,Lowest,66,1,1,0,0,0,0,0,1,0,70,17,14
+2200,Roslindale,multifamily,2.0,1.0,8,4,2,2,Lowest,66,2,0,1,0,0,0,1,1,0,82,19,14
+2400,Roslindale,singlefamily,3.0,2.0,2,2,0,0,Lowest,66,2,0,0,1,0,0,1,1,0,80,16,15
+3795,Roslindale,multifamily,2.0,2.0,9,3,3,3,Moderate,66,3,1,0,0,1,1,0,1,1,78,17,17
+2525,Roslindale,multifamily,3.0,1.5,10,4,3,3,Lowest,66,2,1,1,0,0,0,0,1,0,71,18,15
+2400,Roslindale,multifamily,2.0,1.0,2,2,0,0,Lowest,66,5,1,0,1,1,1,1,1,0,79,17,15
+3795,Roslindale,multifamily,2.0,2.0,10,4,3,3,Moderate,66,3,1,0,0,1,1,0,1,1,78,17,17
+2300,Roslindale,multifamily,3.0,1.0,3,2,1,0,Lowest,66,1,1,0,0,0,0,0,1,0,80,16,15
+3895,Roslindale,multifamily,2.0,2.0,9,3,3,3,Moderate,66,3,1,0,0,1,1,0,1,1,78,17,17
+1800,Roslindale,multifamily,2.0,1.0,4,3,1,0,Lowest,66,3,1,0,0,1,1,0,1,0,79,18,15
+2700,Roslindale,multifamily,2.0,2.0,4,3,1,0,Lowest,66,1,0,0,1,0,0,0,1,0,76,19,16
+3895,Roslindale,multifamily,2.0,2.0,9,3,3,3,Moderate,66,4,1,1,0,1,1,0,1,1,78,17,17
+2500,Roslindale,multifamily,3.0,1.0,3,2,1,0,Lowest,66,3,1,0,1,0,0,1,1,0,72,19,20
+2300,Roslindale,apartment,2.0,1.0,9,3,3,3,Moderate,66,5,1,1,1,1,1,0,1,1,76,18,17
+2200,Roslindale,multifamily,2.0,1.0,14,6,4,4,Lowest,66,1,1,0,0,0,0,0,1,1,58,17,9
+4500,Roslindale,multifamily,3.0,2.0,10,4,3,3,Moderate,66,4,1,1,0,1,1,0,1,0,78,17,17
+4500,Roslindale,multifamily,3.0,2.0,9,3,3,3,Low,66,4,1,1,0,1,1,0,1,0,65,18,8
+2045,Roslindale,multifamily,2.0,1.0,3,2,1,0,Lowest,66,3,1,0,0,1,1,0,0,0,73,19,21
+4950,West Roxbury,singlefamily,4.0,4.0,3,1,1,1,Lowest,77,5,1,0,1,1,1,1,1,0,58,13,13
+2200,West Roxbury,multifamily,2.0,1.0,1,1,0,0,Lowest,83,2,1,1,0,0,0,0,1,1,51,10,5
+2745,West Roxbury,multifamily,3.0,1.0,5,3,2,0,Lowest,83,2,1,1,0,0,0,0,1,0,61,13,8
+2500,West Roxbury,multifamily,2.0,2.0,4,0,1,3,Lowest,83,1,1,0,0,0,0,0,1,0,51,6,5
+3000,West Roxbury,multifamily,3.0,1.0,9,5,4,0,Lowest,83,3,1,0,0,1,1,0,1,1,63,14,9
+2100,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,0,0,0,0,0,0,0,0,0,47,7,5
+1775,West Roxbury,multifamily,1.0,1.0,4,2,1,1,Lowest,83,2,1,1,0,0,0,0,1,1,43,9,2
+3000,West Roxbury,multifamily,3.0,1.0,9,5,4,0,Lowest,83,3,1,0,1,0,0,1,1,1,63,14,9
+2500,West Roxbury,multifamily,2.0,2.0,7,3,2,2,Lowest,83,4,1,1,0,1,1,0,1,1,45,9,2
+3600,West Roxbury,singlefamily,4.0,2.5,3,1,1,1,Lowest,83,3,1,0,0,1,1,0,1,1,73,17,18
+875,West Roxbury,multifamily,3.0,1.0,4,2,1,1,Lowest,83,2,1,1,0,0,0,0,1,1,58,6,10
+1850,West Roxbury,multifamily,2.0,1.0,9,3,3,3,Lowest,77,1,1,0,0,0,0,0,1,1,18,3,2
+2050,West Roxbury,multifamily,2.0,1.0,0,0,0,0,Lowest,83,0,0,0,0,0,0,0,1,0,59,12,6
+1800,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,2,1,1,0,0,0,0,1,1,12,3,1
+2100,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,2,1,1,0,0,0,0,1,1,48,8,5
+1950,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,1,1,0,0,0,0,0,1,1,28,5,3
+2000,West Roxbury,multifamily,2.0,1.0,17,5,6,6,Lowest,83,6,1,1,1,1,1,1,1,0,56,8,6
+3050,West Roxbury,multifamily,2.0,1.5,6,2,2,2,Lowest,77,5,1,0,1,1,1,1,1,1,42,6,7
+800,West Roxbury,multifamily,3.0,3.0,3,1,1,1,Lowest,83,4,1,1,0,1,1,0,1,1,61,11,7
+1819,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,35,6,3
+3070,West Roxbury,apartment,2.0,1.5,6,2,2,2,Lowest,77,5,1,1,0,1,1,1,1,1,42,5,7
+1750,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,2,1,1,0,0,0,0,1,1,28,5,3
+2500,West Roxbury,multifamily,1.0,1.0,5,3,2,0,Lowest,83,6,1,1,1,1,1,1,1,1,78,18,16
+1750,West Roxbury,multifamily,1.0,1.0,2,2,0,0,Lowest,83,2,1,1,0,0,0,0,1,1,55,9,5
+3100,West Roxbury,multifamily,4.0,1.0,4,3,1,0,Lowest,83,5,1,0,1,1,1,1,1,1,42,6,4
+2000,West Roxbury,multifamily,1.0,1.0,9,5,2,2,Lowest,83,0,0,0,0,0,0,0,1,0,45,9,5
+1025,West Roxbury,multifamily,2.0,2.0,5,1,2,2,Lowest,83,4,1,1,0,1,1,0,1,1,49,6,5
+3000,West Roxbury,multifamily,3.0,1.0,6,2,2,2,Lowest,20,1,1,0,0,0,0,0,1,0,15,3,0
+2198,West Roxbury,multifamily,2.0,1.0,4,3,1,0,Lowest,83,3,1,0,1,0,0,1,1,1,47,7,3
+1800,West Roxbury,multifamily,2.0,1.0,17,5,6,6,Lowest,83,3,1,0,0,1,1,0,1,0,56,8,6
+2850,West Roxbury,multifamily,4.0,2.0,0,0,0,0,Lowest,83,1,1,0,0,0,0,0,1,0,59,13,7
+2100,West Roxbury,multifamily,2.0,1.0,0,0,0,0,Lowest,83,0,0,0,0,0,0,0,1,0,59,12,6
+3150,West Roxbury,multifamily,2.0,1.0,13,3,5,5,Lowest,83,4,1,1,0,1,1,0,1,0,62,8,6
+2500,West Roxbury,multifamily,2.0,1.0,7,3,2,2,Lowest,83,2,1,1,0,0,0,0,1,0,62,14,9
+2875,West Roxbury,townhouse,2.0,1.0,6,2,2,2,Lowest,77,4,1,0,1,1,1,0,1,1,38,5,6
+2170,West Roxbury,multifamily,2.0,0.0,8,4,2,2,Lowest,83,0,0,0,0,0,0,0,0,0,42,6,4
+2350,West Roxbury,multifamily,3.0,1.0,4,2,1,1,Lowest,83,0,0,0,0,0,0,0,1,0,79,16,15
+2095,West Roxbury,multifamily,2.0,1.0,7,3,2,2,Lowest,83,0,0,0,0,0,0,0,0,0,34,7,3
+2110,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,47,7,5
+1950,West Roxbury,multifamily,2.0,1.0,9,3,3,3,Lowest,77,2,0,0,1,0,0,1,1,0,19,4,2
+1850,West Roxbury,multifamily,2.0,1.0,9,3,3,3,Lowest,77,2,1,1,0,0,0,0,1,1,18,3,2
+2794,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,83,6,1,1,1,1,1,1,1,1,43,7,7
+2525,West Roxbury,townhouse,1.0,1.0,6,2,2,2,Lowest,77,4,1,0,1,1,1,0,1,1,36,5,4
+2025,West Roxbury,multifamily,2.0,1.0,4,2,1,1,Lowest,83,2,1,1,0,0,0,0,1,1,43,9,2
+1700,West Roxbury,multifamily,1.0,1.0,4,3,1,0,Lowest,83,3,1,0,0,1,1,0,1,1,43,6,3
+2695,West Roxbury,multifamily,4.0,2.0,0,0,0,0,Lowest,83,1,1,0,0,0,0,0,1,0,59,13,7
+2690,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,77,0,0,0,0,0,0,0,1,0,42,5,7
+1750,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,77,0,0,0,0,0,0,0,1,0,25,4,2
+1975,West Roxbury,multifamily,2.0,1.0,4,2,1,1,Lowest,83,0,0,0,0,0,0,0,1,0,43,9,2
+3050,West Roxbury,multifamily,2.0,1.5,6,2,2,2,Lowest,83,5,1,0,1,1,1,1,1,1,43,7,7
+800,West Roxbury,singlefamily,4.0,1.5,3,1,1,1,Lowest,83,1,1,0,0,0,0,0,1,1,47,9,7
+2100,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,48,8,5
+2725,West Roxbury,multifamily,4.0,2.0,0,0,0,0,Lowest,83,1,1,0,0,0,0,0,1,1,59,12,6
+2165,West Roxbury,apartment,2.0,2.0,8,4,2,2,Lowest,83,3,1,0,1,0,0,1,1,1,48,8,5
+3700,West Roxbury,multifamily,1.0,1.0,7,3,2,2,Lowest,28,4,1,1,0,1,1,0,1,0,75,17,16
+2600,West Roxbury,condo,2.0,2.0,8,4,2,2,Lowest,83,4,1,1,0,1,1,0,1,1,46,8,4
+1800,West Roxbury,multifamily,1.0,1.0,16,4,6,6,Lowest,83,3,1,0,0,1,1,0,1,0,60,9,6
+2120,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,47,7,5
+2695,West Roxbury,multifamily,3.0,1.0,4,3,1,0,Lowest,83,1,1,0,0,0,0,0,1,1,42,6,4
+1795,West Roxbury,multifamily,1.0,1.0,19,5,7,7,Lowest,83,2,1,1,0,0,0,0,1,1,59,8,6
+1800,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,4,1,0,1,1,1,0,1,0,14,5,2
+3200,West Roxbury,multifamily,4.0,1.0,6,2,2,2,Lowest,20,0,0,0,0,0,0,0,1,0,15,3,0
+2490,West Roxbury,multifamily,2.0,2.0,7,3,2,2,Lowest,83,5,1,0,1,1,1,1,1,1,35,6,3
+2745,West Roxbury,multifamily,3.0,1.0,5,3,2,0,Lowest,83,5,1,0,1,1,1,1,1,0,61,15,8
+2350,West Roxbury,multifamily,3.0,1.0,4,2,1,1,Lowest,83,1,1,0,0,0,0,0,1,0,79,16,15
+1695,West Roxbury,multifamily,1.0,1.0,0,0,0,0,Lowest,83,1,1,0,0,0,0,0,1,1,59,12,6
+1795,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,3,1,1,0,0,0,1,1,1,42,6,4
+3180,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,77,2,0,0,1,0,0,1,0,1,38,5,6
+2200,West Roxbury,multifamily,2.0,1.0,1,1,0,0,Lowest,83,3,1,0,0,1,1,0,1,0,51,10,5
+2695,West Roxbury,multifamily,4.0,2.0,0,0,0,0,Lowest,83,2,1,1,0,0,0,0,1,0,59,13,7
+2000,West Roxbury,multifamily,1.0,1.0,9,3,3,3,Lowest,77,2,0,0,1,0,0,1,1,0,28,5,3
+2100,West Roxbury,multifamily,2.0,1.0,2,0,1,1,Lowest,83,2,0,0,1,0,0,1,1,0,62,12,7
+2695,West Roxbury,multifamily,4.0,2.0,0,0,0,0,Lowest,83,5,1,0,1,1,1,1,1,1,59,13,7
+2190,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,1,1,0,0,0,0,0,1,1,44,7,4
+2120,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,4,1,1,1,0,0,1,1,1,42,6,4
+2095,West Roxbury,multifamily,1.0,1.0,15,5,5,5,Lowest,83,2,1,1,0,0,0,0,1,1,62,13,8
+2025,West Roxbury,multifamily,2.0,1.0,4,2,1,1,Lowest,83,2,1,1,0,0,0,0,1,1,43,9,2
+2095,West Roxbury,multifamily,2.0,1.0,8,4,2,2,Lowest,83,0,0,0,0,0,0,0,1,0,47,7,5
+2850,West Roxbury,multifamily,2.0,1.0,6,2,2,2,Lowest,77,5,1,0,1,1,1,1,1,1,34,5,4
+1750,West Roxbury,multifamily,1.0,1.0,6,2,2,2,Lowest,77,1,0,1,0,0,0,0,1,1,21,3,2
+3506,West Roxbury,multifamily,3.0,2.0,16,4,6,6,Lowest,83,5,1,1,1,0,1,1,1,0,59,8,6
+2600,West Roxbury,multifamily,2.0,2.0,9,3,3,3,Lowest,83,3,0,1,1,0,0,1,1,0,12,3,1
+1830,West Roxbury,multifamily,1.0,1.0,8,4,2,2,Lowest,83,0,0,0,0,0,0,0,0,0,47,7,5
+2200,West Roxbury,multifamily,2.0,1.0,13,3,5,5,Lowest,83,1,0,1,0,0,0,0,1,0,59,10,7
+1725,Hyde Park,multifamily,1.0,1.0,12,4,4,4,Lowest,21,4,1,0,0,1,1,1,1,0,38,8,3
+2000,Hyde Park,multifamily,2.0,1.0,3,1,1,1,Lowest,76,4,1,1,0,1,1,0,1,0,51,10,4
+2000,Hyde Park,multifamily,1.0,1.0,11,5,3,3,Lowest,76,4,1,1,0,1,1,0,1,1,40,7,4
+2700,Hyde Park,multifamily,3.0,2.0,5,1,0,4,Lowest,76,1,0,0,0,0,0,1,1,0,51,10,5
+1850,Hyde Park,multifamily,2.0,1.0,2,1,0,1,Lowest,76,1,1,0,0,0,0,0,1,0,59,13,4
+3900,Hyde Park,multifamily,4.0,2.5,13,5,4,4,Lowest,76,0,0,0,0,0,0,0,1,0,34,7,3
+4500,Hyde Park,multifamily,3.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,0,58,12,1
+1800,Hyde Park,multifamily,1.0,1.0,3,2,0,1,Low,76,4,1,1,1,0,0,1,1,1,43,10,3
+1850,Hyde Park,multifamily,2.0,1.0,2,1,0,1,Lowest,76,0,0,0,0,0,0,0,1,0,74,19,9
+3895,Hyde Park,multifamily,2.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,1,58,12,1
+850,Hyde Park,multifamily,1.0,0.0,6,2,2,2,Lowest,76,3,1,0,0,1,1,0,1,0,48,9,3
+2300,Hyde Park,multifamily,3.0,2.0,14,6,4,4,Lowest,76,5,1,0,1,1,1,1,1,0,35,8,3
+3300,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,0,0,0,0,0,0,0,1,0,38,9,3
+2895,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,0,0,0,0,0,0,0,1,0,38,9,3
+2700,Hyde Park,multifamily,4.0,1.0,12,4,4,4,Lowest,76,1,1,0,0,0,0,0,1,0,37,7,3
+3300,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,2,1,0,1,0,0,0,1,0,38,9,3
+1100,Hyde Park,multifamily,2.0,1.0,3,2,0,1,Low,76,0,0,0,0,0,0,0,0,0,43,10,3
+2750,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,2,1,0,1,0,0,0,1,0,38,9,3
+1800,Hyde Park,multifamily,1.0,1.0,3,2,0,1,Low,76,2,0,0,1,0,0,1,1,0,43,10,3
+850,Hyde Park,singlefamily,3.0,1.0,6,2,2,2,Lowest,76,2,1,1,0,0,0,0,1,1,48,9,3
+2600,Hyde Park,multifamily,3.0,1.0,5,1,0,4,Lowest,76,5,1,0,1,1,1,1,0,0,52,11,4
+1900,Hyde Park,multifamily,1.0,1.0,8,4,2,2,Lowest,76,5,1,0,1,1,1,1,1,0,39,8,3
+2400,Hyde Park,multifamily,2.0,2.0,8,4,2,2,Lowest,76,5,1,0,1,1,1,1,1,0,39,8,3
+3300,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3
+650,Hyde Park,multifamily,4.0,1.5,7,3,2,2,Lowest,76,2,0,0,1,0,0,1,1,0,48,9,4
+3100,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3
+2100,Hyde Park,multifamily,2.0,1.0,6,2,2,2,Lowest,76,0,0,0,0,0,0,0,1,0,11,6,2
+2995,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3
+3795,Hyde Park,multifamily,2.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,1,58,12,1
+3895,Hyde Park,multifamily,2.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,0,58,12,1
+3200,Hyde Park,singlefamily,4.0,1.5,5,3,1,1,Lowest,76,3,1,0,0,1,1,0,1,1,35,8,3
+1825,Hyde Park,multifamily,1.0,1.0,12,4,4,4,Lowest,21,3,1,0,0,1,1,0,1,0,38,8,3
+1900,Hyde Park,multifamily,2.0,1.0,14,6,4,4,Lowest,76,0,0,0,0,0,0,0,1,0,37,8,3
+990,Hyde Park,multifamily,1.0,1.0,14,6,4,4,Lowest,76,4,1,1,0,1,1,0,1,1,36,9,3
+2299,Hyde Park,multifamily,3.0,1.0,2,1,0,1,Lowest,76,1,1,0,0,0,0,0,1,0,51,11,3
+1950,Hyde Park,multifamily,2.0,1.0,5,3,1,1,Lowest,76,5,1,0,1,1,1,1,1,0,41,8,3
+2100,Hyde Park,multifamily,3.0,1.0,10,4,3,3,Lowest,76,2,0,0,1,0,0,1,1,0,37,7,4
+3200,Hyde Park,singlefamily,4.0,1.5,5,3,1,1,Lowest,76,2,0,0,1,0,0,1,1,0,35,8,3
+850,Hyde Park,multifamily,1.0,0.0,6,2,2,2,Lowest,76,3,1,0,0,1,1,0,1,0,48,9,3
+1800,Hyde Park,multifamily,2.0,1.0,12,4,4,4,Lowest,21,2,1,1,0,0,0,0,1,0,38,8,3
+3675,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,2,1,0,1,0,0,0,1,0,38,9,3
+2625,Hyde Park,multifamily,3.0,1.0,9,3,3,3,Lowest,76,0,0,0,0,0,0,0,0,0,16,6,2
+900,Hyde Park,multifamily,1.0,0.0,10,4,3,3,Lowest,76,1,0,0,0,0,0,1,0,1,36,9,3
+1800,Hyde Park,multifamily,1.0,1.0,12,4,4,4,Lowest,21,0,0,0,0,0,0,0,1,0,38,8,3
+2400,Hyde Park,multifamily,3.0,1.0,10,4,3,3,Lowest,76,1,0,0,0,0,0,1,0,1,36,9,3
+2895,Hyde Park,multifamily,2.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3
+1850,Hyde Park,multifamily,2.0,1.0,14,6,4,4,Lowest,76,1,1,0,0,0,0,0,1,1,35,8,3
+2200,Hyde Park,multifamily,2.0,1.0,5,1,0,4,Lowest,76,1,1,0,0,0,0,0,1,0,50,9,4
+3100,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,1,1,0,0,0,0,0,1,0,38,9,3
+2200,Hyde Park,multifamily,2.0,1.0,9,3,3,3,High,76,2,0,0,1,0,0,1,1,0,14,6,2
+900,Hyde Park,multifamily,3.0,1.0,4,3,1,0,Lowest,66,1,1,0,0,0,0,0,1,0,70,19,11
+2000,Hyde Park,multifamily,2.0,1.0,4,0,0,4,Lowest,76,3,1,0,0,1,1,0,1,0,54,10,4
+2400,Hyde Park,multifamily,3.0,1.0,6,4,1,1,Low,59,0,0,0,0,0,0,0,1,0,30,9,2
+1900,Hyde Park,multifamily,2.0,1.0,12,4,4,4,Lowest,21,4,1,0,0,1,1,1,1,0,38,8,3
+2600,Hyde Park,multifamily,1.0,1.0,6,2,2,2,Lowest,21,1,1,0,0,0,0,0,1,0,36,7,4
+2450,Hyde Park,multifamily,3.0,1.0,4,1,0,3,Lowest,76,1,1,0,0,0,0,0,1,1,58,13,5
+1900,Hyde Park,multifamily,2.0,1.0,14,6,4,4,Lowest,76,1,1,0,0,0,0,0,1,1,37,8,3
+1950,Hyde Park,multifamily,2.0,1.0,5,3,1,1,Lowest,76,1,1,0,0,0,0,0,1,0,40,8,3
+650,Hyde Park,multifamily,1.0,0.0,7,3,2,2,Lowest,76,2,0,0,1,0,0,1,1,0,48,9,4
+3100,Hyde Park,multifamily,3.0,1.0,11,5,3,3,Lowest,20,2,1,0,1,0,0,0,1,0,38,9,3
+2700,Hyde Park,multifamily,3.0,1.0,5,3,1,1,Lowest,76,4,1,0,0,1,1,1,1,0,35,8,3
+2600,Hyde Park,multifamily,1.0,1.0,6,2,2,2,Lowest,21,0,0,0,0,0,0,0,1,0,37,7,4
+1850,Hyde Park,apartment,2.0,1.0,2,1,0,1,Low,76,3,1,1,0,0,0,1,1,1,49,10,3
+2350,Hyde Park,multifamily,2.0,1.0,4,3,1,0,Lowest,66,2,0,0,1,0,0,1,1,0,65,18,10
+1530,Hyde Park,multifamily,1.0,1.0,3,2,1,0,Lowest,76,2,1,1,0,0,0,0,1,0,69,17,11
+1850,Hyde Park,multifamily,2.0,1.0,12,4,4,4,Lowest,76,1,1,0,0,0,0,0,1,1,37,7,3
+2600,Hyde Park,multifamily,1.0,1.0,6,2,2,2,Lowest,21,0,0,0,0,0,0,0,1,0,36,7,4
+3795,Hyde Park,multifamily,2.0,2.0,1,1,0,0,Lowest,66,4,1,1,0,1,1,0,1,0,58,12,1
+2600,Hyde Park,multifamily,3.0,1.0,6,2,2,2,Lowest,76,2,0,0,1,0,0,1,1,0,12,6,2
+3100,Hyde Park,multifamily,4.0,1.0,3,1,1,1,Lowest,76,2,0,0,1,0,0,1,1,0,47,7,3
+2000,Hyde Park,multifamily,2.0,1.0,14,6,4,4,Lowest,76,1,1,0,0,0,0,0,1,1,34,7,3

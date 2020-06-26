@@ -243,11 +243,12 @@ housing_df.laundry = housing_df.laundry.astype(int)
 housing_df = housing_df.rename(columns={'Rent': 'rent', 'Address': 'address', 'Area': 'area', 'Bed': 'bed', 'Bath': 'bath', 'School': 'school', 'Crime': 'crime', 'URL': 'url'}) #change all column names to lowercase
 del housing_df['Description'] #'description' is only the summary of other data we have: not useful
 del housing_df['address'] #we don't need this piece of info
+del housing_df['url']
 
 
 #Rearrange columns
 housing_df.columns.tolist()
-housing_df = housing_df[['rent', 'area', 'property_type', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'crime', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife', 'url']]
+housing_df = housing_df[['rent', 'area', 'property_type', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'crime', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife']]
 
 
 #Creating proportion table
@@ -272,12 +273,6 @@ sns.distplot(stratified_sample.rent)
 sns.boxplot(x = stratified_sample.area, y = stratified_sample.rent)
 
 
-#Initiate data splitting STRATIFIED BASED ON 'AREA'
-train, test = train_test_split(stratified_sample, test_size = 0.3, stratify = stratified_sample.area)
-
-train.area.value_counts() / train.shape[0]
-test.area.value_counts() / test.shape[0]
-
 #Export dataframe to csv
-train.to_csv('train_housing_cleaned.csv', index = False)
-test.to_csv('test_housing_cleaned.csv', index = False)
+stratified_sample.to_csv('housing_data_cleaned.csv', index = False)
+

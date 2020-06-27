@@ -122,7 +122,5 @@ df_dumies = pd.get_dummies(df, columns=['area', 'property_type', 'crime'])
 df_dumies['area'] = df['area']
 
 
-#Initiate data splitting STRATIFIED BASED ON 'AREA'
-X = df_dumies.drop('rent', axis = 1)
-y = df_dumies.rent.values
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, stratify = df_dumies.area)
+#Export to CSV
+df_dumies.to_csv('housing_data_eda.csv')

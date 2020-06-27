@@ -90,6 +90,7 @@ z_scores = np.abs(stats.zscore(df[num_var]))
 print(z_scores)
 
 df = df[(z_scores < 3).all(axis = 1)]
+df.reset_index(drop = True, inplace = True)
 
 
 ##Log transform for other variables
@@ -101,10 +102,22 @@ for x in num_var:
 ##Numerical
 corr['rent'].sort_values(ascending = False)
 
+num_var_high_corr = ['rent', 'bath', 'bed', 'restaurant', 'nightlife', 'grocery']
+
+###Zoomed heatmap
+corr = df[num_var_high_corr].corr()
+sns.set(font_scale = 1.25)
+plt.subplots(figsize=(12, 9))
+heatmap = sns.heatmap(corr, vmax = .8, square = True, annot = True, cmap = "Greens")
+heatmap.set_xticklabels(heatmap.get_xticklabels(), rotation=30) #we will drop 'restaurant' and 'nightlife' since the two and grocery are highly correlated toward each other and have about the same corr with rent; grocery has higher corr compare to the other two
+
+num_var_high_corr = ['rent', 'bath', 'bed', 'grocery']
+
 sns.set()
-num_var_col = ['rent', 'bath', 'bed', 'restaurant', 'nightlife', 'grocery', 'total_amenties']
-sns.pairplot(df[num_var_col], kind = 'reg', size = 2.5)
+sns.pairplot(df[num_var_high_corr], kind = 'reg', size = 2.5)
 plt.show()
+
+df_num = df[num_var_high_corr]
 
 ##Categorical, 'area' graph is above
 plt.figure(figsize = (10,4))
@@ -114,13 +127,14 @@ sns.boxplot(x = df.property_type, y = df.rent)
 
 plt.subplot(122)
 sns.boxplot(x = df.crime, y = df.rent)
-
 plt.tight_layout()
 
+df1 = pd.concat([df_num, df[['area', 'property_type', 'crime']]], axis = 1, sort=False)
+
 ###Create dummy variables for categorical variables
-df_dumies = pd.get_dummies(df, columns=['area', 'property_type', 'crime'])
-df_dumies['area'] = df['area']
+df_dumies = pd.get_dummies(df1, columns=['area', 'property_type', 'crime'])
+df_dumies['area'] = df1['area']
 
 
 #Export to CSV
-df_dumies.to_csv('housing_data_eda.csv')
+df_dumies.to_csv('housing_data_eda.csv', index = False)

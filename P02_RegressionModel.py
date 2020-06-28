@@ -32,7 +32,7 @@ df = pd.read_csv('housing_data_eda.csv')
 # Initiate data splitting STRATIFIED BASED ON 'AREA'
 X = df.drop('rent', axis = 1)
 y = df.rent.values
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, stratify = df.area)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, stratify = df.area, random_state = 1)
 
 del X_train['area'] #Only need it to stratify the sample
 del X_test['area']
@@ -49,7 +49,7 @@ stats.probplot(y_train, plot = plt)
 plt.show()
 
 # Grocery
-X_train.grocery.min()
+X_train.grocery.min() #check for '0'
 X_train.grocery = np.log(X_train.grocery)
 
 print('Skewness of grocery from train df: ', X_train.grocery.skew()) #check for the skewness
@@ -61,14 +61,13 @@ print('Kurtosis of grocery from train df: ', X_train.grocery.kurt())
 
 # Regression model
 ## Multiple linear regression
-X_sm = X = sm.add_constant(X)
+X_sm = X = sm.add_constant(X) #create a column of all '1' create an intercept to the slope of the regression line; this is necessary for stats model
 del X_sm['area']
 model = sm.OLS(np.asarray(y), X_sm.astype(float))
-model.fit().summary()
+model.fit().summary() #'R-squared: 0.648 = our model explains 64% of variations in Trulia rent
 
 reg_lin = LinearRegression()
 reg_lin.fit(X_train, y_train)
-
 np.mean(cross_val_score(reg_lin, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
 ## Lasso regression
@@ -76,8 +75,8 @@ alpha = []
 error = []
 
 for i in range(1,100):
-    alpha.append(i/100)
-    regression = Lasso(alpha = (i/100))
+    alpha.append(i/10)
+    regression = Lasso(alpha = (i/10))
     error.append(np.mean(cross_val_score(regression, X_train, y_train, scoring = 'neg_mean_absolute_error')))
     
 plt.plot(alpha, error)
@@ -92,7 +91,7 @@ np.mean(cross_val_score(reg_las, X_train, y_train, scoring = 'neg_mean_absolute_
 
 
 ## Random forest regression (give the best result, apply 'gridsearchCV')
-reg_rf = RandomForestRegressor()
+reg_rf = RandomForestRegressor(random_state = 1)
 reg_rf.fit(X_train, y_train)
 np.mean(cross_val_score(reg_rf, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 

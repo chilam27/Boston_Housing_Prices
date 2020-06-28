@@ -117,7 +117,6 @@ sns.set()
 sns.pairplot(df[num_var_high_corr], kind = 'reg', size = 2.5)
 plt.show()
 
-df_num = df[num_var_high_corr]
 
 ##Categorical, 'area' graph is above
 plt.figure(figsize = (10,4))
@@ -129,11 +128,10 @@ plt.subplot(122)
 sns.boxplot(x = df.crime, y = df.rent)
 plt.tight_layout()
 
-df1 = pd.concat([df_num, df[['area', 'property_type', 'crime']]], axis = 1, sort=False)
 
 ###Create dummy variables for categorical variables
-df_dumies = pd.get_dummies(df1, columns=['area', 'property_type', 'crime'])
-df_dumies['area'] = df1['area']
+df_dumies = pd.get_dummies(df, columns=['area', 'property_type', 'crime'])
+df_dumies['area'] = df['area']
 
 
 #Export to CSV

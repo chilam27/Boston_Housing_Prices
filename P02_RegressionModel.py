@@ -16,10 +16,14 @@ import sklearn
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error
 import xgboost as xgb
 from scipy import stats
 from scipy.stats import norm, skew
 import statsmodels.api as sm
+import random
+random.seed(1)
+
 
 # Read in data
 df = pd.read_csv('housing_data_eda.csv')
@@ -62,22 +66,57 @@ del X_sm['area']
 model = sm.OLS(np.asarray(y), X_sm.astype(float))
 model.fit().summary()
 
-reg_linear = LinearRegression()
-reg_linear.fit(X_train, y_train)
+reg_lin = LinearRegression()
+reg_lin.fit(X_train, y_train)
 
-np.mean(cross_val_score(reg_linear, X_train, y_train, scoring = 'neg_mean_absolute_error'))
+np.mean(cross_val_score(reg_lin, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
 ## Lasso regression
-reg_las = Lasso()
+alpha = []
+error = []
+
+for i in range(1,100):
+    alpha.append(i/100)
+    regression = Lasso(alpha = (i/100))
+    error.append(np.mean(cross_val_score(regression, X_train, y_train, scoring = 'neg_mean_absolute_error')))
+    
+plt.plot(alpha, error)
+
+y_max = max(error)
+y_max_index = error.index(y_max)
+print (y_max, alpha[y_max_index])
+
+reg_las = Lasso(alpha = alpha[y_max_index])
+reg_las.fit(X_train, y_train)
 np.mean(cross_val_score(reg_las, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
-## Random forest regression
-reg_randomforest = RandomForestRegressor()
-np.mean(cross_val_score(reg_randomforest, X_train, y_train, scoring = 'neg_mean_absolute_error'))
+
+## Random forest regression (give the best result, apply 'gridsearchCV')
+reg_rf = RandomForestRegressor()
+reg_rf.fit(X_train, y_train)
+np.mean(cross_val_score(reg_rf, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
 ## XGBoost
 reg_xgboost = xgb.XGBRegressor()
+reg_xgboost.fit(X_train, y_train)
 np.mean(cross_val_score(reg_xgboost, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
 ## GridsearchCV
-parameters = {'kernel':('linear', 'rbf'), 'C':[1, 10]}
+parameters = {'n_estimators': range(10,300,10), 'criterion': ('mse', 'mae'), 'max_features': ('auto', 'sqrt', 'log2')}
+grid = GridSearchCV(reg_rf, parameters, scoring = 'neg_mean_absolute_error')
+grid.fit(X_train, y_train)
+
+grid.best_score_
+grid.best_estimator_
+
+
+#Predict Test set
+reg_lin_test = reg_lin.predict(X_test)
+reg_las_test = reg_las.predict(X_test)
+reg_xgboost_test = reg_xgboost.predict(X_test)
+reg_rf_test = grid.best_estimator_.predict(X_test)
+
+mean_absolute_error(y_test, reg_lin_test)
+mean_absolute_error(y_test, reg_las_test)
+mean_absolute_error(y_test, reg_xgboost_test)
+mean_absolute_error(y_test, reg_rf_test) #best one

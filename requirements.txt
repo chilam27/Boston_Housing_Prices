@@ -7,7 +7,6 @@ joblib==0.15.1
 MarkupSafe==1.1.1
 mkl-fft==1.0.6
 mkl-random==1.0.1.1
-mkl-service==2.3.0
 numpy==1.18.5
 pandas @ file:///C:/ci/pandas_1592841747005/work
 python-dateutil==2.8.1

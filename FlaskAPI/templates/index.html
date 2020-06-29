@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Boston Housing Prices</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Housing Prices Analysis</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="bed" placeholder="Bed" required="required" />
+        <input type="text" name="bath" placeholder="Bath" required="required" />
+		<input type="text" name="school" placeholder="Total Number of School in Area" required="required" />
+		<input type="text" name="elementary_school" placeholder="Total Number of Elementary School" required="required" />
+		<input type="text" name="middle_school" placeholder="Total Number of Middle School" required="required" />
+		<input type="text" name="high_school" placeholder="Total Number of High School" required="required" />
+		<input type="text" name="car_commute_percent" placeholder="Car Commute Percentage" required="required" />
+		<input type="text" name="total_amenties" placeholder="Total Amenties" required="required" />
+		<input type="text" name="laundry" placeholder="Number of Laundry Machine" required="required" />
+		<input type="text" name="ac" placeholder="Number of A/C Machine" required="required" />
+		<input type="text" name="dishwasher" placeholder="Number of dishwasher Machine" required="required" />
+		<input type="text" name="washer" placeholder="Number of Washing Machine" required="required" />
+		<input type="text" name="dryer" placeholder="Number of Drying Machine" required="required" />
+		<input type="text" name="fridge" placeholder="Number of Fridge" required="required" />
+		<input type="text" name="pet_allowed" placeholder="Interview Score" required="required" />
+		<input type="text" name="parking" placeholder="Interview Score" required="required" />
+		<input type="text" name="restaurant" placeholder="Interview Score" required="required" />
+		<input type="text" name="grocery" placeholder="Interview Score" required="required" />
+		<input type="text" name="nightlife" placeholder="Interview Score" required="required" />
+		<div class="search_categories">
+            <div class="select">
+               <select name="Neighborhood" id="search_categories">
+                  <option value= "East Boston" selected="selected">East Boston</option>
+                  <option value= "Charlestown">Charlestown</option>
+                  <option value= "Allston/ Brighton">Allston/ Brighton</option>
+                  <option value= "Central">Central</option>
+                  <option value= "Beacon Hill">Beacon Hill</option>
+                  <option value= "Back Bay">Back Bay</option>
+                  <option value= "South Boston">South Boston</option>
+                  <option value= "South End">South End</option>
+                  <option value= "Fenway Kenmore">Fenway Kenmore</option>
+                  <option value= "Mission Hill">Mission Hill</option>
+                  <option value= "Roxbury">Roxbury</option>
+                  <option value= "Dorchester">Dorchester</option>
+                  <option value= "Jamaica Plain">Jamaica Plain</option>
+                  <option value= "Mattapan">Mattapan</option>
+                  <option value= "Roslindale">Roslindale</option>
+                  <option value= "West Roxbury">West Roxbury</option>
+                  <option value= "Hyde Park">Hyde Park</option>
+                </select>
+             </div>
+         </div>
+         
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>

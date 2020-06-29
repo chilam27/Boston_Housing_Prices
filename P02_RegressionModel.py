@@ -21,8 +21,7 @@ import xgboost as xgb
 from scipy import stats
 from scipy.stats import norm, skew
 import statsmodels.api as sm
-import random
-random.seed(1)
+import pickle
 
 
 # Read in data
@@ -79,7 +78,7 @@ for i in range(1,100):
     regression = Lasso(alpha = (i/10))
     error.append(np.mean(cross_val_score(regression, X_train, y_train, scoring = 'neg_mean_absolute_error')))
     
-plt.plot(alpha, error)
+plt.plot(alpha, error) #plot to see which alpha has the lowest error value
 
 y_max = max(error)
 y_max_index = error.index(y_max)
@@ -119,3 +118,8 @@ mean_absolute_error(y_test, reg_lin_test)
 mean_absolute_error(y_test, reg_las_test)
 mean_absolute_error(y_test, reg_xgboost_test)
 mean_absolute_error(y_test, reg_rf_test) #best one
+
+
+#Pickle model
+pickl = {'model': grid.best_estimator_}
+pickle.dump(pickl, open( 'model.pkl', "wb"))

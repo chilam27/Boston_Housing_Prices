@@ -122,4 +122,13 @@ mean_absolute_error(y_test, reg_rf_test) #best one
 
 #Pickle model
 pickl = {'model': grid.best_estimator_}
-pickle.dump(pickl, open( 'model.pkl', "wb"))
+pickle.dump(pickl, open( 'model.pkl', "wb")) 
+
+file_name = "model.pkl"
+with open(file_name, 'rb') as pickled:
+    data = pickle.load(pickled)
+    model = data['model']
+
+model.predict(np.array(list(X_test.iloc[1,:])).reshape(1,-1))[0]
+
+list(X_test.iloc[1,:])

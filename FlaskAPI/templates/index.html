@@ -13,53 +13,267 @@
 
 <body>
  <div class="login">
-	<h1>Predict Housing Prices Analysis</h1>
+	<h1>Predict Boston Housing Prices Analysis</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="bed" placeholder="Bed" required="required" />
-        <input type="text" name="bath" placeholder="Bath" required="required" />
-		<input type="text" name="school" placeholder="Total Number of School in Area" required="required" />
-		<input type="text" name="elementary_school" placeholder="Total Number of Elementary School" required="required" />
-		<input type="text" name="middle_school" placeholder="Total Number of Middle School" required="required" />
-		<input type="text" name="high_school" placeholder="Total Number of High School" required="required" />
-		<input type="text" name="car_commute_percent" placeholder="Car Commute Percentage" required="required" />
-		<input type="text" name="total_amenties" placeholder="Total Amenties" required="required" />
-		<input type="text" name="laundry" placeholder="Number of Laundry Machine" required="required" />
-		<input type="text" name="ac" placeholder="Number of A/C Machine" required="required" />
-		<input type="text" name="dishwasher" placeholder="Number of dishwasher Machine" required="required" />
-		<input type="text" name="washer" placeholder="Number of Washing Machine" required="required" />
-		<input type="text" name="dryer" placeholder="Number of Drying Machine" required="required" />
-		<input type="text" name="fridge" placeholder="Number of Fridge" required="required" />
-		<input type="text" name="pet_allowed" placeholder="Interview Score" required="required" />
-		<input type="text" name="parking" placeholder="Interview Score" required="required" />
-		<input type="text" name="restaurant" placeholder="Interview Score" required="required" />
-		<input type="text" name="grocery" placeholder="Interview Score" required="required" />
-		<input type="text" name="nightlife" placeholder="Interview Score" required="required" />
-		<div class="search_categories">
-            <div class="select">
-               <select name="Neighborhood" id="search_categories">
-                  <option value= "East Boston" selected="selected">East Boston</option>
-                  <option value= "Charlestown">Charlestown</option>
-                  <option value= "Allston/ Brighton">Allston/ Brighton</option>
-                  <option value= "Central">Central</option>
-                  <option value= "Beacon Hill">Beacon Hill</option>
-                  <option value= "Back Bay">Back Bay</option>
-                  <option value= "South Boston">South Boston</option>
-                  <option value= "South End">South End</option>
-                  <option value= "Fenway Kenmore">Fenway Kenmore</option>
-                  <option value= "Mission Hill">Mission Hill</option>
-                  <option value= "Roxbury">Roxbury</option>
-                  <option value= "Dorchester">Dorchester</option>
-                  <option value= "Jamaica Plain">Jamaica Plain</option>
-                  <option value= "Mattapan">Mattapan</option>
-                  <option value= "Roslindale">Roslindale</option>
-                  <option value= "West Roxbury">West Roxbury</option>
-                  <option value= "Hyde Park">Hyde Park</option>
-                </select>
-             </div>
-         </div>
+        <label for="bed">Number of Beds:</label>
+        <input type="number" step="0.5" min="0" name="bed" placeholder="Bed" required="required" />
+        
+        <label for="bath">Number of Bathrooms:</label>
+        <input type="number" step="0.5" min="0" name="bath" placeholder="Bath" required="required" /><br>
+        
+        <label for="school">Total Number of School in Area:</label>
+		<input type="number" min="0" name="school" required="required" />
+		
+        <label for="elementary">Number of Elementary School:</label>
+		<input type="number" min="0" name="elementary_school" required="required" />
+		
+        <label for="middle">Number of Middle School:</label>
+		<input type="number" min="0" name="middle_school" required="required" />
+		
+        <label for="high">Number of High School:</label>
+		<input type="number" min="0" name="high_school" required="required" /><br>
+		
+        <label for="car">Car Commute Percentage:</label>
+        <input type="number" min="0" max="100" name="car_commute_percent" placeholder="%" required="required" />
+        
+        <br><br>
+        
+        <label for="total_amentie">Total Amenties:</label>
+        <input type="number" min="0" name="total_amenties" required="required" />
+
+        <ul>
+            <li>Laundry Accessability:
+                <label for="1">Yes</label>
+                <input type="radio" id="laundry1" name="laundry" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="laundry0" name="laundry" value="0"></li>
+        	
+    		<li>A/C Accessability:
+                <label for="1">Yes</label>
+                <input type="radio" id="ac1" name="ac" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="ac0" name="ac" value="0"></li>
+                
+            <li>Dishwasher Accessability:
+                <label for="1">Yes</label>
+                <input type="radio" id="dishwasher1" name="dishwasher" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="dishwasher0" name="dishwasher" value="0"></li>
+				
+    		<li>Washing Machine Accessability:		
+                <label for="1">Yes</label>
+                <input type="radio" id="washer1" name="washer" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="washer2" name="washer" value="0"></li>
+		
+    		<li>Drying Machine Accessability:
+        		<label for="1">Yes</label>
+                <input type="radio" id="dryer1" name="dryer" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="dryer2" name="dryer" value="0"></li>
+		
+    		<li>Refrigerator Accessability:
+                <label for="1">Yes</label>
+                <input type="radio" id="fridge1" name="fridge" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="fridge2" name="fridge" value="0"></li>
+		
+    		<li>Pet Friendly:
+                <label for="1">Yes</label>
+                <input type="radio" id="pet1" name="pet_allowed" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="pet2" name="pet_allowed" value="0"></li>
+		
+    		<li>Parking:
+                <label for="1">Yes</label>
+                <input type="radio" id="parking1" name="parking" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="parking2" name="parking" value="0"></li>
+        </ul>
+		
+		<label for="restaurant">Number of Restaurants in Area:</label>
+		<input type="number" min="0" name="restaurant" required="required" />
+		
+		<label for="grocery">Number of Grocery in Area:</label>
+		<input type="number" min="0" name="grocery" required="required" />
+		
+		<label for="nightlife">Number of Nightlife in Area:</label>
+		<input type="number" min="0" name="nightlife" required="required" />
+		
+		<br><br>
+		
+        Neighborhood:
+        <ul>
+            <li>Allston/ Brighton:
+                <label for="1">Yes</label>
+                <input type="radio" id="allston1" name="allston" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="allston0" name="allston" value="0"></li>
+        	
+    		<li>Back Bay/ Beacon Hill:
+                <label for="1">Yes</label>
+                <input type="radio" id="backbay1" name="backbay" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="backbay0" name="backbay0" value="0"></li>
+                
+            <li>Central:
+                <label for="1">Yes</label>
+                <input type="radio" id="central1" name="central" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="central0" name="central" value="0"></li>
+				
+    		<li>Charlestown:		
+                <label for="1">Yes</label>
+                <input type="radio" id="charles1" name="charles" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="charles0" name="charles" value="0"></li>
+		
+    		<li>Dorchester:
+        		<label for="1">Yes</label>
+                <input type="radio" id="dorchester1" name="dorchester" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="dorchester0" name="dorchester" value="0"></li>
+		
+    		<li>East Boston:
+                <label for="1">Yes</label>
+                <input type="radio" id="east1" name="east" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="east0" name="east" value="0"></li>
+		
+    		<li>Fenway Kenmore:
+                <label for="1">Yes</label>
+                <input type="radio" id="fenway1" name="fenway" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="fenway0" name="fenway" value="0"></li>
+		
+    		<li>Hyde Park:
+                <label for="1">Yes</label>
+                <input type="radio" id="hyde1" name="hyde" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="hyde0" name="hyde" value="0"></li>
+                
+    		<li>Jamaican Plain:
+                <label for="1">Yes</label>
+                <input type="radio" id="jamaican1" name="jamaican" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="jamaican0" name="jamaican" value="0"></li>
+
+    		<li>Mattapan:
+                <label for="1">Yes</label>
+                <input type="radio" id="mattapan1" name="mattapan" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="mattapan0" name="mattapan" value="0"></li>
+
+    		<li>Mission Hill:
+                <label for="1">Yes</label>
+                <input type="radio" id="mission1" name="mission" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="mission0" name="mission" value="0"></li>
+
+    		<li>Roslindale:
+                <label for="1">Yes</label>
+                <input type="radio" id="ros1" name="ros" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="ros0" name="ros" value="0"></li>
+
+    		<li>Roxbury:
+                <label for="1">Yes</label>
+                <input type="radio" id="rox1" name="rox" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="rox0" name="rox" value="0"></li>
+
+    		<li>South Boston:
+                <label for="1">Yes</label>
+                <input type="radio" id="southbos1" name="southbos" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="southbos0" name="southbos" value="0"></li>
+
+    		<li>South End:
+                <label for="1">Yes</label>
+                <input type="radio" id="southend1" name="southend" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="southend0" name="southend" value="0"></li>
+
+    		<li>West Roxbury:
+                <label for="1">Yes</label>
+                <input type="radio" id="westrox1" name="westrox" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="westrox0" name="westrox" value="0"></li>
+        </ul>         
+
+        <br><br>
          
+        Property Type:
+            <ul>
+            <li>Apartment:
+                <label for="1">Yes</label>
+                <input type="radio" id="apartment1" name="apartment" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="apartment0" name="apartment" value="0"></li>
+        	
+    		<li>Condo:
+                <label for="1">Yes</label>
+                <input type="radio" id="condo1" name="condo" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="condo0" name="condo" value="0"></li>
+                
+            <li>Multi-family:
+                <label for="1">Yes</label>
+                <input type="radio" id="multi1" name="multi" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="multi1" name="multi" value="0"></li>
+				
+    		<li>Single-family:		
+                <label for="1">Yes</label>
+                <input type="radio" id="single1" name="single" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="single0" name="single" value="0"></li>
+		
+    		<li>Townhouse:
+        		<label for="1">Yes</label>
+                <input type="radio" id="town1" name="town" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="town0" name="town" value="0"></li>
+        </ul> 
+                    
+        <br><br>
+
+        Crime Rate:
+            <ul>
+            <li>High:
+                <label for="1">Yes</label>
+                <input type="radio" id="high1" name="high" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="high0" name="high" value="0"></li>
+        	
+    		<li>Highest:
+                <label for="1">Yes</label>
+                <input type="radio" id="highest1" name="highest" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="highest0" name="highest" value="0"></li>
+                
+            <li>Low:
+                <label for="1">Yes</label>
+                <input type="radio" id="low1" name="low" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="low0" name="low" value="0"></li>
+				
+    		<li>Lowest:		
+                <label for="1">Yes</label>
+                <input type="radio" id="lowest1" name="lowest" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="lowest0" name="lowest" value="0"></li>
+		
+    		<li>Moderate:
+        		<label for="1">Yes</label>
+                <input type="radio" id="mod1" name="mod" value="1">
+                <label for="0">No</label>
+                <input type="radio" id="mod0" name="mod" value="0"></li>
+        </ul> 
+        
+        <br><br>
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>

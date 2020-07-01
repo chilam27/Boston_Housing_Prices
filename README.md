@@ -1,8 +1,12 @@
 # Predict Boston Housing Prices
 
-Analyzing and predict Boston housing prices using data scraped from Trulia using advanced regression models. I will go in depth for all the processes of this project: using `Beautiful Soup` to scrape data, analyzing and comparing different regression models (`Linear`, `Lasso`, `Random Forest`, `XGBoost`), and building an API using `Flask`.
+Analyzing and predict Boston housing prices using data scraped from trulia.com using advanced regression models. I will go in depth for all the processes of this project: using `Beautiful Soup` to scrape data, analyzing and comparing different regression models (`Linear`, `Lasso`, `Random Forest`, `XGBoost`), and building an API using `Flask`.
 
 ## Background and Motivation
+
+My goal for this project is to use the best regression model to predict Boston housing prices on Trulia based on the number of features the source provides. By the end of the project, I am hoping to be able to answer these questions:
+* What are the features that have high effect on to the rent of a property? Does the _neighborhood_ of the property has any effect?
+* How good is our prediction for the rent of the property?
 
 Since I have done a simple regression model with my previous project (["GDP_Fertility_Mortality_Relation"](https://github.com/chilam27/GDP_Fertility_Mortality_Relation/edit/master/README.md)), I wanted to improve my skill sets and prediction's accuracy even more. In this project, I had three main focuses:
 1. Learn how to scrape website with Python.

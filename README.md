@@ -15,7 +15,7 @@ One more improvement I applied for this project is using different regression mo
 
 Python Version: 3.7.4
 
-Packages: pandas, numpy, sklearn, matplotlib, seaborn, json, urllib, scipy, statsmodels, xgboost, pickle, flask.
+Packages: BeautifulSoup, json, urllib, pandas, numpy, sklearn, matplotlib, seaborn, scipy, statsmodels, xgboost, pickle, flask.
 
 Web Framework Requirements: `pip install -r requirements.txt`
 

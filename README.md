@@ -43,7 +43,7 @@ Web Framework Requirements: `pip install -r requirements.txt`
 
 
 
-### Productionize Model
+### Productionization
 
 
 
@@ -56,3 +56,17 @@ Web Framework Requirements: `pip install -r requirements.txt`
 * **Chi Lam**, _student_ at Michigan State University - [chilam27](https://github.com/chilam27)
 
 ## Acknowledgments
+
+[Amipara, Kevin. Better Visualization of Pie Charts by MatPlotLib. 20 Nov. 2019.](medium.com/@kvnamipara/a-better-visualisation-of-pie-charts-by-matplotlib-935b7667d77f)
+
+[Crossman, Ashley. Understanding Stratified Samples and How to Make Them. 27 Jan. 2020.](www.thoughtco.com/stratified-sampling-3026731)
+
+[I., Chris. Productionize a Machine Learning Model with Flask and Heroku. 9 Dec. 2019](towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)
+
+[Irekponor, Victor E. CREATING AN UNBIASED TEST-SET FOR YOUR MODEL USING STRATIFIED SAMPLING TECHNIQUE. 14 Nov. 2019](blog.usejournal.com/creating-an-unbiased-test-set-for-your-model-using-stratified-sampling-technique-672b778022d5)
+
+[Marcelino, Pedro. Comprehensive Data Exploration with Python. 23 Aug. 2019.](www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
+
+[Science Buddies. Sample Size: How Many Survey Participants Do I Need? 10 Aug. 2017.](www.sciencebuddies.org/science-fair-projects/references/sample-size-surveys)
+
+[Sharma, Natasha. Ways to Detect and Remove the Outliers. 23 May 2018.](towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba)

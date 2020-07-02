@@ -1,6 +1,6 @@
 # Predict Boston Housing Prices
 
-Analyzing and predict Boston housing prices using data scraped from trulia.com using advanced regression models. I will go in depth for all the processes of this project: using `Beautiful Soup` to scrape data, analyzing and comparing different regression models (`Linear`, `Lasso`, `Random Forest`, `XGBoost`), and building an API using `Flask`.
+Analyzing and predict Boston housing prices using data scraped from trulia.com using advanced regression models. I will go in depth for all the processes of this project: using `Beautiful Soup` to scrape data, analyzing and comparing different regression models (`Linear`, `Lasso`, `Random Forest`, `XGBoost`), and building an Application Programming Interface (API) using `Flask`.
 
 ## Background and Motivation
 
@@ -25,7 +25,17 @@ Web Framework Requirements: `pip install -r requirements.txt`
 
 ## Project Outline
 
+1. Data collection: use `BeautifulSoup` to scrape property data from Trulia, a popular real estate website. Gather all listed features that can be used for data analysis.
 
+2. Data cleaning: read in data and prepare it for data analysis. Steps include: tidy up the categorical features, deal with null value, etc.
+
+3. Exploratory data analysis (EDA): examine the cleaned data and its trends so we can choose an approriate model that can be applied.
+
+4. Model building: determine which model work best (that return the smallest error) and tune the model with different parameters using `GridSearchCV`.
+
+5. Productioniize model: create a _local_ API to get quick access to the regression model with a given input set.
+
+To evalutae the performance of our model, I will use the mean absolute error (MAE) as the metric for this project. The reason for choosing this metric is because it can represent clearly, on average, how far off our prediction is. 
 
 ### Data Collection
 

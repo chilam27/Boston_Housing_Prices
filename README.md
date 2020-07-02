@@ -1,6 +1,6 @@
 # Predict Boston Housing Prices
 
-Analyzing and predict Boston housing prices using data scraped from trulia.com using advanced regression models. I will go in depth for all the processes of this project: using `Beautiful Soup` to scrape data, analyzing and comparing different regression models (`Linear`, `Lasso`, `Random Forest`, `XGBoost`), and building an Application Programming Interface (API) using `Flask`.
+Analyzing and predict Boston housing prices using data scraped from trulia.com using advanced regression models. I will go in depth for all the processes of this project: using `Beautiful Soup` to scrape data, analyzing and comparing different regression models, and building an Application Programming Interface (API) using `Flask`.
 
 ## Background and Motivation
 
@@ -31,7 +31,7 @@ Web Framework Requirements: `pip install -r requirements.txt`
 
 3. Exploratory data analysis (EDA): examine the cleaned data and its trends so we can choose an approriate model that can be applied.
 
-4. Model building: determine which model work best (that return the smallest error) and tune the model with different parameters using `GridSearchCV`.
+4. Model building: determine which model (`Linear`, `Lasso`, `Random Forest`, `XGBoost`) work best (that return the smallest error) and tune the model with different parameters using `GridSearchCV`.
 
 5. Productioniize model: create a _local_ API to get quick access to the regression model with a given input set.
 
@@ -39,7 +39,27 @@ To evalutae the performance of our model, I will use the mean absolute error (MA
 
 ### Data Collection
 
+I want to give the acknowledgement of this scrapping code to Karishma Parashar (the github repository for her code can be found [here](https://github.com/Abmun/WebScraping-RentalProperties)). Her code gives a really nice outline for the process. Though there are some bugs that I needed to fix in order for the code to run properly and to get the data and the amount I needed.
 
+I started the scrapping procedure on June 25h, 2020. My goal is to scrape, at most, 240 records from each neighborhood of Boston (ex: Allston, East Boston, Back Bay, etc.) and convert it to a csv file. I have collected 3,894 records and 12 different variables.
+
+The neighborhoods that I used as search key terms are: East Boston, Charlestown, Allston, Central, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
+
+  
+Variables             |  Description
+:--------------------:|:----------------------------------------------------:
+rent                  | the rent of the property for 1 month
+address               |  the address of the property
+area                  | neighborhood the property located
+bed                   | number of beds provided
+bath                  | number of bathrooms provided
+school                | number of school around the area
+crime                 | crime rate of the area
+commute               | percentage of people commute by car
+shop_eat              | number of shops and restaurants in the area
+descroption           | description of the property
+feature               | item that property provides (heating, laundry, etc.)
+URL                   | link to the property
 
 ### Data Cleaning
 

@@ -41,7 +41,7 @@ To evalutae the performance of our model, I will use the mean absolute error (MA
 
 I want to give the acknowledgement of this scrapping code to Karishma Parashar (the github repository for her code can be found [here](https://github.com/Abmun/WebScraping-RentalProperties)). Her code gives a really nice outline for the process. Though there are some bugs that I needed to fix in order for the code to run properly and to get the data and the amount I needed.
 
-I started the scrapping procedure on June 25h, 2020. My goal is to scrape, at most, 240 records from each neighborhood of Boston (ex: Allston, East Boston, Back Bay, etc.) and convert it to a csv file. I have collected 3,894 records and 12 different variables.
+I started the scrapping procedure on June 25h, 2020. My goal is to scrape, at most, 240 records (not all search term will result with at least 240 records) from each neighborhood of Boston and convert it to a csv file. I have collected 3,894 records and 12 different variables.
 
 The neighborhoods that I used as search key terms are: East Boston, Charlestown, Allston, Central, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
 

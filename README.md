@@ -115,6 +115,8 @@ Numerical: 'rent', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school
 Categorical: 'area', 'property_type', 'crime'.
 ```
 
+* Observe to see how variables are correlated to each other through heatmap
+
 ### Regression Model
 
 

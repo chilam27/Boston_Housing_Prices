@@ -89,10 +89,12 @@ Below is an image of what the dataframe looks like:
 
 * Analyze our target variable - 'rent': caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal.
 
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png)
+<p align="center">
+  <img width="900" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png">
+</p>
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
+  <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
 </p>
 
 * I want to explore the 'area' variable because I assume that depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'

@@ -41,11 +41,11 @@ To evalutae the performance of our model, I will use the mean absolute error (MA
 
 I want to give the acknowledgement of this scrapping code to Karishma Parashar (the github repository for her code can be found [here](https://github.com/Abmun/WebScraping-RentalProperties)). Her code gives a really nice outline for the process. Though there are some bugs that I needed to fix in order for the code to run properly and to get the data and the amount I needed.
 
-I started the scrapping procedure on June 25h, 2020. My goal is to scrape, at most, 240 records (not all search term will result with at least 240 records) from each neighborhood of Boston and convert it to a csv file. I have collected 3,894 records and 12 different variables (["housing_data_scraped.csv"](https://github.com/chilam27/Boston_Housing_Prices/blob/master/housing_data_scraped.csv)).
+I started the scrapping procedure on June 25h, 2020. My goal is to scrape, at most, 240 records (not all search term will result with at least 240 records) from each neighborhood of Boston and convert it to a csv file. I have collected 3,894 records and 12 different variables (["housing_data_scraped.csv"](https://github.com/chilam27/Boston_Housing_Prices/blob/master/housing_data_scraped.csv)). 
 
-```
-Neighborhoods as search key terms: East Boston, Charlestown, Allston, North End, West End, Downtown, Chinatown, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
-```
+One thing to note is the 'feature' variable: I could not code the scrapping process to attain all features because of the 'See All" button that hide some of the data. Do not rely heavily on this variable when doing analysis.
+
+> Neighborhoods as search key terms: East Boston, Charlestown, Allston, North End, West End, Downtown, Chinatown, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
   
 Variables             |  Description
 :--------------------:|:----------------------------------------------------:
@@ -88,7 +88,7 @@ Below is an image of what the dataframe looks like:
 
 ### [EDA](https://github.com/chilam27/Boston_Housing_Prices/blob/master/P02_EDA.py)
 
-* Analyze our target variable - 'rent': caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal. Since the original data has high positve skewness and kurtosis (the curve is formed by a huge cluster of mid-range properties and few expensive properties that cause it to have a right skew), I normalize the data by performing log transformation and it resulted very close to a normal distribution.
+* Univariate analysis on target variable ('rent'): caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal. Since the original data has high positve skewness and kurtosis (the curve is formed by a huge cluster of mid-range properties and few expensive properties that cause it to have a right skew), I normalize the data by performing log transformation and it resulted very close to a normal distribution.
 
 <p align="center">
   <img width="900" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png">
@@ -98,24 +98,56 @@ Below is an image of what the dataframe looks like:
   <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
 </p>
 
-* Then I explore the 'area' variable because I assume that: depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'. By looking at the mean and its ranges, there seems to be some correlation. Another thing to worth noting is the amount of outliers presented in almost every neighborhood.
+* Multivariate analysis on target variable: have bathroom as an addition dependent variable and see the relationship between rent and number of bathroom a property has. With the plot below, there is an upward trend.
+
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png)
+
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig4.png)
+
+* Remove outliers: I use Z-score to help me identify and remove outliers from the dataframe. This has improved the distribution by a great amount.
 
 <p align="center">
-  <img width="460" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png">
+  <img width="460" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig5.png">
+</p>
+
+* Determine the numerical and categorical variables
+
+> Numerical: 'rent', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife'.
+> Categorical: 'area', 'property_type', 'crime'.
+
+* Observe to see how variables are correlated to each other through heatmap: from this plot, there are many interesting details that we need to pay attention of.
+
+  - 'bed', 'bath', 'restaurant', 'grocery', and 'nightlife', accordingly, have the highest correlation with the target variable. Though they are less correlated than expected.
+
+  - All the schoool variables are highly correlated to each other. This is predicted since the values were derived from a single variable during our cleaning phase. Similar can be said with 'restaurant', 'grocery', and 'nightlife' (they came from a variable that is called 'shop_eat')
+
+  - All the features variables interesting have lower correlation with the target variable. Keep in mind that we will not use much of these data.
+
+<p align="center">
+  <img width="460" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig6.png">
+</p>
+
+* Observed only those numerical variables that has high correlation with target variable with zoomed heatmap
+
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig7.png)
+
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig8.png)
+
+* Next is to examine the cateogircal variable. I explore the 'area' variable with the assumption that: depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'. By looking at the mean and its ranges, there seems to be some correlation. Another thing to worth noting is the amount of outliers presented in almost every neighborhood.
+
+<p align="center">
+  <img width="460" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig9.png">
 </p>
 
 <p align="center">
-  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig4.png">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png">
 </p>
 
-* Determine the numerical and categorical variables:
+* Examine 'property_type' and 'crime' and their relation with rent
 
-```
-Numerical: 'rent', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife'.
-Categorical: 'area', 'property_type', 'crime'.
-```
-
-* Observe to see how variables are correlated to each other through heatmap
+<p align="center">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11_12.png">
+</p>
 
 ### Regression Model
 
@@ -151,4 +183,4 @@ Categorical: 'area', 'property_type', 'crime'.
 
 [Science Buddies. Sample Size: How Many Survey Participants Do I Need? 10 Aug. 2017.](www.sciencebuddies.org/science-fair-projects/references/sample-size-surveys)
 
-[Sharma, Natasha. Ways to Detect and Remove the Outliers. 23 May 2018.](towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba)
+[Sharma, Natasha. Ways to Detect and Remove the Outliers. 23 May 2018.](https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba)

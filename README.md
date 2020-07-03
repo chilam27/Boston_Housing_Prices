@@ -4,16 +4,16 @@ Analyzing and predict Boston housing prices using data scraped from trulia.com u
 
 ## Background and Motivation
 
-My goal for this project is to use the best regression model to predict Boston housing prices on Trulia based on the number of features the source provides. By the end of the project, I am hoping to be able to answer these questions:
+My goal for this project is to use the best regression model to predict Boston housing prices on Trulia based on the number of features that the source provides. By the end of the project, I am hoping to be able to answer these questions:
 * What are the features that have high effect on to the rent of a property? Does the _neighborhood_ of the property has any effect?
 * How good is our prediction for the rent of the property?
 
-Since I have done a simple regression model with my previous project (["GDP_Fertility_Mortality_Relation"](https://github.com/chilam27/GDP_Fertility_Mortality_Relation/edit/master/README.md)), I wanted to improve my skill sets and prediction's accuracy even more. In this project, I had three main focuses:
+Since I have done a simple regression model with my previous project (["GDP_Fertility_Mortality_Relation"](https://github.com/chilam27/GDP_Fertility_Mortality_Relation/edit/master/README.md)), I want to improve my skill sets and prediction's accuracy even more. In this project, I have three main focuses:
 1. Learn how to scrape website with Python.
 2. Understand the importance of Exploratory Data Analysis and how it contributes to the outcome.
 3. Introduce productionization stage into my project.
 
-One more improvement I applied for this project is using different regression models and improved its performance by fine tunning the parameters using `GridSearchCV`.
+One more improvement I apply for this project is using different regression models and improve its performance by fine tunning the parameters using `GridSearchCV`.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Web Framework Requirements: `pip install -r requirements.txt`
 
 ## Project Outline
 
-1. Data collection: use `BeautifulSoup` to scrape property data from Trulia, a popular real estate website. Gather all listed features that can be used for data analysis.
+1. Data collection: use `BeautifulSoup` to scrape property data from Trulia, a popular real estate website. Gather all listed variables that can be used for data analysis.
 
 2. Data cleaning: read in data and prepare it for data analysis. Steps include: tidy up the categorical features, deal with null value, etc.
 
@@ -43,7 +43,7 @@ I want to give the acknowledgement of this scrapping code to Karishma Parashar (
 
 I started the scrapping procedure on June 25h, 2020. My goal is to scrape, at most, 240 records (not all search term will result with at least 240 records) from each neighborhood of Boston and convert it to a csv file. I have collected 3,894 records and 12 different variables (["housing_data_scraped.csv"](https://github.com/chilam27/Boston_Housing_Prices/blob/master/housing_data_scraped.csv)).
 
-The neighborhoods that I used as search key terms are: East Boston, Charlestown, Allston, Central, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
+The neighborhoods that I use as search key terms are: East Boston, Charlestown, Allston, North End, West End, Downtown, Chinatown, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
 
   
 Variables             |  Description
@@ -63,11 +63,38 @@ URL                   | link to the property
 
 ### Data Cleaning
 
+* Check for null value and remove duplicate.
 
+* Clean up the text for each column.
+
+* 'area' column: rename North End, Downtown, Chinatown and West End to Central; rename South Dorchester and North Dorchester as Dorchester; rename Beacon Hill and Back Bay as Back Bay/ Beacon Hill.
+
+* 'school' column: split values in column accordingly and add value to these new columns: 'elementary_school', 'middle_school', and 'high_school'; delete 'school' column.
+
+* 'shop_eat' column: split values in column accordingly and add value to these new columns: 'restaurant', 'grocery', and 'nightlife'; delete 'shop_eat' column.
+
+* 'feature' column: split values in column accordingly and add value to these new columns: 'property_type', 'pet_allowed', 'laundry', 'parking', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', and 'total_amenties'; delete 'feature' column.
+
+* Change data type accordingly to the variable and reorder columns
+
+* Deleting unnecessary columns: 'description', 'address', 'url'.
+
+Below is an image of what the dataframe looks like:
+
+<p align="center">
+  <img width="460" height="300" 
+src="https://github.com/chilam27/P01_GDP_Fertility_Mortality_Relation/blob/master/readme_image/us_gdp.png">
+</p>
 
 ### Exploratory Data Analysis
 
+* Analyze our target variable - 'rent': caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal.
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/chilam27/P01_GDP_Fertility_Mortality_Relation/blob/master/readme_image/us_gdp.png">
+</p>
+
+* I want to explore the 'area' variable because I assume that depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'
 
 ### Regression Model
 

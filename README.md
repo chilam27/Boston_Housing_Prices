@@ -82,7 +82,7 @@ URL                   | link to the property
 Below is an image of what the dataframe looks like:
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/df.png">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/df.png">
 </p>
 
 ### Exploratory Data Analysis

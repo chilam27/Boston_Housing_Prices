@@ -62,7 +62,7 @@ descroption           | description of the property
 feature               | item that property provides (heating, laundry, etc.)
 URL                   | link to the property
 
-### Data Cleaning
+### [Data Cleaning](https://github.com/chilam27/Boston_Housing_Prices/blob/master/P02_DataCleaning.py)
 
 * Check for null value and remove duplicate.
 
@@ -86,7 +86,7 @@ Below is an image of what the dataframe looks like:
   <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/df.png">
 </p>
 
-### Exploratory Data Analysis
+### [EDA](https://github.com/chilam27/Boston_Housing_Prices/blob/master/P02_EDA.py)
 
 * Analyze our target variable - 'rent': caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal. Since the original data has high positve skewness and kurtosis (the curve is formed by a huge cluster of mid-range properties and few expensive properties that cause it to have a right skew), I normalize the data by performing log transformation and it resulted very close to a normal distribution.
 
@@ -98,7 +98,7 @@ Below is an image of what the dataframe looks like:
   <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
 </p>
 
-* Then I explore the 'area' variable because I assume that: depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'. By looking at the mean and its interquatile range, there seems to be some correlation. Another thing to worth noting is the amount of outliers presented in almost every neighborhood.
+* Then I explore the 'area' variable because I assume that: depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'. By looking at the mean and its ranges, there seems to be some correlation. Another thing to worth noting is the amount of outliers presented in almost every neighborhood.
 
 <p align="center">
   <img width="460" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png">

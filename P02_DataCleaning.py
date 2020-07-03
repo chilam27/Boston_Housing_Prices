@@ -7,8 +7,6 @@ Created on Mon Jun 22 16:07:16 2020
 
 #ImportModule
 import pandas as pd
-import seaborn as sns
-from sklearn.model_selection import train_test_split
 
 
 #Read data
@@ -252,27 +250,27 @@ housing_df = housing_df[['rent', 'area', 'property_type', 'bed', 'bath', 'school
 
 
 #Creating proportion table
-boston = {'neighborhoods' : ['East Boston', 'Charlestown', 'Allston', 'Central', 'Back Bay/ Beacon Hill', 'South Boston', 'South End', 'Fenway', 'Mission Hill', 'Roxbury', 'Dorchester', 'Jamaica Plain', 'Mattapan', 'Roslindale', 'West Roxbury', 'Hyde Park'],
-          'percent_area' : [0.103, 0.029, 0.093, 0.024, 0.019, 0.066, 0.023, 0.024, 0.011, 0.082, 0.13, 0.053, 0.061, 0.079, 0.111, 0.094]
-          }
+# boston = {'neighborhoods' : ['East Boston', 'Charlestown', 'Allston', 'Central', 'Back Bay/ Beacon Hill', 'South Boston', 'South End', 'Fenway', 'Mission Hill', 'Roxbury', 'Dorchester', 'Jamaica Plain', 'Mattapan', 'Roslindale', 'West Roxbury', 'Hyde Park'],
+#           'percent_area' : [0.103, 0.029, 0.093, 0.024, 0.019, 0.066, 0.023, 0.024, 0.011, 0.082, 0.13, 0.053, 0.061, 0.079, 0.111, 0.094]
+#           }
 
-boston_neighborhood = pd.DataFrame(boston, columns= ['neighborhoods','percent_area'])
+# boston_neighborhood = pd.DataFrame(boston, columns= ['neighborhoods','percent_area'])
 
 
 #Deciding sample size = 760
-stratified_sample = pd.DataFrame()
-for x in range(len(boston_neighborhood.neighborhoods)):
-    sub_df = housing_df[housing_df.area == boston_neighborhood.neighborhoods[x]]
-    sub_df = sub_df.sample(n = int(round(760 * boston_neighborhood.percent_area[x], 0)))
-    stratified_sample = pd.concat([stratified_sample, sub_df], ignore_index=True)
+# stratified_sample = pd.DataFrame()
+# for x in range(len(boston_neighborhood.neighborhoods)):
+#     sub_df = housing_df[housing_df.area == boston_neighborhood.neighborhoods[x]]
+#     sub_df = sub_df.sample(n = int(round(760 * boston_neighborhood.percent_area[x], 0)))
+#     stratified_sample = pd.concat([stratified_sample, sub_df], ignore_index=True)
     
-stratified_sample.area.value_counts() / stratified_sample.shape[0]
+# stratified_sample.area.value_counts() / stratified_sample.shape[0]
 
-sns.distplot(stratified_sample.rent)
+# sns.distplot(stratified_sample.rent)
 
-sns.boxplot(x = stratified_sample.area, y = stratified_sample.rent)
+# sns.boxplot(x = stratified_sample.area, y = stratified_sample.rent)
 
 
 #Export dataframe to csv
-stratified_sample.to_csv('housing_data_cleaned.csv', index = False)
+housing_df.to_csv('housing_data_cleaned.csv', index = False)
 

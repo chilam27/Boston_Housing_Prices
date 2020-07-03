@@ -82,19 +82,28 @@ URL                   | link to the property
 Below is an image of what the dataframe looks like:
 
 <p align="center">
-  <img width="460" height="300" 
-src="https://github.com/chilam27/P01_GDP_Fertility_Mortality_Relation/blob/master/readme_image/us_gdp.png">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/df.png">
 </p>
 
 ### Exploratory Data Analysis
 
 * Analyze our target variable - 'rent': caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal.
 
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png)
+
 <p align="center">
-  <img width="460" height="300" src="https://github.com/chilam27/P01_GDP_Fertility_Mortality_Relation/blob/master/readme_image/us_gdp.png">
+  <img width="460" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
 </p>
 
 * I want to explore the 'area' variable because I assume that depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'
+
+<p align="center">
+  <img width="460" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png">
+</p>
+
+<p align="center">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig4.png">
+</p>
 
 ### Regression Model
 

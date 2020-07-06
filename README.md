@@ -45,7 +45,7 @@ I started the scrapping procedure on June 25h, 2020. My goal is to scrape, at mo
 
 One thing to note is the 'feature' variable: I could not code the scrapping process to attain all features because of the 'See All" button that hide some of the data. Do not rely heavily on this variable when doing analysis.
 
-> Neighborhoods as search key terms: East Boston, Charlestown, Allston, North End, West End, Downtown, Chinatown, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
+Neighborhoods as search key terms: East Boston, Charlestown, Allston, North End, West End, Downtown, Chinatown, Back Bay/ Beacon Hill, South Boston, South End, Fenway, Mission Hill, Roxbury, Dorchester, Jamaica Plain, Mattapan, Roslindale, West Roxbury, Hyde Park.
   
 Variables             |  Description
 :--------------------:|:----------------------------------------------------:
@@ -83,30 +83,39 @@ URL                   | link to the property
 Below is an image of what the dataframe looks like:
 
 <p align="center">
-  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/df.png">
+  <img width="500" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png">
 </p>
 
 ### [EDA](https://github.com/chilam27/Boston_Housing_Prices/blob/master/P02_EDA.py)
 
-* Univariate analysis on target variable ('rent'): caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal. Since the original data has high positve skewness and kurtosis (the curve is formed by a huge cluster of mid-range properties and few expensive properties that cause it to have a right skew), I normalize the data by performing log transformation and it resulted very close to a normal distribution.
+* Here is the general description of our variables: we have no missing value or any null value and all the data types are in place.
+
+  <p align="center">
+  <img width="500" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
+</p>
+
+* Univariate analysis on target variable ('rent'): caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal. From the table and graph, we can see that: since the original data has high positve skewness and kurtosis (the curve is formed by a huge cluster of mid-range properties and few expensive properties that cause it to have a right skew), I normalize the data by performing log transformation and it resulted very close to a normal distribution.
 
 <p align="center">
-  <img width="900" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png">
+  <img width="300" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png">
 </p>
 
 <p align="center">
-  <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
+  <img width="900" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig4.png">
+</p>
+
+<p align="center">
+  <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig5.png">
 </p>
 
 * Multivariate analysis on target variable: have bathroom as an addition dependent variable and see the relationship between rent and number of bathroom a property has. With the plot below, there is an upward trend.
 
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png)
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig4.png)
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig6.png)  ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig7.png)
 
 * Remove outliers: I use Z-score to help me identify and remove outliers from the dataframe. This has improved the distribution by a great amount.
 
 <p align="center">
-  <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig5.png">
+  <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig8.png">
 </p>
 
 * Determine the numerical and categorical variables
@@ -123,29 +132,36 @@ Below is an image of what the dataframe looks like:
   - All the features variables interesting have lower correlation with the target variable. Keep in mind that we will not use much of these data.
 
 <p align="center">
-  <img width="600" height="700" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig6.png">
+  <img width="600" height="700" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig9.png">
 </p>
 
-* Observed only those numerical variables that has high correlation with target variable with zoomed heatmap
+* Observed only those numerical variables that has high correlation with target variable with zoomed heatmap. Since we have mentions that 'restaurant', 'grocery', and 'nightlife' are pretty similar, we can remove two of the variables and keep 'grocery' for now for analysis (figure 12)
 
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig7.png)
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig8.png)
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png)  ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png)
+
+<p align="center">
+  <img width="600" height="700" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig12.png">
+</p>
 
 * Next is to examine the cateogircal variable. I explore the 'area' variable with the assumption that: depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'. By looking at the mean and its ranges, there seems to be some correlation. Another thing to worth noting is the amount of outliers presented in almost every neighborhood.
 
-<p align="center">
-  <img width="460" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig9.png">
-</p>
+![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig13.png) ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig14.png)
 
 <p align="center">
-  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig15.png">
 </p>
 
-* Examine 'property_type' and 'crime' and their relation with rent
+* Examine 'property_type' and 'crime' and their relation with rent:
+  - Because there is an inbalance proportion of data for 'property_type'(appartment 3%, condo >0.1%, multi 96%, single 1%, townhouse and condo are > 1%), it can be hard to examin the relationship accurately.
+  - Based on the graph, we can see a representation of what it would look like: multi-family and townhouse has about the same median, a little bit higher than that is single family; although apartment seems to have the same median as a condo, I believe if we have enough data points, condo would be the property with the highest rent.
+  - As for 'crime', Moderate and Low crime rates have the same median and range. Although High rate does have a similar median but interestingly has higher range.
+  - The two most supring ones are the Lowest and Highest rates: while Lowest one also has the lowest median and, arguably, range, the Highest rate has the highest median. I expected it to be the opposite for these two. Based on this, maybe properties that are more expensive attracts more crime than lower ones?
 
 <p align="center">
-  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11_12.png">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig16_17.png">
 </p>
+
+* Create dummies variable for the categorical variables: 'area', 'property_type', 'crime'
 
 ### Regression Model
 

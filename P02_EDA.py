@@ -23,7 +23,6 @@ df = pd.read_csv('housing_data_cleaned.csv')
 #Explore data
 df.shape
 df.info() # we see that our df has no null value
-df.describe()
 df.head()
 
 
@@ -31,29 +30,27 @@ df.head()
 df.rent.describe()
 
 plt.figure(figsize=(15, 5))
-
 plt.subplot(121)
 sns.distplot(df.rent, fit = norm, label = 'Data', fit_kws={"label": "Normal Distribution"}, kde_kws={"label": "Observed estimation"})
-plt.title('Figure 1a: rent distribtuion before log transformation.')
+plt.title('Figure 4a: rent distribtuion before log transformation.')
 plt.text(19500,0.00039,'Skewness of rent: %s \n Kurtosis of rent: %s' % (round(df.rent.skew(),4),round(df.rent.kurt(),4)),bbox=dict(facecolor='none',edgecolor='black',boxstyle='square'), fontsize=8)
 plt.legend()
 
 plt.subplot(122)
 sns.distplot(np.log(df.rent), fit = norm, label = 'Data', fit_kws={"label": "Normal Distribution"}, kde_kws={"label": "Observed estimation"})
-plt.title('Figure 1b: rent distribtuion after log transformation.')
+plt.title('Figure 4b: rent distribtuion after log transformation.')
 plt.text(9,1.4,'Skewness of log(rent): %s \n Kurtosis of log(rent): %s' % (round(np.log(df.rent.skew()),4),round(np.log(df.rent.kurt()),4)),bbox=dict(facecolor='none',edgecolor='black',boxstyle='square'), fontsize=8)
 plt.legend()
 plt.show()
 
 plt.figure(figsize=(13, 5))
-
 plt.subplot(121)
 stats.probplot(df.rent, plot = plt)
-plt.title('Figure 2a: rent probability plot')
+plt.title('Figure 5a: rent probability plot')
 
 plt.subplot(122)
 stats.probplot(np.log(df.rent), plot = plt)
-plt.title('Figure 2b: log(rent) probability plot')
+plt.title('Figure 5b: log(rent) probability plot')
 plt.show()
 
 df.rent = np.log(df.rent) # for normalization and easy interpretation
@@ -61,11 +58,11 @@ df.rent = np.log(df.rent) # for normalization and easy interpretation
 ##Multivariate analysis (use two or more variables for analysis)
 plt.subplots(figsize=(12, 10))
 sns.jointplot(df.bed, df.rent, kind='reg')
-plt.xlabel('bath \n Figure 3: bedroom vs. rent')
+plt.xlabel('bath \n Figure 6: bedroom vs. rent')
 
 plt.subplots(figsize=(12, 10))
 sns.jointplot(df.bath, df.rent, kind='reg')
-plt.xlabel('bath \n Figure 4: bathroom vs. rent')
+plt.xlabel('bath \n Figure 7: bathroom vs. rent')
 
 
 #Remove outliers
@@ -80,7 +77,7 @@ df.reset_index(drop = True, inplace = True)
 
 plt.subplots(figsize=(15, 5))
 sns.distplot(df.rent)
-plt.title("Figure 5: rent's distribution after removing outliers", fontsize=15)
+plt.title("Figure 8: rent's distribution after removing outliers", fontsize=15)
 
 #Determine variables
 ##Determine numerical and categorcial variables
@@ -91,7 +88,7 @@ cat_var = df.dtypes[df.dtypes == 'object'].index #categorical variables
 corr = df.corr()
 plt.subplots(figsize=(15, 12))
 sns.heatmap(corr, vmax = .8, square = True, annot = True, cmap = "Greens")
-plt.title('Figure 6: variables correlations heatmap', fontsize=15)
+plt.title('Figure 9: variables correlations heatmap', fontsize=15)
 
 
 ##Other variables skewness and kurtosis
@@ -111,13 +108,13 @@ sns.set(font_scale = 1.25)
 plt.subplots(figsize=(12, 9))
 heatmap = sns.heatmap(corr, vmax = .8, square = True, annot = True, cmap = "Greens")
 heatmap.set_xticklabels(heatmap.get_xticklabels(), rotation=30) #we will drop 'restaurant' and 'nightlife' since the two and grocery are highly correlated toward each other and have about the same corr with rent; grocery has higher corr compare to the other two
-plt.title('Figure 8: variables correlations zoomed heatmap', fontsize=15)
+plt.title('Figure 11: variables correlations zoomed heatmap', fontsize=15)
 
 num_var_high_corr = ['rent', 'bath', 'bed', 'grocery']
 
 sns.set()
 sns.pairplot(df[num_var_high_corr], kind = 'reg', size = 2.5)
-plt.suptitle('Figure 9: strong correlation numerical variables pairplot', y=1.03, fontsize=15)
+plt.suptitle('Figure 12: strong correlation numerical variables pairplot', y=1.03, fontsize=15)
 plt.show()
 
 
@@ -137,24 +134,23 @@ centre_circle = plt.Circle((0, 0),0.70, fc = 'white')
 fig = plt.gcf()
 fig.gca().add_artist(centre_circle)
 plt.axis('equal')
-plt.title("Figure 9: neighborhoods' areas proportion of Boston", fontsize=15)
+plt.title("Figure 13: neighborhoods' areas proportion of Boston", fontsize=15)
 plt.tight_layout()
 plt.show()
 
 plt.subplots(figsize=(25, 9))
 sns.boxplot(x = df.area, y = df.rent)
-plt.title('Figure 10: area vs. rent boxplot', fontsize=15)
+plt.title('Figure 15: area vs. rent boxplot', fontsize=15)
 
 
 plt.figure(figsize = (12,5))
-
 plt.subplot(121)
 sns.boxplot(x = df.property_type, y = df.rent)
-plt.title('Figure 11: property type vs. rent boxplot', fontsize=15)
+plt.title('Figure 16: property type vs. rent boxplot', fontsize=15)
 
 plt.subplot(122)
 sns.boxplot(x = df.crime, y = df.rent)
-plt.title('Figure 12: crime rate vs. rent boxplot', fontsize=15)
+plt.title('Figure 17: crime rate vs. rent boxplot', fontsize=15)
 plt.tight_layout()
 
 

@@ -189,6 +189,8 @@ Below is an image of what the dataframe looks like:
 
 [Crossman, Ashley. Understanding Stratified Samples and How to Make Them. 27 Jan. 2020.](www.thoughtco.com/stratified-sampling-3026731)
 
+[E. San San Wong, Cathy Edwards. Public Art Is Alive and Well in Boston Neighborhoods.](www.barrfoundation.org/blog/public-art-in-boston-neighborhoods)
+
 [I., Chris. Productionize a Machine Learning Model with Flask and Heroku. 9 Dec. 2019](towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)
 
 [Irekponor, Victor E. CREATING AN UNBIASED TEST-SET FOR YOUR MODEL USING STRATIFIED SAMPLING TECHNIQUE. 14 Nov. 2019](blog.usejournal.com/creating-an-unbiased-test-set-for-your-model-using-stratified-sampling-technique-672b778022d5)

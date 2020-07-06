@@ -83,7 +83,7 @@ URL                   | link to the property
 Below is an image of what the dataframe looks like:
 
 <p align="center">
-  <img width="500" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig1.png">
 </p>
 
 ### [EDA](https://github.com/chilam27/Boston_Housing_Prices/blob/master/P02_EDA.py)
@@ -91,13 +91,13 @@ Below is an image of what the dataframe looks like:
 * Here is the general description of our variables: we have no missing value or any null value and all the data types are in place.
 
   <p align="center">
-  <img width="500" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
+  <img width="400" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig2.png">
 </p>
 
 * Univariate analysis on target variable ('rent'): caculate the skewness and kurtosis of the variable; plot the value and examine if the distribution shape is normal. From the table and graph, we can see that: since the original data has high positve skewness and kurtosis (the curve is formed by a huge cluster of mid-range properties and few expensive properties that cause it to have a right skew), I normalize the data by performing log transformation and it resulted very close to a normal distribution.
 
 <p align="center">
-  <img width="300" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png">
+  <img width="300" height="200" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig3.png">
 </p>
 
 <p align="center">
@@ -120,8 +120,8 @@ Below is an image of what the dataframe looks like:
 
 * Determine the numerical and categorical variables
 
-> Numerical: 'rent', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife'.
-> Categorical: 'area', 'property_type', 'crime'.
+  - Numerical: 'rent', 'bed', 'bath', 'school', 'elemenatary_school', 'middle_school', 'high_school', 'car_commute_percent', 'total_amenties', 'laundry', 'ac', 'dishwasher', 'washer', 'dryer', 'fridge', 'pet_allowed', 'parking', 'restaurant', 'grocery', 'nightlife'.
+  - Categorical: 'area', 'property_type', 'crime'.
 
 * Observe to see how variables are correlated to each other through heatmap: from this plot, there are many interesting details that we need to pay attention of.
 
@@ -132,7 +132,7 @@ Below is an image of what the dataframe looks like:
   - All the features variables interesting have lower correlation with the target variable. Keep in mind that we will not use much of these data.
 
 <p align="center">
-  <img width="600" height="700" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig9.png">
+  <img width="900" height="700" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig9.png">
 </p>
 
 * Observed only those numerical variables that has high correlation with target variable with zoomed heatmap. Since we have mentions that 'restaurant', 'grocery', and 'nightlife' are pretty similar, we can remove two of the variables and keep 'grocery' for now for analysis (figure 12)
@@ -140,12 +140,12 @@ Below is an image of what the dataframe looks like:
 ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png)  ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png)
 
 <p align="center">
-  <img width="600" height="700" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig12.png">
+  <img width="600" height="500" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig12.png">
 </p>
 
 * Next is to examine the cateogircal variable. I explore the 'area' variable with the assumption that: depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'. By looking at the mean and its ranges, there seems to be some correlation. Another thing to worth noting is the amount of outliers presented in almost every neighborhood.
 
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig13.png) ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig14.png)
+<img width="500" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig13.png"> ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig14.png)
 
 <p align="center">
   <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig15.png">

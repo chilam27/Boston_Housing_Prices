@@ -110,7 +110,7 @@ Below is an image of what the dataframe looks like:
 
 * Multivariate analysis on target variable: have bathroom as an addition dependent variable and see the relationship between rent and number of bathroom a property has. With the plot below, there is an upward trend.
 
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig6.png)  ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig7.png)
+<img width="400" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig6.png">  <img width="400" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig7.png">
 
 * Remove outliers: I use Z-score to help me identify and remove outliers from the dataframe. This has improved the distribution by a great amount.
 
@@ -145,7 +145,7 @@ Below is an image of what the dataframe looks like:
 
 * Next is to examine the cateogircal variable. I explore the 'area' variable with the assumption that: depends on the neighborhood, the general trend for the rent of a property might be different. Here, I make a pie chart shows the porportion of area that each neighborhood take up and a boxplot of relationship between 'area' and 'rent'. By looking at the mean and its ranges, there seems to be some correlation. Another thing to worth noting is the amount of outliers presented in almost every neighborhood.
 
-<img width="500" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig13.png"> ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig14.png)
+<img width="400" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig13.png">  <img width="400" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig14.png">
 
 <p align="center">
   <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig15.png">

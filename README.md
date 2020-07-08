@@ -163,9 +163,24 @@ Below is an image of what the dataframe looks like:
 
 * Create dummies variable for the categorical variables: 'area', 'property_type', 'crime'
 
-### Regression Model
+### [Regression Model](https://github.com/chilam27/Boston_Housing_Prices/blob/master/P02_RegressionModel.py)
 
+* Split the data to training (80%) and testing (20%) sets in a stratify fashion: stratas are the different neighborhood. The reason for this is because I want to have the coverage of the entire area in the Boston city and some neighborhood have significantly lower data than others.
 
+* Testing assumptions:
+  - Normality:
+  - Homoscedasticity:
+  - Linearity
+  - Absence of correlated errors
+  
+ * Regression models:
+  - Ordinary least squares regression
+  - Linear regression
+  - Lasso regression
+  - Random forest regression 
+  - XGBoost
+  
+* Apply exhaustive grid search (`GridSearchCV`) for feature selection
 
 ### Overall Model Performance
 

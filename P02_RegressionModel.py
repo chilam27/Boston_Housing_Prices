@@ -5,8 +5,7 @@ Created on Fri Jun 26 22:22:23 2020
 @author: Chi Lam
 """
 
-
-# Import modules
+#Import modules
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -24,11 +23,11 @@ import statsmodels.api as sm
 import pickle
 
 
-# Read in data
+#Read in data
 df = pd.read_csv('housing_data_eda.csv')
 
 
-# Initiate data splitting STRATIFIED BASED ON 'AREA'
+#Initiate data splitting STRATIFIED BASED ON 'AREA'
 X = df.drop('rent', axis = 1)
 y = df.rent.values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, stratify = df.area, random_state = 1)
@@ -36,40 +35,44 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, strat
 del X_train['area'] #Only need it to stratify the sample
 del X_test['area']
 
-
-# Test for assumptions
-## Normality
-### Rent
+#Test for assumptions
+##Normality
+###Rent
 sns.distplot(y_train, fit = norm, label = 'Samples', fit_kws={"label": "Normal Distribution"}, kde_kws={"label": "Observed estimation"})
+plt.title('Figure 18: rent distribtuion for train sample')
+plt.xlabel('rent')
+plt.text(4500,0.00042,'Skewness of rent: %s \n Kurtosis of rent: %s' % (round(df.rent.skew(),4),round(df.rent.kurt(),4)),bbox=dict(facecolor='none',edgecolor='black',boxstyle='square'), fontsize=8)
 plt.legend()
 plt.show()
 
 stats.probplot(y_train, plot = plt)
+plt.title('Figure 19: rent probability plot for train sample')
 plt.show()
 
-# Grocery
+###Grocery
 X_train.grocery.min() #check for '0'
 X_train.grocery = np.log(X_train.grocery)
 
 print('Skewness of grocery from train df: ', X_train.grocery.skew()) #check for the skewness
 print('Kurtosis of grocery from train df: ', X_train.grocery.kurt()) 
 
-## Homoscedasticity
-## Linearity
-## Absence of correlated errors.
+##Homoscedasticity
+##Linearity
+##Absence of correlated errors.
 
-# Regression model
-## Multiple linear regression
+#Regression model
+##Ordinary least square (OLS) regression
 X_sm = X = sm.add_constant(X) #create a column of all '1' create an intercept to the slope of the regression line; this is necessary for stats model
 del X_sm['area']
 model = sm.OLS(np.asarray(y), X_sm.astype(float))
 model.fit().summary() #'R-squared: 0.648 = our model explains 64% of variations in Trulia rent
 
+#Linear regression
 reg_lin = LinearRegression()
 reg_lin.fit(X_train, y_train)
 np.mean(cross_val_score(reg_lin, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
-## Lasso regression
+##Lasso regression
 alpha = []
 error = []
 
@@ -82,26 +85,26 @@ plt.plot(alpha, error) #plot to see which alpha has the lowest error value
 
 y_max = max(error)
 y_max_index = error.index(y_max)
-print (y_max, alpha[y_max_index])
+print (y_max, alpha[y_max_index]) #find the best alpha
 
 reg_las = Lasso(alpha = alpha[y_max_index])
 reg_las.fit(X_train, y_train)
 np.mean(cross_val_score(reg_las, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
 
-## Random forest regression (give the best result, apply 'gridsearchCV')
+##Random forest regression
 reg_rf = RandomForestRegressor(random_state = 1)
 reg_rf.fit(X_train, y_train)
 np.mean(cross_val_score(reg_rf, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
-## XGBoost
+##XGBoost
 reg_xgboost = xgb.XGBRegressor()
 reg_xgboost.fit(X_train, y_train)
 np.mean(cross_val_score(reg_xgboost, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
-## GridsearchCV
-parameters = {'n_estimators': range(10,300,10), 'criterion': ('mse', 'mae'), 'max_features': ('auto', 'sqrt', 'log2')}
-grid = GridSearchCV(reg_rf, parameters, scoring = 'neg_mean_absolute_error')
+##GridsearchCV
+parameters = {'n_estimators': [300,500,700,900], 'colsample_bytree': [0.3,0.4,0.5,0.7], 'max_depth': [10,12,15,20], 'min_child_weight': [1,3,5,7], 'gamma': [0.0,0.1,0.2,0.3], 'learning_rate': [0.05,0.10,0.15,0.20]} # 10 hours
+grid = GridSearchCV(reg_xgboost, parameters, scoring = 'neg_mean_absolute_error', cv=5)
 grid.fit(X_train, y_train)
 
 grid.best_score_
@@ -109,17 +112,17 @@ grid.best_estimator_
 
 
 #Predict Test set
-reg_lin_test = reg_lin.predict(X_test)
+reg_lin_test = reg_lin.predict(X_test)  
 reg_las_test = reg_las.predict(X_test)
-reg_xgboost_test = reg_xgboost.predict(X_test)
-reg_rf_test = grid.best_estimator_.predict(X_test)
+reg_xgboost_test = grid.best_estimator_.predict(X_test)
+reg_rf_test = reg_rf.predict(X_test)
 
 mean_absolute_error(y_test, reg_lin_test)
 mean_absolute_error(y_test, reg_las_test)
-mean_absolute_error(y_test, reg_xgboost_test)
-mean_absolute_error(y_test, reg_rf_test) #best one
+mean_absolute_error(y_test, reg_xgboost_test) #best one
+mean_absolute_error(y_test, reg_rf_test)
 
-
+    
 #Pickle model
 pickl = {'model': grid.best_estimator_}
 pickle.dump(pickl, open( 'model.pkl', "wb")) 

@@ -137,7 +137,7 @@ Below is an image of what the dataframe looks like:
 
 * Observed only those numerical variables that has high correlation with target variable with zoomed heatmap. Since we have mentions that 'restaurant', 'grocery', and 'nightlife' are pretty similar, we can remove two of the variables and keep 'grocery' for now for analysis (figure 12)
 
-![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png)  ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png)
+<img width="300" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png">  ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png)
 
 <p align="center">
   <img width="600" height="500" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig12.png">
@@ -168,17 +168,45 @@ Below is an image of what the dataframe looks like:
 * Split the data to training (80%) and testing (20%) sets in a stratify fashion: stratas are the different neighborhood. The reason for this is because I want to have the coverage of the entire area in the Boston city and some neighborhood have significantly lower data than others.
 
 * Testing assumptions:
-  - Normality:
-  - Homoscedasticity:
-  - Linearity
-  - Absence of correlated errors
+  - Normality/ Linearity: when I was investigating our rent variable during the EDA stage, I have transformed the data into log so it can prevent underfitting. But I tested it again for our train data to be sure also
+<img width="400" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig18.png">  <img width="400" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig19.png">
+  - Homoscedasticity: I included all variables to eliminate heteroscedasticity.
+  - Absence of Multicollinearity: Though I have tried to remove independent that are highly correlated to each other, I found in the result of regression models that by including every variable I was able to get a higher accuracy rate.
   
- * Regression models:
-  - Ordinary least squares regression
-  - Linear regression
-  - Lasso regression
-  - Random forest regression 
-  - XGBoost
+* Ordinary least squares regression
+```python
+X_sm = X = sm.add_constant(X) #create a column of all '1' create an intercept to the slope of the regression line; this is necessary for stats model
+del X_sm['area']
+model = sm.OLS(np.asarray(y), X_sm.astype(float))
+model.fit().summary()
+```
+<p align="center">
+  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig20.png">
+</p>
+  
+* Linear regression
+```python
+reg_lin = LinearRegression()
+reg_lin.fit(X_train, y_train)
+np.mean(cross_val_score(reg_lin, X_train, y_train, scoring = 'neg_mean_absolute_error'))
+```
+```python
+Out[13]: -393.7313
+```
+  
+* Lasso regression: for this model, I have also tested out a range of alpha from 1 to 100 with an increment of 10. By finding the maximum error of the curve of the plot below, we have alpha = 1.7 with the error of -392.82.
+```python
+reg_las = Lasso(alpha = alpha[y_max_index])
+reg_las.fit(X_train, y_train)
+np.mean(cross_val_score(reg_las, X_train, y_train, scoring = 'neg_mean_absolute_error'))
+```
+```python
+Out[9]: -392.8202
+```
+
+* Random forest regression
+
+* XGBoost
   
 * Apply exhaustive grid search (`GridSearchCV`) for feature selection
 

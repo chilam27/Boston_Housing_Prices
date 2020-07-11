@@ -139,7 +139,8 @@ Below is an image of what the dataframe looks like:
 
 * Observed only those numerical variables that has high correlation with target variable with zoomed heatmap. Since we have mentions that 'restaurant', 'grocery', and 'nightlife' are pretty similar, we can remove two of the variables and keep 'grocery' for now for analysis (figure 12)
 
-<img width="250" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png">  ![alt text](https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png)
+<img width="250" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png">  
+<img width="550" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png">
 
 <p align="center">
   <img width="600" height="500" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig12.png">
@@ -241,7 +242,9 @@ Before finalizing our model, I made three different adjustments to the data to s
 
 There are two things in the list of outcome of our prediction models that suprised me: there is only *0.9* improvement in lasso regression compare to the multiple linear regession and the random forest regression outperformed the XGBoost algorithm by *36.7*. Because of this, I will apply an exhaustive `GridSearchCV` to search for the best parameters for the random forest regression.
 ```python
-parameters = {'n_estimators': [200, 400, 600, 800], 'criterion': ['mse', 'mae'], 'max_features': ['auto','sqrt','log2']}
+parameters = {'n_estimators': [200, 400, 600, 800],
+              'criterion': ['mse', 'mae'], 
+              'max_features': ['auto','sqrt','log2']}
 grid = GridSearchCV(reg_rf, parameters, scoring = 'neg_mean_absolute_error', cv=5)
 grid.fit(X_train, y_train)
 
@@ -267,13 +270,15 @@ print('Random forest regression regression (using best parameters through GridSe
 
 ```
 
-### Productionization
+### [Productionization](https://github.com/chilam27/Boston_Housing_Prices/blob/master/FlaskAPI/app.py)
 
 
 
 ## Conclusion
 
+With out best prediction modoel returns the MAE of 00 for the test data set, the model does predict the property's price according to the features that are used quite accurately. The MAE value of 00 means that on average, our prediction is off around 00. That is acceptable consider how low our correlatation values are.
 
+Although my first intention was following the tutorial and productionized the model into a public API, but because I could not spend more time to tackle problems I had with Heroku so I made it local instead.
 
 ## Author
 

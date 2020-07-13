@@ -67,7 +67,7 @@ del X_sm['area']
 model = sm.OLS(np.asarray(y), X_sm.astype(float))
 model.fit().summary() #'R-squared: 0.648 = our model explains 64% of variations in Trulia rent
 
-#Linear regression
+#Multiple linear regression
 reg_lin = LinearRegression()
 reg_lin.fit(X_train, y_train)
 np.mean(cross_val_score(reg_lin, X_train, y_train, scoring = 'neg_mean_absolute_error'))
@@ -80,8 +80,11 @@ for i in range(1,100):
     alpha.append(i/10)
     regression = Lasso(alpha = (i/10))
     error.append(np.mean(cross_val_score(regression, X_train, y_train, scoring = 'neg_mean_absolute_error')))
-    
+
 plt.plot(alpha, error) #plot to see which alpha has the lowest error value
+plt.xlabel('alpha')
+plt.ylabel('error')
+plt.title('Figure 21: finding the best alpha for lasso regression')
 
 y_max = max(error)
 y_max_index = error.index(y_max)
@@ -103,8 +106,10 @@ reg_xgboost.fit(X_train, y_train)
 np.mean(cross_val_score(reg_xgboost, X_train, y_train, scoring = 'neg_mean_absolute_error'))
 
 ##GridsearchCV
-parameters = {'n_estimators': [300,500,700,900], 'colsample_bytree': [0.3,0.4,0.5,0.7], 'max_depth': [10,12,15,20], 'min_child_weight': [1,3,5,7], 'gamma': [0.0,0.1,0.2,0.3], 'learning_rate': [0.05,0.10,0.15,0.20]} # 10 hours
-grid = GridSearchCV(reg_xgboost, parameters, scoring = 'neg_mean_absolute_error', cv=5)
+parameters = {'n_estimators': [200, 400, 600, 800],
+              'criterion': ['mse', 'mae'], 
+              'max_features': ['auto','sqrt','log2']}
+grid = GridSearchCV(reg_rf, parameters, scoring = 'neg_mean_absolute_error', cv=5)
 grid.fit(X_train, y_train)
 
 grid.best_score_
@@ -114,15 +119,15 @@ grid.best_estimator_
 #Predict Test set
 reg_lin_test = reg_lin.predict(X_test)  
 reg_las_test = reg_las.predict(X_test)
-reg_xgboost_test = grid.best_estimator_.predict(X_test)
-reg_rf_test = reg_rf.predict(X_test)
+reg_xgboost_test = reg_xgboost.predict(X_test)
+reg_rf_test = grid.best_estimator_.predict(X_test)
 
-mean_absolute_error(y_test, reg_lin_test)
-mean_absolute_error(y_test, reg_las_test)
-mean_absolute_error(y_test, reg_xgboost_test) #best one
-mean_absolute_error(y_test, reg_rf_test)
+print('Multiple linear regression: ', mean_absolute_error(y_test, reg_lin_test))
+print('Lasso regression: ', mean_absolute_error(y_test, reg_las_test))
+print('XGBoost regression: ', mean_absolute_error(y_test, reg_xgboost_test))
+print('Random forest regression regression (using best parameters through GridSearchCV): ', mean_absolute_error(y_test, reg_rf_test)) #best one
 
-    
+
 #Pickle model
 pickl = {'model': grid.best_estimator_}
 pickle.dump(pickl, open( 'model.pkl', "wb")) 

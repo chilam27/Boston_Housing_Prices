@@ -139,8 +139,7 @@ Below is an image of what the dataframe looks like:
 
 * Observed only those numerical variables that has high correlation with target variable with zoomed heatmap. Since we have mentions that 'restaurant', 'grocery', and 'nightlife' are pretty similar, we can remove two of the variables and keep 'grocery' for now for analysis (figure 12)
 
-<img width="250" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png">  
-<img width="550" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png">
+<img width="250" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig10.png"> <img width="500" height="600" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig11.png">
 
 <p align="center">
   <img width="600" height="500" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig12.png">
@@ -201,9 +200,11 @@ Out[1]: -393.7313
 ```
   
 * Lasso (least absolute shrinkage and selection operator) regression: in contrast with the model above, I tested out Lasso regression model because of its ability to analyze data set with large features very well. That is not the only reason for applying in this model because I want to see how its L1 regularization technique works (helps with eliminating overfitting). For this model, I have tested out a range of alpha from 1 to 100 with an increment of 10. By finding the maximum error of the curve of the plot below, we have alpha = 1.7.
+
 <p align="center">
   <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig21.png">
 </p>
+
 ```python
 reg_las = Lasso(alpha = alpha[y_max_index])
 reg_las.fit(X_train, y_train)
@@ -272,13 +273,37 @@ print('Random forest regression regression (using best parameters through GridSe
 
 ### [Productionization](https://github.com/chilam27/Boston_Housing_Prices/blob/master/FlaskAPI/app.py)
 
+For this part of the project, I followed Chris I. article "Productionize a Machine Learning model with Flask and Heroku" and applied it for my project.
 
+- Pickle the model to save the model by turning it to byte stream
+```python
+pickl = {'model': grid.best_estimator_}
+pickle.dump(pickl, open( 'model.pkl', "wb")) 
+```
+
+- Creating a new python file with a list of ordered input values to act as input for the model.
+
+- Build a Flask (a micro web frame work) API using Flask module by installing the requirements, create new python files and import necessary command for those files (app.py, wsgi.py, requests.py, etc.)
+
+- Apply the input to the model with the working API.
+
+<p align="center">
+  <img width="800" height="500" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig22.png">
+</p>
 
 ## Conclusion
 
-With out best prediction modoel returns the MAE of 00 for the test data set, the model does predict the property's price according to the features that are used quite accurately. The MAE value of 00 means that on average, our prediction is off around 00. That is acceptable consider how low our correlatation values are.
+With out best prediction model returns the MAE of 00 for the test data set, the model does predict the property's price according to the features that are used quite accurately. The MAE value of 00 means that on average, our prediction is off around 00. That is acceptable consider how low our correlatation values are. We concluded that a fine tune random forest regression works the best in predicting property's rent based on 19 of the used features.
 
-Although my first intention was following the tutorial and productionized the model into a public API, but because I could not spend more time to tackle problems I had with Heroku so I made it local instead.
+Although my first intention was to followe the tutorial by Chris I. and productionize the model into a public API with Flask and Heroku, but because I could not spend more time to tackle problems I had with Heroku so I made it local instead (I have attached my progress and the problem that I was on in figures below). 
+
+<p align="center">
+  <img width="800" height="500" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig23.png">
+</p>
+
+<p align="center">
+  <img width="800" height="500" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig24.png">
+</p>
 
 ## Author
 

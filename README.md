@@ -184,7 +184,7 @@ model = sm.OLS(np.asarray(y), X_sm.astype(float))
 model.fit().summary()
 ```
 <p align="center">
-  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig20.png">
+  <img width="800" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig20.png">
 </p>
 
 _Throughout all of the model, I will implement cross validation to eliminate the probability that the model might be over fitting or contains bias_
@@ -202,7 +202,7 @@ Out[1]: -393.7313
 * Lasso (least absolute shrinkage and selection operator) regression: in contrast with the model above, I tested out Lasso regression model because of its ability to analyze data set with large features very well. That is not the only reason for applying in this model because I want to see how its L1 regularization technique works (helps with eliminating overfitting). For this model, I have tested out a range of alpha from 1 to 100 with an increment of 10. By finding the maximum error of the curve of the plot below, we have alpha = 1.7.
 
 <p align="center">
-  <img width="1000" height="300" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig21.png">
+  <img width="800" height="400" src="https://github.com/chilam27/Boston_Housing_Prices/blob/master/readme_image/fig21.png">
 </p>
 
 ```python
@@ -241,7 +241,7 @@ Before finalizing our model, I made three different adjustments to the data to s
   2. Stratification: in order for our sample to accuratly represent the city of Boston, I make sure all neighborhood are present in the training data set. As it turned out, this also resulted in a better prediction for our model.
   3. Eliminate irrelavent features: recalling back to our heat maps from above, there are only a few varaibles that give me the correlation with the target variable that is above 0.2. I thought, by removing the irrelevant features and those that highly correlated to each other, would increase the performance. But it did not turn about to be like that. I am still unsure of why this is the case. But by including all variables, it seems to preform better (the larger the number of features is the better?)
 
-There are two things in the list of outcome of our prediction models that suprised me: there is only *0.9* improvement in lasso regression compare to the multiple linear regession and the random forest regression outperformed the XGBoost algorithm by *36.7*. Because of this, I will apply an exhaustive `GridSearchCV` to search for the best parameters for the random forest regression.
+There are two things in the list of outcome of our prediction models that suprised me: there is only *0.9* improvement in lasso regression compare to the multiple linear regession and the random forest regression outperformed the XGBoost algorithm by *36.7*. Because of this, I will apply an exhaustive `GridSearchCV` to search for the best parameters for the random forest regression. Although I have tried to exhausted tuning with many more parameters such as "max_depth" and "min_samples_leaf", it took too much time so I did a simple one instead (so the difference of the result is not huge).
 ```python
 parameters = {'n_estimators': [200, 400, 600, 800],
               'criterion': ['mse', 'mae'], 
@@ -252,7 +252,7 @@ grid.fit(X_train, y_train)
 grid.best_score_
 ```
 ```python
-
+Out[5]: -304.3920688932027
 ```
 
 With the best parameters for our best performance model through the training data set, now it is the time to implement it to our test data set too see how well our model can predict the prices of property in Boston:
@@ -268,7 +268,10 @@ print('XGBoost regression: ', mean_absolute_error(y_test, reg_xgboost_test))
 print('Random forest regression regression (using best parameters through GridSearchCV): ', mean_absolute_error(y_test, reg_rf_test)) #best one
 ```
 ```python
-
+Multiple linear regression:  1469.1753603498644
+Lasso regression:  393.3840532780861
+XGBoost regression:  403.93248876337
+Random forest regression regression (using best parameters through GridSearchCV):  316.51083201892743
 ```
 
 ### [Productionization](https://github.com/chilam27/Boston_Housing_Prices/blob/master/FlaskAPI/app.py)
@@ -293,7 +296,7 @@ pickle.dump(pickl, open( 'model.pkl', "wb"))
 
 ## Conclusion
 
-With out best prediction model returns the MAE of 00 for the test data set, the model does predict the property's price according to the features that are used quite accurately. The MAE value of 00 means that on average, our prediction is off around 00. That is acceptable consider how low our correlatation values are. We concluded that a fine tune random forest regression works the best in predicting property's rent based on 19 of the used features.
+With out best prediction model returns the MAE of 316.51 for the test data set, the model does predict the property's price according to the features that are used quite accurately. The MAE value of 316.51 means that on average, our prediction is off around 316.51. That is acceptable consider how low our correlatation values are. We concluded that a fine tune random forest regression works the best in predicting property's rent based on 19 of the used features.
 
 Although my first intention was to followe the tutorial by Chris I. and productionize the model into a public API with Flask and Heroku, but because I could not spend more time to tackle problems I had with Heroku so I made it local instead (I have attached my progress and the problem that I was on in figures below). 
 
